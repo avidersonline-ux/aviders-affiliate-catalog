@@ -1,0 +1,20 @@
+[
+  {
+    "id": "EC001",
+    "name": "Amazon.in",
+    "type": "external",
+    "category": "Our Trusted Partners > E-commerce brands",
+    "image": "https://aviders.com/wp-content/uploads/2025/09/Amazon.in_.png",
+    "url": "https://amzn.to/3IJb2cf",
+    "button_text": "Click to shop"
+  },
+  {
+    "id": "CC001",
+    "name": "Axis MyZone Credit Card",
+    "type": "external",
+    "category": "Our Trusted Partners > Best Credit Cards",
+    "image": "https://aviders.com/wp-content/uploads/2025/09/axismyzonecreditcard.png",
+    "url": "https://bitli.in/kjecCSr",
+    "button_text": "Click to apply"
+  }
+]
