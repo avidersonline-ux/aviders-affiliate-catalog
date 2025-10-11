@@ -7,20 +7,22 @@
   <style>
     body {
       font-family: system-ui, sans-serif;
-      background: #f8f8f8;
+      background: #fafafa;
       color: #222;
       margin: 40px auto;
-      max-width: 700px;
+      max-width: 800px;
       line-height: 1.6;
     }
     h2 {
-      color: #1a73e8;
+      color: #ff6600;
+      font-weight: 600;
     }
-    ul {
+    #file-list {
       list-style: none;
-      padding-left: 0;
+      padding: 0;
+      margin-top: 10px;
     }
-    li {
+    #file-list li {
       margin: 6px 0;
     }
     a {
@@ -30,6 +32,9 @@
     a:hover {
       text-decoration: underline;
     }
+    .loading {
+      color: gray;
+    }
   </style>
 </head>
 <body>
@@ -37,12 +42,46 @@
   <p>This GitHub Pages repo hosts product data for the Aviders App.</p>
 
   <h3>📦 Available JSON Files:</h3>
-  <ul>
-    <li><a href="data/manifest.json">manifest.json</a></li>
-    <li><a href="data/products-0001.json">products-0001.json</a></li>
-    <li><a href="data/affiliates.json">affiliates.json</a></li>
-  </ul>
+  <ul id="file-list"><li class="loading">Loading file list...</li></ul>
 
   <p>🔗 <a href="https://aviders.com" target="_blank">Visit Aviders.com</a></p>
+
+  <script>
+    // Automatically fetch the GitHub API to list files in /data
+    const username = "avidersonline-ux";
+    const repo = "aviders-affiliate-catalog";
+    const folder = "data";
+
+    async function loadFiles() {
+      const listEl = document.getElementById("file-list");
+      try {
+        const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folder}`;
+        const res = await fetch(apiUrl);
+        if (!res.ok) throw new Error("Unable to fetch data list.");
+        const files = await res.json();
+
+        listEl.innerHTML = "";
+
+        files
+          .filter(f => f.name.endsWith(".json"))
+          .forEach(f => {
+            const li = document.createElement("li");
+            const a = document.createElement("a");
+            a.href = `data/${f.name}`;
+            a.textContent = f.name;
+            li.appendChild(a);
+            listEl.appendChild(li);
+          });
+
+        if (!files.some(f => f.name.endsWith(".json"))) {
+          listEl.innerHTML = "<li>No JSON files found in /data.</li>";
+        }
+      } catch (err) {
+        listEl.innerHTML = `<li>Error: ${err.message}</li>`;
+      }
+    }
+
+    loadFiles();
+  </script>
 </body>
 </html>
