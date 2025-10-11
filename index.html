@@ -1,83 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Aviders Affiliate Data API</title>
   <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background: #fafafa;
-      color: #222;
-      margin: 40px auto;
-      max-width: 800px;
-      line-height: 1.6;
-    }
-    h2 {
-      color: #ff6600;
-      font-weight: 600;
-    }
-    #file-list {
-      list-style: none;
-      padding: 0;
-      margin-top: 10px;
-    }
-    #file-list li {
-      margin: 6px 0;
-    }
-    a {
-      text-decoration: none;
-      color: #0d6efd;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .loading {
-      color: gray;
-    }
+    :root { --brand:#ff6600; }
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,sans-serif;margin:40px auto;max-width:900px;line-height:1.6;background:#fafafa;color:#222}
+    h2{color:var(--brand);margin-bottom:.25rem}
+    .muted{color:#666}
+    ul#file-list{list-style:none;padding:0;margin:14px 0 0}
+    li.item{background:#fff;border:1px solid #eee;border-radius:10px;padding:12px 14px;margin:10px 0;display:flex;justify-content:space-between;gap:10px;align-items:center}
+    .meta{font-size:.9rem;color:#444}
+    .name a{color:#0d6efd;text-decoration:none}
+    .name a:hover{text-decoration:underline}
+    .loading,.error{color:#999}
+    .right{white-space:nowrap;text-align:right}
+    .tag{display:inline-block;background:#ffe9d6;color:#9a4a00;border-radius:999px;padding:2px 8px;margin-left:8px;font-size:.75rem}
+    @media (max-width:640px){.right{font-size:.9rem}}
   </style>
 </head>
 <body>
   <h2>✅ Aviders Affiliate Data API</h2>
-  <p>This GitHub Pages repo hosts product data for the Aviders App.</p>
+  <p class="muted">This GitHub Pages repo hosts product data for the Aviders App.</p>
 
-  <h3>📦 Available JSON Files:</h3>
-  <ul id="file-list"><li class="loading">Loading file list...</li></ul>
+  <h3>📦 Available JSON Files</h3>
+  <ul id="file-list"><li class="loading">Loading file list…</li></ul>
 
-  <p>🔗 <a href="https://aviders.com" target="_blank">Visit Aviders.com</a></p>
+  <p class="muted">Tip: upload new JSONs into the <code>/data</code> folder; this list updates automatically.</p>
 
   <script>
-    // Automatically fetch the GitHub API to list files in /data
     const username = "avidersonline-ux";
-    const repo = "aviders-affiliate-catalog";
-    const folder = "data";
+    const repo     = "aviders-affiliate-catalog";
+    const folder   = "data";
+
+    // Formats bytes to KB/MB with 1 decimal
+    const fmtBytes = (bytes) => {
+      if (bytes == null) return "";
+      if (bytes < 1024) return `${bytes} B`;
+      const kb = bytes/1024;
+      if (kb < 1024) return `${kb.toFixed(1)} KB`;
+      return `${(kb/1024).toFixed(1)} MB`;
+    };
+
+    // Relative time, fallback to locale string
+    function timeAgo(iso) {
+      try {
+        const rtf = new Intl.RelativeTimeFormat(undefined, { numeric: "auto" });
+        const then = new Date(iso).getTime();
+        const now  = Date.now();
+        const diff = Math.round((then - now) / 1000); // seconds
+        const ranges = [
+          ["year",   60*60*24*365],
+          ["month",  60*60*24*30],
+          ["week",   60*60*24*7],
+          ["day",    60*60*24],
+          ["hour",   60*60],
+          ["minute", 60],
+          ["second", 1],
+        ];
+        for (const [unit, sec] of ranges) {
+          const val = Math.trunc(diff / sec);
+          if (Math.abs(val) >= 1) return rtf.format(val, unit);
+        }
+        return "just now";
+      } catch {
+        return new Date(iso).toLocaleString();
+      }
+    }
+
+    // Fetch last commit date for a file path using GitHub API
+    async function getLastUpdated(user, repo, path) {
+      const url = `https://api.github.com/repos/${user}/${repo}/commits?path=${encodeURIComponent(path)}&per_page=1`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("commit fetch failed");
+      const arr = await res.json();
+      if (!Array.isArray(arr) || arr.length === 0) return null;
+      return arr[0]?.commit?.author?.date || arr[0]?.commit?.committer?.date || null;
+    }
 
     async function loadFiles() {
       const listEl = document.getElementById("file-list");
       try {
         const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${folder}`;
         const res = await fetch(apiUrl);
-        if (!res.ok) throw new Error("Unable to fetch data list.");
+        if (!res.ok) throw new Error("Unable to fetch directory listing.");
         const files = await res.json();
 
+        const jsonFiles = files.filter(f => f.type === "file" && /\.json$/i.test(f.name));
         listEl.innerHTML = "";
-
-        files
-          .filter(f => f.name.endsWith(".json"))
-          .forEach(f => {
-            const li = document.createElement("li");
-            const a = document.createElement("a");
-            a.href = `data/${f.name}`;
-            a.textContent = f.name;
-            li.appendChild(a);
-            listEl.appendChild(li);
-          });
-
-        if (!files.some(f => f.name.endsWith(".json"))) {
-          listEl.innerHTML = "<li>No JSON files found in /data.</li>";
+        if (jsonFiles.length === 0) {
+          listEl.innerHTML = "<li class='error'>No JSON files found in /data.</li>";
+          return;
         }
-      } catch (err) {
-        listEl.innerHTML = `<li>Error: ${err.message}</li>`;
+
+        // Render placeholders first, then fill commit dates
+        for (const f of jsonFiles) {
+          const li = document.createElement("li");
+          li.className = "item";
+          li.innerHTML = `
+            <div class="name">
+              <a href="${folder}/${f.name}">${f.name}</a>
+              ${/manifest\.json$/i.test(f.name) ? '<span class="tag">manifest</span>' : ""}
+            </div>
+            <div class="right meta" id="meta-${f.name.replace(/[^a-z0-9]/gi,'_')}">
+              ${fmtBytes(f.size)} · <span class="muted">fetching updated time…</span>
+            </div>
+          `;
+          listEl.appendChild(li);
+        }
+
+        // Fetch last updated timestamps (one request per file)
+        for (const f of jsonFiles) {
+          const metaId = `meta-${f.name.replace(/[^a-z0-9]/gi,'_')}`;
+          const metaEl = document.getElementById(metaId);
+          try {
+            const iso = await getLastUpdated(username, repo, `${folder}/${f.name}`);
+            if (iso) {
+              metaEl.textContent = `${fmtBytes(f.size)} · updated ${timeAgo(iso)}`;
+            } else {
+              metaEl.textContent = `${fmtBytes(f.size)} · updated time unavailable`;
+            }
+          } catch {
+            metaEl.textContent = `${fmtBytes(f.size)} · updated time unavailable`;
+          }
+        }
+      } catch (e) {
+        listEl.innerHTML = `<li class="error">Error: ${e.message}</li>`;
       }
     }
 
