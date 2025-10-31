@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "updatedAt": "2025-10-31T00:00:00Z",
+  "tiles": [
+    {
+      "id": "mobile_recharge",
+      "name": "Recharge",
+      "icon": "assets/icons/mobile_recharge.png",
+      "links": {
+        "default": "https://amzn.to/3TZz5pm"
+      }
+    },
+    {
+      "id": "mobile_postpaid",
+      "name": "Mobile Postpaid",
+      "icon": "assets/icons/postpaid_bill_pay.png",
+      "links": {
+        "default": "https://amzn.to/40FtHLP"
+      }
+    },
+    {
+      "id": "landline",
+      "name": "Landline",
+      "icon": "assets/icons/land_line_bill.png",
+      "links": { "default": "https://amzn.to/44Nszbs" }
+    },
+    {
+      "id": "broadband_bill",
+      "name": "Broadband Bill",
+      "icon": "assets/icons/internet_bill_pay.png",
+      "links": { "default": "https://amzn.to/44Nszbs" }
+    },
+    {
+      "id": "electric_bill",
+      "name": "Electric Bill",
+      "icon": "assets/icons/electric_bill_pay.png",
+      "links": { "default": "https://amzn.to/3TyqAl3" }
+    },
+    {
+      "id": "lpg_bill",
+      "name": "LPG Bill",
+      "icon": "assets/icons/gas_bill_pay.png",
+      "links": { "default": "https://amzn.to/4kqeSEc" }
+    },
+    {
+      "id": "water_bill",
+      "name": "Water Bill",
+      "icon": "assets/icons/water_bill_pay.png",
+      "links": { "default": "https://amzn.to/3GiOePF" }
+    },
+    {
+      "id": "credit_card",
+      "name": "Credit Card",
+      "icon": "assets/icons/credit_card_bill_pay.png",
+      "links": { "default": "https://amzn.to/4nw7eed" }
+    },
+    {
+      "id": "dth_bill",
+      "name": "DTH Bill",
+      "icon": "assets/icons/dth_bill_pay.png",
+      "links": { "default": "https://amzn.to/3GstDIF" }
+    },
+    {
+      "id": "gas_pipeline",
+      "name": "Gas Pipeline",
+      "icon": "assets/icons/gas_pipe_line_bill.png",
+      "links": { "default": "https://amzn.to/3TyjahS" }
+    },
+    {
+      "id": "train_tickets",
+      "name": "Train Tickets",
+      "icon": "assets/icons/train_ticket_bookings.png",
+      "links": { "default": "https://amzn.to/46dlWk6" }
+    },
+    {
+      "id": "bike_insurance",
+      "name": "Bike Insurance",
+      "icon": "assets/icons/bike_insurance_pay.png",
+      "links": { "default": "https://advisor.turtlemintinsurance.com/profile/3936715/AVIDERS" }
+    },
+    {
+      "id": "car_insurance",
+      "name": "Car Insurance",
+      "icon": "assets/icons/car_insurance_pay.png",
+      "links": { "default": "https://advisor.turtlemintinsurance.com/profile/3936715/AVIDERS" }
+    },
+    {
+      "id": "house_rent",
+      "name": "House Rent",
+      "icon": "assets/icons/house_rent_pay.png",
+      "links": { "default": "https://aviders.com/how-to-pay-your-rent-using-a-credit-card" }
+    }
+  ]
+}
