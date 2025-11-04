@@ -88,7 +88,7 @@
       "id": "house_rent",
       "name": "House Rent",
       "icon": "assets/icons/house_rent_pay.png",
-      "links": { "default": "https://aviders.com/how-to-pay-your-rent-using-a-credit-card" }
+      "links": { "default": "https://aviders.com/" }
     }
   ]
 }
