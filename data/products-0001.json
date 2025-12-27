@@ -92,29 +92,6 @@
     "updatedAt":1760222075
   },
   {
-    "id":"19122",
-    "type":"external",
-    "sku":"CC005",
-    "title":"HSBC Platinum Credit Card - Lifetime FREE Credit Card - No Joining/Annual Fee",
-    "price":0.0,
-    "mrp":0.0,
-    "currency":"INR",
-    "brand":"",
-    "image":"https://aviders.com/wp-content/uploads/2025/09/HSBC-Platinum-Credit-Card-Lifetime-FREE-Credit-Card.jpg",
-    "thumb":"https://aviders.com/wp-content/uploads/2025/09/HSBC-Platinum-Credit-Card-Lifetime-FREE-Credit-Card.jpg",
-    "externalUrl":"https://bitli.in/THP4R2A",
-    "topCategory":"Our Trusted Partners",
-    "categoryPaths":[
-      "Our Trusted Partners > Best Credit Cards"
-    ],
-    "categories":[
-      "Best Credit Cards"
-    ],
-    "shortDesc":"?We may earn a commission if you apply through our affiliate links, at no extra cost to you.?",
-    "audience":[],
-    "updatedAt":1760222075
-  },
-  {
     "id":"19128",
     "type":"external",
     "sku":"",
@@ -805,4 +782,5 @@
     "audience":[],
     "updatedAt":1760222075
   }
+
 ]
