@@ -1,42 +1,21 @@
 {
-  "_note": "For best UI results, use images and videos with 380px height and 350px width.",
-  "version": "1.0.0",
+  "_notes": {
+    "slider": "380px height x 350px width (Approx 1:1 or slightly tall). Video: 720p or 1080p, MP4, < 5MB.",
+    "action_cards": "120px height x 350px width (Approx 3:1 landscape). For Spin, Claim, and Basket cards."
+  },
+  "version": "1.0.1",
   "homepage": {
     "slider": [
       {
         "id": "intro_video",
         "type": "video",
-        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Welcome%20to%20Aviders.mp4",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Igniting%20Logo%20Reveal.1080p.mp4",
         "title": "Welcome to Aviders",
         "description": "Discover a world of rewards and quality products.",
         "button_text": "EXPLORE NOW",
         "click_action": {
           "type": "internal_route",
           "value": "/catalog"
-        }
-      },
-      {
-        "id": "eco_friendly_brush",
-        "type": "image",
-        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Copy-of-Mobile-Recharge.jpg",
-        "title": "ECO-FRIENDLY CARE, EVERYDAY",
-        "description": "Crafted from nature, made to care — so you can proudly smile every day.",
-        "button_text": "ADD TO CART",
-        "click_action": {
-          "type": "deeplink",
-          "value": "https://aviders.com/product/eco-friendly-tongue-cleaner"
-        }
-      },
-      {
-        "id": "clove_dental",
-        "type": "image",
-        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Clove-Dental-2-scaled.jpg",
-        "title": "Partner Spotlight: Clove Dental",
-        "description": "Exclusive offers for your Dental Health.",
-        "button_text": "VIEW OFFERS",
-        "click_action": {
-          "type": "external_url",
-          "value": "https://bitli.in/iZcUC6R"
         }
       },
       {
@@ -50,31 +29,19 @@
           "type": "deeplink",
           "value": "https://aviders.com/product/eco-friendly-tongue-cleaner"
         }
-      },
-      {
-        "id": "eco_friendly_brush",
-        "type": "image",
-        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/MALA-Karungali-Malai-108-Beads-3.png",
-        "title": "Karungali Malai - 108 Beads Ebony Wood Mala",
-        "description": "Helps enhance focus and concentration,Emotional Balance,Spiritual Growth",
-        "button_text": "ADD TO CART",
-        "click_action": {
-          "type": "deeplink",
-          "value": "https://aviders.com/product/karungali-malai-108-beads-ebony-wood-mala"
-        }
       }
     ],
+    "spin_card": {
+      "image_url": "",
+      "enabled": false
+    },
     "claim_card": {
-      "type": "image",
-      "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/MALA-Karungali-Malai-108-Beads.png",
-      "title": "Claim Your Monthly Rewards",
-      "description": "Ready to redeem your AVD Coins?",
-      "button_text": "CLAIM NOW",
-      "show_fallback": false,
-      "click_action": {
-        "type": "internal_route",
-        "value": "/claims"
-      }
+      "image_url": "",
+      "enabled": false
+    },
+    "basket_card": {
+      "image_url": "",
+      "enabled": false
     }
   }
 }
