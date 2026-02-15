@@ -38,6 +38,18 @@
           "type": "external_url",
           "value": "https://clovedental.in/"
         }
+      },
+      {
+        "id": "eco_friendly_brush",
+        "type": "image",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/AVD-_tongue-cleaners.png",
+        "title": "ECO-FRIENDLY CARE, EVERYDAY",
+        "description": "Crafted from nature, made to care — so you can proudly smile every day.",
+        "button_text": "ADD TO CART",
+        "click_action": {
+          "type": "deeplink",
+          "value": "https://aviders.com/product/eco-friendly-tongue-cleaner"
+        }
       }
     ],
     "claim_card": {
