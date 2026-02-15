@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "homepage": {
+    "slider": [
+      {
+        "id": "intro_video",
+        "type": "video",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Igniting%20Logo%20Reveal.1080p.mp4",
+        "title": "Welcome to Aviders",
+        "description": "Discover a world of rewards and quality products.",
+        "button_text": "EXPLORE NOW",
+        "click_action": {
+          "type": "internal_route",
+          "value": "/catalog"
+        }
+      },
+      {
+        "id": "eco_friendly_brush",
+        "type": "image",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/AVD-_tongue-cleaners.png",
+        "title": "ECO-FRIENDLY CARE, EVERYDAY",
+        "description": "Crafted from nature, made to care — so you can proudly smile every day.",
+        "button_text": "ADD TO CART",
+        "click_action": {
+          "type": "deeplink",
+          "value": "aviders://product/eco-tongue-cleaner"
+        }
+      },
+      {
+        "id": "clove_dental",
+        "type": "image",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Clove-Dental-2-scaled.jpg",
+        "title": "Partner Spotlight: Clove Dental",
+        "description": "Exclusive offers for our members at Clove Dental clinics.",
+        "button_text": "VIEW OFFERS",
+        "click_action": {
+          "type": "external_url",
+          "value": "https://clovedental.in/"
+        }
+      }
+    ],
+    "claim_card": {
+      "type": "image",
+      "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Copy-of-Mobile-Recharge.jpg",
+      "title": "Claim Your Monthly Rewards",
+      "description": "Ready to redeem your AVD Coins?",
+      "button_text": "CLAIM NOW",
+      "show_fallback": false,
+      "click_action": {
+        "type": "internal_route",
+        "value": "/claims"
+      }
+    }
+  }
+}
