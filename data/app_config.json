@@ -50,6 +50,18 @@
           "type": "deeplink",
           "value": "https://aviders.com/product/eco-friendly-tongue-cleaner"
         }
+      },
+      {
+        "id": "eco_friendly_brush",
+        "type": "image",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/MALA-Karungali-Malai-108-Beads.png",
+        "title": "Karungali Malai - 108 Beads Ebony Wood Mala",
+        "description": "Helps enhance focus and concentration,Emotional Balance,Spiritual Growth",
+        "button_text": "ADD TO CART",
+        "click_action": {
+          "type": "deeplink",
+          "value": "https://aviders.com/product/karungali-malai-108-beads-ebony-wood-mala"
+        }
       }
     ],
     "claim_card": {
