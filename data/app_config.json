@@ -32,7 +32,7 @@
         "type": "image",
         "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Clove-Dental-2-scaled.jpg",
         "title": "Partner Spotlight: Clove Dental",
-        "description": "Exclusive offers for our members at Clove Dental clinics.",
+        "description": "Exclusive offers for your Dental Health.",
         "button_text": "VIEW OFFERS",
         "click_action": {
           "type": "external_url",
