@@ -23,7 +23,7 @@
         "button_text": "ADD TO CART",
         "click_action": {
           "type": "deeplink",
-          "value": "aviders://product/eco-tongue-cleaner"
+          "value": "https://aviders.com/product/eco-friendly-tongue-cleaner"
         }
       },
       {
