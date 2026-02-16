@@ -27,7 +27,7 @@
         "button_text": "ADD TO CART",
         "click_action": {
           "type": "search",
-          "value": "https://aviders.com/product/eco-friendly-tongue-cleaner"
+          "value": "Bamboo Toothbrush"
         }
       },
       {
@@ -51,7 +51,7 @@
         "button_text": "ADD TO CART",
         "click_action": {
           "type": "search",
-          "value": "https://aviders.com/product/aviders-best-steel-tongue-cleaner-for-adults-kids-ergonomic-q-handle-premium-oral-hygiene-tongue-scraper-for-fresh-breath-bacteria-removal-pack-of-2-steel/"
+          "value": "tongue-cleaner"
         }
       },
       {
@@ -63,7 +63,7 @@
         "button_text": "ADD TO CART",
         "click_action": {
           "type": "search",
-          "value": "https://aviders.com/product/aviders-original-karungali-malai-ebony-wood-mala-108-beads-9mm/"
+          "value": "karungali-mala"
         }
       }
     ],
