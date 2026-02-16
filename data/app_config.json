@@ -41,7 +41,7 @@
     },
     "basket_card": {
       "image_url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/BASKET%20Card.mp4",
-      "enabled": false
+      "enabled": true
     }
   }
 }
