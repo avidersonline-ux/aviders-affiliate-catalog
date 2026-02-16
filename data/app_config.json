@@ -26,7 +26,7 @@
         "description": "Crafted from nature, made to care — so you can proudly smile every day.",
         "button_text": "ADD TO CART",
         "click_action": {
-          "type": "deeplink",
+          "type": "search",
           "value": "https://aviders.com/product/eco-friendly-tongue-cleaner"
         }
       },
@@ -50,8 +50,8 @@
         "description": "Crafted from nature, made to care — so you can proudly smile every day.",
         "button_text": "ADD TO CART",
         "click_action": {
-          "type": "deeplink",
-          "value": "https://aviders.com/product/eco-friendly-tongue-cleaner"
+          "type": "search",
+          "value": "https://aviders.com/product/aviders-best-steel-tongue-cleaner-for-adults-kids-ergonomic-q-handle-premium-oral-hygiene-tongue-scraper-for-fresh-breath-bacteria-removal-pack-of-2-steel/"
         }
       },
       {
@@ -62,7 +62,7 @@
         "description": "Helps enhance focus and concentration,Emotional Balance,Spiritual Growth",
         "button_text": "ADD TO CART",
         "click_action": {
-          "type": "deeplink",
+          "type": "search",
           "value": "https://aviders.com/product/aviders-original-karungali-malai-ebony-wood-mala-108-beads-9mm/"
         }
       }
