@@ -72,8 +72,8 @@
       "enabled": true
     },
     "claim_card": {
-      "image_url": "",
-      "enabled": false
+      "image_url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Claim%20Card%20-%20Image-2.png",
+      "enabled": true
     },
     "basket_card": {
       "image_url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/BASKET%20AVD%20image.png",
