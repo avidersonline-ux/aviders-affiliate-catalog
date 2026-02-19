@@ -68,8 +68,8 @@
       }
     ],
     "spin_card": {
-      "image_url": "",
-      "enabled": false
+      "image_url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/SPIN%20%26%20WIN%20-Image.png",
+      "enabled": true
     },
     "claim_card": {
       "image_url": "",
