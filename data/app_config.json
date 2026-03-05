@@ -3,8 +3,30 @@
     "slider": "380px height x 350px width (Approx 1:1 or slightly tall). Video: 720p or 1080p, MP4, < 5MB.",
     "action_cards": "120px height x 350px width (Approx 3:1 landscape). For Spin, Claim, and Basket cards."
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": {
+    "sections": [
+      { "type": "categories" },
+      { "type": "slider" },
+      { "type": "utilities" },
+      { "type": "spin_card" },
+      { "type": "rewards_card" },
+      { "type": "affiliate_slider" },
+      { "type": "daily_offers" },
+      { "type": "exclusive_offers" },
+      { "type": "credit_card_slider" },
+      { "type": "basket_card" },
+      { "type": "featured_products" },
+      { "type": "recent_viewed" },
+      { "type": "all_products" },
+      {
+        "type": "ad_banner",
+        "title": "Sponsored",
+        "media_type": "image",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/sample_ad.png",
+        "link": "https://example.com"
+      }
+    ],
     "slider": [
       {
         "id": "intro_video",
@@ -43,7 +65,7 @@
         }
       },
       {
-        "id": "eco_friendly_brush",
+        "id": "eco_friendly_brush_2",
         "type": "image",
         "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/AVD-_tongue-cleaners.png",
         "title": "ECO-FRIENDLY CARE, EVERYDAY",
@@ -55,7 +77,7 @@
         }
       },
       {
-        "id": "eco_friendly_brush",
+        "id": "karungali_malai",
         "type": "image",
         "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/MALA-Karungali-Malai-108-Beads-3.png",
         "title": "Karungali Malai - 108 Beads Ebony Wood Mala",
