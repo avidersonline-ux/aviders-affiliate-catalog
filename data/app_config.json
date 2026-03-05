@@ -3,7 +3,7 @@
     "slider": "380px height x 350px width (Approx 1:1 or slightly tall). Video: 720p or 1080p, MP4, < 5MB.",
     "action_cards": "120px height x 350px width (Approx 3:1 landscape). For Spin, Claim, and Basket cards."
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": {
     "sections": [
       { "type": "categories" },
@@ -11,7 +11,11 @@
       { "type": "utilities" },
       { "type": "spin_card" },
       { "type": "rewards_card" },
+      { "type": "trending", "title": "Trending Now", "enabled": true },
+      { "type": "best_deals", "title": "Best Deals for You", "enabled": true },
       { "type": "affiliate_slider" },
+      { "type": "viral", "title": "Going Viral", "enabled": true },
+      { "type": "hidden_gems", "title": "Hidden Gems", "enabled": true },
       { "type": "daily_offers" },
       { "type": "exclusive_offers" },
       { "type": "credit_card_slider" },
