@@ -58,14 +58,65 @@
     ],
     "slider": [
       {
-        "id": "global_welcome",
+        "id": "eco_friendly_brush",
         "type": "image",
-        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Welcome%20to%20AVD%20-Image.png",
-        "title": "Aviders Global Store",
-        "description": "Premium products shipped from around the world.",
-        "button_text": "SHOP GLOBAL",
-        "click_action": { "type": "internal_route", "value": "/catalog" }
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Copy-of-Mobile-Recharge.jpg",
+        "title": "ECO-FRIENDLY CARE, EVERYDAY",
+        "description": "Crafted from nature, made to care — so you can proudly smile every day.",
+        "button_text": "ADD TO CART",
+        "click_action": {
+          "type": "search",
+          "value": "Bamboo Toothbrush"
+        }
+      },
+      {
+        "id": "clove_dental",
+        "type": "image",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Clove-Dental-2-scaled.jpg",
+        "title": "Partner Spotlight: Clove Dental",
+        "description": "Exclusive offers for your Dental Health.",
+        "button_text": "VIEW OFFERS",
+        "click_action": {
+          "type": "external_url",
+          "value": "https://bitli.in/iZcUC6R"
+        }
+      },
+      {
+        "id": "eco_friendly_brush_2",
+        "type": "image",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/AVD-_tongue-cleaners.png",
+        "title": "ECO-FRIENDLY CARE, EVERYDAY",
+        "description": "Crafted from nature, made to care — so you can proudly smile every day.",
+        "button_text": "ADD TO CART",
+        "click_action": {
+          "type": "search",
+          "value": "tongue-cleaner"
+        }
+      },
+      {
+        "id": "karungali_malai",
+        "type": "image",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/MALA-Karungali-Malai-108-Beads-3.png",
+        "title": "Karungali Malai - 108 Beads Ebony Wood Mala",
+        "description": "Helps enhance focus and concentration,Emotional Balance,Spiritual Growth",
+        "button_text": "ADD TO CART",
+        "click_action": {
+          "type": "search",
+          "value": "karungali-mala"
+        }
       }
-    ]
+    ],
+    "spin_card": {
+      "image_url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/AVD-SpinWheel_HomeCard.png",
+      "enabled": true
+    },
+    "claim_card": {
+      "image_url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Claim%20Card%20-%20Image-2.png",
+      "enabled": true
+    },
+    "basket_card": {
+      "image_url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/AVD-Basket.png",
+      "enabled": true
+    }
   }
 }
