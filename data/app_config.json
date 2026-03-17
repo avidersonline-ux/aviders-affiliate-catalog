@@ -4,6 +4,15 @@
     "action_cards": "120px height x 350px width (Approx 3:1 landscape). For Spin, Claim, and Basket cards."
   },
   "version": "1.0.5",
+  "features": {
+    "spin": true,
+    "rewards": true,
+    "basket": true,
+    "sarathi": true,
+    "rides": true,
+    "affiliate": true,
+    "products": true
+  },
   "homepage": {
     "sections": [
       { "type": "categories" },
@@ -99,7 +108,7 @@
       { "type": "slider" },
       { "type": "best_deals", "title": "US Best Deals", "enabled": true },
       { "type": "trending", "title": "US Trending", "enabled": true },
-      { "type": "new_arrivals", "title": "New in USA", "enabled": true },
+      { "type": "new_arrivals", "title": "US New in USA", "enabled": true },
       { "type": "price_drops", "title": "Global Price Drops", "enabled": true },
       { "type": "featured_products" },
       { "type": "all_products" }
