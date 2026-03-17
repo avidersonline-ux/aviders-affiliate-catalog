@@ -11,7 +11,8 @@
     "sarathi": false,
     "rides": false,
     "affiliate": true,
-    "products": true
+    "products": true,
+    "professionals": true
   },
   "homepage": {
     "sections": [
@@ -23,6 +24,9 @@
       { "type": "utilities" },
       { "type": "spin_card" },
       { "type": "rewards_card" },
+      { "type": "artists_slider", "title": "Top Artists", "enabled": true },
+      { "type": "tutors_slider", "title": "Expert Tutors", "enabled": true },
+      { "type": "service_pros_slider", "title": "Service Professionals", "enabled": true },
       { "type": "trending", "title": "Trending Now", "enabled": true },
       { "type": "affiliate_slider" },
       { "type": "viral", "title": "Going Viral", "enabled": true },
