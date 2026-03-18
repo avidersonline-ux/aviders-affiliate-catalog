@@ -3,7 +3,7 @@
     "slider": "380px height x 350px width (Approx 1:1 or slightly tall). Video: 720p or 1080p, MP4, < 5MB.",
     "action_cards": "120px height x 350px width (Approx 3:1 landscape). For Spin, Claim, and Basket cards."
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "features": {
     "spin": true,
     "rewards": true,
@@ -72,6 +72,7 @@
       },
       {
         "id": "clove_dental",
+        "enabled": false,
         "type": "image",
         "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Clove-Dental-2-scaled.jpg",
         "title": "Partner Spotlight: Clove Dental",
@@ -134,6 +135,7 @@
       },
       {
         "id": "clove_dental",
+        "enabled": false,
         "type": "image",
         "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Clove-Dental-2-scaled.jpg",
         "title": "Partner Spotlight: Clove Dental",
@@ -161,7 +163,7 @@
         "type": "image",
         "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/MALA-Karungali-Malai-108-Beads-3.png",
         "title": "Karungali Malai - 108 Beads Ebony Wood Mala",
-        "description": "Helps enhance focus and concentration,Emotional Balance,Spiritual Growth",
+        "description": "Helps enhance focus and concentration,Emotional Balance, Spiritual Growth",
         "button_text": "ADD TO CART",
         "click_action": {
           "type": "search",
