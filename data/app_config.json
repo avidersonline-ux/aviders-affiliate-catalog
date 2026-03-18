@@ -3,7 +3,7 @@
     "slider": "380px height x 350px width (Approx 1:1 or slightly tall). Video: 720p or 1080p, MP4, < 5MB.",
     "action_cards": "120px height x 350px width (Approx 3:1 landscape). For Spin, Claim, and Basket cards."
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "features": {
     "spin": true,
     "rewards": true,
@@ -12,7 +12,8 @@
     "rides": false,
     "affiliate": true,
     "products": true,
-    "professionals": true
+    "professionals": true,
+    "quick_services": true
   },
   "homepage": {
     "sections": [
