@@ -17,7 +17,6 @@
   "homepage": {
     "sections": [
       { "type": "categories" },
-      { "type": "quick_services", "enabled": true },
       { "type": "slider" },
       { "type": "best_deals", "title": "Best Deals for You", "enabled": true },
       { "type": "price_drops", "title": "Big Price Drops", "enabled": true },
@@ -26,9 +25,9 @@
       { "type": "spin_card" },
       { "type": "rewards_card" },
       { "type": "quick_services", "enabled": true },
-      { "type": "artists_slider", "title": "Top Artists", "enabled": true },
-      { "type": "tutors_slider", "title": "Expert Tutors", "enabled": true },
-      { "type": "service_pros_slider", "title": "Service Professionals", "enabled": true },
+      { "type": "artists_slider", "title": "Top Artists", "enabled": false },
+      { "type": "tutors_slider", "title": "Expert Tutors", "enabled": false },
+      { "type": "service_pros_slider", "title": "Service Professionals", "enabled": false },
       { "type": "trending", "title": "Trending Now", "enabled": true },
       { "type": "affiliate_slider" },
       { "type": "viral", "title": "Going Viral", "enabled": true },
