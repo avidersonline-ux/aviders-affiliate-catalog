@@ -7,7 +7,7 @@
   "features": {
     "spin": true,
     "rewards": true,
-    "basket": true,
+    "basket": false,
     "sarathi": false,
     "rides": false,
     "affiliate": true,
