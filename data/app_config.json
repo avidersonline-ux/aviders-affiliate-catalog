@@ -3,7 +3,7 @@
     "slider": "380px height x 350px width (Approx 1:1 or slightly tall). Video: 720p or 1080p, MP4, < 5MB.",
     "action_cards": "120px height x 350px width (Approx 3:1 landscape). For Spin, Claim, and Basket cards."
   },
-  "version": "1.0.10",
+  "version": "1.0.11",
   "features": {
     "spin": true,
     "rewards": true,
@@ -46,6 +46,40 @@
         "media_type": "image",
         "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/AVD-_tongue-cleaners.png",
         "link": "https://aviders.com"
+      }
+    ],
+    "service_tiles": [
+      {
+        "id": "ngo_selection",
+        "title": "NGOs",
+        "icon": "volunteer_activism",
+        "color": "pink",
+        "enabled": true,
+        "action": { "type": "route", "target": "/ngo-selection" }
+      },
+      {
+        "id": "artists",
+        "title": "Artists",
+        "icon": "palette",
+        "color": "orange",
+        "enabled": true,
+        "action": { "type": "route", "target": "/professionals", "arguments": {"category": "artist"} }
+      },
+      {
+        "id": "tutors",
+        "title": "Tutors",
+        "icon": "school",
+        "color": "green",
+        "enabled": true,
+        "action": { "type": "route", "target": "/professionals", "arguments": {"category": "tutor"} }
+      },
+      {
+        "id": "service_pros",
+        "title": "Service Pros",
+        "icon": "handyman",
+        "color": "blue",
+        "enabled": true,
+        "action": { "type": "route", "target": "/professionals", "arguments": {"category": "servicepro"} }
       }
     ],
     "slider": [
@@ -169,6 +203,65 @@
           "type": "search",
           "value": "karungali-mala"
         }
+      }
+    ]
+  },
+  "claims": {
+    "spend_options": [
+      {
+        "id": "donate_ngo",
+        "title": "Donate to NGOs",
+        "subtitle": "Use coins for good",
+        "icon": "favorite",
+        "color": "red",
+        "enabled": true,
+        "action": { "type": "route", "target": "/ngo-selection" }
+      },
+      {
+        "id": "hire_artists",
+        "title": "Hire Artists",
+        "subtitle": "Tattoos & Creative Art",
+        "icon": "palette",
+        "color": "purple",
+        "enabled": true,
+        "action": { "type": "route", "target": "/professionals", "arguments": {"category": "artist"} }
+      },
+      {
+        "id": "find_tutors",
+        "title": "Find Tutors",
+        "subtitle": "Expert learning",
+        "icon": "school",
+        "color": "green",
+        "enabled": true,
+        "action": { "type": "route", "target": "/professionals", "arguments": {"category": "tutor"} }
+      },
+      {
+        "id": "service_pros",
+        "title": "Service Pros",
+        "subtitle": "Home & Daily Services",
+        "icon": "handyman",
+        "color": "teal",
+        "enabled": true,
+        "action": { "type": "route", "target": "/professionals", "arguments": {"category": "servicepro"} }
+      },
+      {
+        "id": "buy_products",
+        "title": "Buy Products",
+        "subtitle": "100% Coin Payment",
+        "icon": "shopping_bag",
+        "color": "orange",
+        "enabled": true,
+        "action": { "type": "route", "target": "/categories" }
+      },
+      {
+        "id": "scan_pay",
+        "title": "Scan & Pay",
+        "subtitle": "Pay at Stores",
+        "icon": "qr_code_scanner",
+        "color": "blue",
+        "enabled": true,
+        "is_coming_soon": true,
+        "action": { "type": "disabled", "target": "" }
       }
     ]
   }
