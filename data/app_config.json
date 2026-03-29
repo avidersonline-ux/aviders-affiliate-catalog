@@ -9,7 +9,7 @@
     "rewards": true,
     "basket": true,
     "sarathi": false,
-    "sarathi_maintenance": true,
+    "sarathi_maintenance": false,
     "rides": true,
     "affiliate": true,
     "products": true,
