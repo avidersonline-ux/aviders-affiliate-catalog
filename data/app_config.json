@@ -8,7 +8,7 @@
     "spin": true,
     "rewards": true,
     "basket": true,
-    "sarathi": false,
+    "sarathi": true,
     "sarathi_maintenance": false,
     "rides": true,
     "affiliate": true,
