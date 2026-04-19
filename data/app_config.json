@@ -148,6 +148,7 @@
     "sections": [
       { "type": "categories" },
       { "type": "slider" },
+      { "type": "recent_viewed" },
       { "type": "best_deals", "title": "US Best Deals", "enabled": true },
       { "type": "trending", "title": "US Trending", "enabled": true },
       { "type": "new_arrivals", "title": "US New in USA", "enabled": true },
