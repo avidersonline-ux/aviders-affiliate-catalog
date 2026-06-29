@@ -54,6 +54,7 @@
         "id": "ngo_selection",
         "title": "NGOs",
         "icon": "volunteer_activism",
+        "image_url": "https://pub-4a5a79c47c2543f1b467c281dc42df40.r2.dev/AVD%20Partners/Service%20Icons/NGO's.png",
         "color": "pink",
         "enabled": true,
         "action": { "type": "route", "target": "/ngo-selection" }
@@ -62,6 +63,7 @@
         "id": "artists",
         "title": "Artists",
         "icon": "palette",
+        "image_url": "https://pub-4a5a79c47c2543f1b467c281dc42df40.r2.dev/AVD%20Partners/Service%20Icons/Artist.png",
         "color": "orange",
         "enabled": true,
         "action": { "type": "route", "target": "/professionals", "arguments": {"category": "artist"} }
@@ -70,6 +72,7 @@
         "id": "tutors",
         "title": "Tutors",
         "icon": "school",
+        "image_url": "https://pub-4a5a79c47c2543f1b467c281dc42df40.r2.dev/AVD%20Partners/Service%20Icons/Tutors.png",
         "color": "green",
         "enabled": true,
         "action": { "type": "route", "target": "/professionals", "arguments": {"category": "tutor"} }
@@ -78,6 +81,7 @@
         "id": "service_pros",
         "title": "Service Pros",
         "icon": "handyman",
+        "image_url": "https://pub-4a5a79c47c2543f1b467c281dc42df40.r2.dev/AVD%20Partners/Service%20Icons/Service%20Pros.png",
         "color": "blue",
         "enabled": true,
         "action": { "type": "route", "target": "/professionals", "arguments": {"category": "servicepro"} }
@@ -215,6 +219,7 @@
         "title": "Donate to NGOs",
         "subtitle": "Use coins for good",
         "icon": "favorite",
+        "image_url": "https://pub-4a5a79c47c2543f1b467c281dc42df40.r2.dev/AVD%20Partners/Service%20Icons/NGO's.png",
         "color": "red",
         "enabled": true,
         "action": { "type": "route", "target": "/ngo-selection" }
@@ -224,6 +229,7 @@
         "title": "Hire Artists",
         "subtitle": "Tattoos & Creative Art",
         "icon": "palette",
+        "image_url": "https://pub-4a5a79c47c2543f1b467c281dc42df40.r2.dev/AVD%20Partners/Service%20Icons/Artist.png",
         "color": "purple",
         "enabled": true,
         "action": { "type": "route", "target": "/professionals", "arguments": {"category": "artist"} }
@@ -233,6 +239,7 @@
         "title": "Find Tutors",
         "subtitle": "Expert learning",
         "icon": "school",
+        "image_url": "https://pub-4a5a79c47c2543f1b467c281dc42df40.r2.dev/AVD%20Partners/Service%20Icons/Tutors.png",
         "color": "green",
         "enabled": true,
         "action": { "type": "route", "target": "/professionals", "arguments": {"category": "tutor"} }
@@ -242,6 +249,7 @@
         "title": "Service Pros",
         "subtitle": "Home & Daily Services",
         "icon": "handyman",
+        "image_url": "https://pub-4a5a79c47c2543f1b467c281dc42df40.r2.dev/AVD%20Partners/Service%20Icons/Service%20Pros.png",
         "color": "teal",
         "enabled": true,
         "action": { "type": "route", "target": "/professionals", "arguments": {"category": "servicepro"} }
