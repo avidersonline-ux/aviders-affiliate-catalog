@@ -1,7 +1,9 @@
 {
   "_notes": {
-    "slider": "380px height x 350px width (Approx 1:1 or slightly tall). Video: 720p or 1080p, MP4, < 5MB.",
-    "action_cards": "120px height x 350px width (Approx 3:1 landscape). For Spin, Claim, and Basket cards."
+    "slider": "380px height x 350px width. Video: < 5MB.",
+    "action_cards": "120px height x 350px width (Approx 3:1 landscape).",
+    "partner_tiles": "400px height x 320px width (Approx 4:5 portrait).",
+    "spend_options": "600px height x 600px width (1:1 square)."
   },
   "version": "1.0.11",
   "features": {
