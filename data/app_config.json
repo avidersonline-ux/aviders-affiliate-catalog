@@ -263,7 +263,7 @@
         "icon": "shopping_bag",
         "color": "orange",
         "enabled": true,
-        "action": { "type": "route", "target": "/categories" }
+        "action": { "type": "route", "target": "/categories", "arguments": {"query": "aviders", "mode": "shop"} }
       },
       {
         "id": "scan_pay",
