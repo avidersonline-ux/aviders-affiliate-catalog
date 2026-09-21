@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-21T21:15:07.136Z",
+  "effectiveDate": "2026-09-22",
+  "source": "source/offers.csv",
+  "sourceRows": 1981,
+  "activeOffers": 1980,
+  "coupons": 624,
+  "deals": 1356,
+  "merchants": 515,
+  "categories": 21,
+  "files": {
+    "offers": "offers.json",
+    "coupons": "coupons.json",
+    "deals": "deals.json",
+    "merchants": "merchants.json",
+    "categories": "categories.json"
+  }
+}
