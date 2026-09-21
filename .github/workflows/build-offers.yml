@@ -1,0 +1,45 @@
+name: Build Aviders Coupons & Offers
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "source/offers.csv"
+      - "scripts/build-offers.js"
+      - ".github/workflows/build-offers.yml"
+  schedule:
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-aviders-offers
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Kolkata
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build offers catalog
+        run: node scripts/build-offers.js
+      - name: Show generated summary
+        run: cat data/offers-manifest.json
+      - name: Commit generated catalog
+        run: |
+          git config user.name "Aviders Catalog Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/offers.json data/coupons.json data/deals.json data/merchants.json data/categories.json data/offers-manifest.json
+          if git diff --cached --quiet; then
+            echo "No generated catalog changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh Aviders coupons and offers catalog"
+          git push
