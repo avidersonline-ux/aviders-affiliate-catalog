@@ -1,19 +1,2314 @@
 {
-  "version": 1,
-  "generatedAt": "2026-09-22T21:16:19.992Z",
-  "effectiveDate": "2026-09-23",
-  "source": "source/offers.csv",
+  "version": 3,
+  "generatedAt": "2026-09-23T23:21:54.561Z",
+  "effectiveDate": "2026-09-24",
+  "source": "source/offers.csv + Cuelinks /offers",
   "sourceRows": 1981,
-  "activeOffers": 1980,
-  "coupons": 624,
-  "deals": 1356,
-  "merchants": 515,
-  "categories": 21,
+  "partners": {
+    "csvCuelinksRows": 1981,
+    "csvNonCuelinksRows": 0,
+    "csvRowsWithoutPartner": 1981
+  },
+  "cuelinks": {
+    "apiBase": "https://developers.cuelinks.com/pub_api/v3",
+    "accessStatus": "open",
+    "campaignsReturned": 1655,
+    "campaignsReportedTotal": 1655,
+    "liveOffersReturned": 1092,
+    "liveOffersReportedTotal": 1092
+  },
+  "validation": {
+    "csvCuelinksWithoutCampaignId": 0,
+    "csvCuelinksInactiveCampaign": 966,
+    "csvCuelinksWithoutCountry": 0,
+    "csvCuelinksRejectedByDateOrStatus": 3,
+    "csvNonCuelinksRejectedByDateOrStatus": 0,
+    "apiOffersWithoutCampaign": 0,
+    "apiOffersWithoutCountry": 0,
+    "apiOffersRejectedByDate": 0,
+    "csvOffersPublished": 43534,
+    "apiOffersPublished": 44114,
+    "expandedOffersBeforeDedupe": 87648,
+    "activeOffersAfterDedupe": 87648
+  },
+  "activeOffers": 87648,
+  "coupons": 18293,
+  "deals": 69355,
+  "merchants": 287,
+  "categories": 19,
+  "countries": 251,
+  "countryBreakdown": [
+    {
+      "id": "3",
+      "iso": "AF",
+      "name": "Afghanistan",
+      "slug": "afghanistan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "15",
+      "iso": "AX",
+      "name": "Aland Islands",
+      "slug": "aland-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "6",
+      "iso": "AL",
+      "name": "Albania",
+      "slug": "albania",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "62",
+      "iso": "DZ",
+      "name": "Algeria",
+      "slug": "algeria",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "11",
+      "iso": "AS",
+      "name": "American Samoa",
+      "slug": "american-samoa",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "1",
+      "iso": "AD",
+      "name": "Andorra",
+      "slug": "andorra",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "8",
+      "iso": "AO",
+      "name": "Angola",
+      "slug": "angola",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "5",
+      "iso": "AI",
+      "name": "Anguilla",
+      "slug": "anguilla",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "9",
+      "iso": "AQ",
+      "name": "Antarctica",
+      "slug": "antarctica",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "4",
+      "iso": "AG",
+      "name": "Antigua and Barbuda",
+      "slug": "antigua-and-barbuda",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "10",
+      "iso": "AR",
+      "name": "Argentina",
+      "slug": "argentina",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "7",
+      "iso": "AM",
+      "name": "Armenia",
+      "slug": "armenia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "14",
+      "iso": "AW",
+      "name": "Aruba",
+      "slug": "aruba",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "13",
+      "iso": "AU",
+      "name": "Australia",
+      "slug": "australia",
+      "offerCount": 396,
+      "couponCount": 76,
+      "dealCount": 320
+    },
+    {
+      "id": "12",
+      "iso": "AT",
+      "name": "Austria",
+      "slug": "austria",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "16",
+      "iso": "AZ",
+      "name": "Azerbaijan",
+      "slug": "azerbaijan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "32",
+      "iso": "BS",
+      "name": "Bahamas",
+      "slug": "bahamas",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "23",
+      "iso": "BH",
+      "name": "Bahrain",
+      "slug": "bahrain",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "19",
+      "iso": "BD",
+      "name": "Bangladesh",
+      "slug": "bangladesh",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "18",
+      "iso": "BB",
+      "name": "Barbados",
+      "slug": "barbados",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "36",
+      "iso": "BY",
+      "name": "Belarus",
+      "slug": "belarus",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "20",
+      "iso": "BE",
+      "name": "Belgium",
+      "slug": "belgium",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "37",
+      "iso": "BZ",
+      "name": "Belize",
+      "slug": "belize",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "25",
+      "iso": "BJ",
+      "name": "Benin",
+      "slug": "benin",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "27",
+      "iso": "BM",
+      "name": "Bermuda",
+      "slug": "bermuda",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "33",
+      "iso": "BT",
+      "name": "Bhutan",
+      "slug": "bhutan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "29",
+      "iso": "BO",
+      "name": "Bolivia",
+      "slug": "bolivia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "30",
+      "iso": "BQ",
+      "name": "Bonaire, Saint Eustatius and Saba",
+      "slug": "bonaire-saint-eustatius-and-saba",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "17",
+      "iso": "BA",
+      "name": "Bosnia and Herzegovina",
+      "slug": "bosnia-and-herzegovina",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "35",
+      "iso": "BW",
+      "name": "Botswana",
+      "slug": "botswana",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "34",
+      "iso": "BV",
+      "name": "Bouvet Island",
+      "slug": "bouvet-island",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "31",
+      "iso": "BR",
+      "name": "Brazil",
+      "slug": "brazil",
+      "offerCount": 354,
+      "couponCount": 72,
+      "dealCount": 282
+    },
+    {
+      "id": "106",
+      "iso": "IO",
+      "name": "British Indian Ocean Territory",
+      "slug": "british-indian-ocean-territory",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "239",
+      "iso": "VG",
+      "name": "British Virgin Islands",
+      "slug": "british-virgin-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "28",
+      "iso": "BN",
+      "name": "Brunei",
+      "slug": "brunei",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "22",
+      "iso": "BG",
+      "name": "Bulgaria",
+      "slug": "bulgaria",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "21",
+      "iso": "BF",
+      "name": "Burkina Faso",
+      "slug": "burkina-faso",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "24",
+      "iso": "BI",
+      "name": "Burundi",
+      "slug": "burundi",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "117",
+      "iso": "KH",
+      "name": "Cambodia",
+      "slug": "cambodia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "47",
+      "iso": "CM",
+      "name": "Cameroon",
+      "slug": "cameroon",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "38",
+      "iso": "CA",
+      "name": "Canada",
+      "slug": "canada",
+      "offerCount": 400,
+      "couponCount": 80,
+      "dealCount": 320
+    },
+    {
+      "id": "52",
+      "iso": "CV",
+      "name": "Cape Verde",
+      "slug": "cape-verde",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "125",
+      "iso": "KY",
+      "name": "Cayman Islands",
+      "slug": "cayman-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "41",
+      "iso": "CF",
+      "name": "Central African Republic",
+      "slug": "central-african-republic",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "215",
+      "iso": "TD",
+      "name": "Chad",
+      "slug": "chad",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "46",
+      "iso": "CL",
+      "name": "Chile",
+      "slug": "chile",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "48",
+      "iso": "CN",
+      "name": "China",
+      "slug": "china",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "54",
+      "iso": "CX",
+      "name": "Christmas Island",
+      "slug": "christmas-island",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "39",
+      "iso": "CC",
+      "name": "Cocos Islands",
+      "slug": "cocos-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "49",
+      "iso": "CO",
+      "name": "Colombia",
+      "slug": "colombia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "119",
+      "iso": "KM",
+      "name": "Comoros",
+      "slug": "comoros",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "45",
+      "iso": "CK",
+      "name": "Cook Islands",
+      "slug": "cook-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "50",
+      "iso": "CR",
+      "name": "Costa Rica",
+      "slug": "costa-rica",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "98",
+      "iso": "HR",
+      "name": "Croatia",
+      "slug": "croatia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "51",
+      "iso": "CU",
+      "name": "Cuba",
+      "slug": "cuba",
+      "offerCount": 338,
+      "couponCount": 70,
+      "dealCount": 268
+    },
+    {
+      "id": "53",
+      "iso": "CW",
+      "name": "Curacao",
+      "slug": "curacao",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "55",
+      "iso": "CY",
+      "name": "Cyprus",
+      "slug": "cyprus",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "56",
+      "iso": "CZ",
+      "name": "Czech Republic",
+      "slug": "czech-republic",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "40",
+      "iso": "CD",
+      "name": "Democratic Republic of the Congo",
+      "slug": "democratic-republic-of-the-congo",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "59",
+      "iso": "DK",
+      "name": "Denmark",
+      "slug": "denmark",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "58",
+      "iso": "DJ",
+      "name": "Djibouti",
+      "slug": "djibouti",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "60",
+      "iso": "DM",
+      "name": "Dominica",
+      "slug": "dominica",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "61",
+      "iso": "DO",
+      "name": "Dominican Republic",
+      "slug": "dominican-republic",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "221",
+      "iso": "TL",
+      "name": "East Timor",
+      "slug": "east-timor",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "63",
+      "iso": "EC",
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "65",
+      "iso": "EG",
+      "name": "Egypt",
+      "slug": "egypt",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "210",
+      "iso": "SV",
+      "name": "El Salvador",
+      "slug": "el-salvador",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "88",
+      "iso": "GQ",
+      "name": "Equatorial Guinea",
+      "slug": "equatorial-guinea",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "67",
+      "iso": "ER",
+      "name": "Eritrea",
+      "slug": "eritrea",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "64",
+      "iso": "EE",
+      "name": "Estonia",
+      "slug": "estonia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "69",
+      "iso": "ET",
+      "name": "Ethiopia",
+      "slug": "ethiopia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "72",
+      "iso": "FK",
+      "name": "Falkland Islands",
+      "slug": "falkland-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "74",
+      "iso": "FO",
+      "name": "Faroe Islands",
+      "slug": "faroe-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "71",
+      "iso": "FJ",
+      "name": "Fiji",
+      "slug": "fiji",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "70",
+      "iso": "FI",
+      "name": "Finland",
+      "slug": "finland",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "75",
+      "iso": "FR",
+      "name": "France",
+      "slug": "france",
+      "offerCount": 384,
+      "couponCount": 76,
+      "dealCount": 308
+    },
+    {
+      "id": "80",
+      "iso": "GF",
+      "name": "French Guiana",
+      "slug": "french-guiana",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "176",
+      "iso": "PF",
+      "name": "French Polynesia",
+      "slug": "french-polynesia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "216",
+      "iso": "TF",
+      "name": "French Southern Territories",
+      "slug": "french-southern-territories",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "76",
+      "iso": "GA",
+      "name": "Gabon",
+      "slug": "gabon",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "85",
+      "iso": "GM",
+      "name": "Gambia",
+      "slug": "gambia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "79",
+      "iso": "GE",
+      "name": "Georgia",
+      "slug": "georgia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "57",
+      "iso": "DE",
+      "name": "Germany",
+      "slug": "germany",
+      "offerCount": 396,
+      "couponCount": 82,
+      "dealCount": 314
+    },
+    {
+      "id": "82",
+      "iso": "GH",
+      "name": "Ghana",
+      "slug": "ghana",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "83",
+      "iso": "GI",
+      "name": "Gibraltar",
+      "slug": "gibraltar",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "89",
+      "iso": "GR",
+      "name": "Greece",
+      "slug": "greece",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "84",
+      "iso": "GL",
+      "name": "Greenland",
+      "slug": "greenland",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "78",
+      "iso": "GD",
+      "name": "Grenada",
+      "slug": "grenada",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "87",
+      "iso": "GP",
+      "name": "Guadeloupe",
+      "slug": "guadeloupe",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "92",
+      "iso": "GU",
+      "name": "Guam",
+      "slug": "guam",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "91",
+      "iso": "GT",
+      "name": "Guatemala",
+      "slug": "guatemala",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "81",
+      "iso": "GG",
+      "name": "Guernsey",
+      "slug": "guernsey",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "86",
+      "iso": "GN",
+      "name": "Guinea",
+      "slug": "guinea",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "93",
+      "iso": "GW",
+      "name": "Guinea-Bissau",
+      "slug": "guinea-bissau",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "94",
+      "iso": "GY",
+      "name": "Guyana",
+      "slug": "guyana",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "99",
+      "iso": "HT",
+      "name": "Haiti",
+      "slug": "haiti",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "96",
+      "iso": "HM",
+      "name": "Heard Island and McDonald Islands",
+      "slug": "heard-island-and-mcdonald-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "97",
+      "iso": "HN",
+      "name": "Honduras",
+      "slug": "honduras",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "95",
+      "iso": "HK",
+      "name": "Hong Kong",
+      "slug": "hong-kong",
+      "offerCount": 360,
+      "couponCount": 74,
+      "dealCount": 286
+    },
+    {
+      "id": "100",
+      "iso": "HU",
+      "name": "Hungary",
+      "slug": "hungary",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "109",
+      "iso": "IS",
+      "name": "Iceland",
+      "slug": "iceland",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "252",
+      "iso": "IN",
+      "name": "India",
+      "slug": "india",
+      "offerCount": 1928,
+      "couponCount": 675,
+      "dealCount": 1253
+    },
+    {
+      "id": "101",
+      "iso": "ID",
+      "name": "Indonesia",
+      "slug": "indonesia",
+      "offerCount": 364,
+      "couponCount": 78,
+      "dealCount": 286
+    },
+    {
+      "id": "108",
+      "iso": "IR",
+      "name": "Iran",
+      "slug": "iran",
+      "offerCount": 338,
+      "couponCount": 70,
+      "dealCount": 268
+    },
+    {
+      "id": "107",
+      "iso": "IQ",
+      "name": "Iraq",
+      "slug": "iraq",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "102",
+      "iso": "IE",
+      "name": "Ireland",
+      "slug": "ireland",
+      "offerCount": 342,
+      "couponCount": 70,
+      "dealCount": 272
+    },
+    {
+      "id": "104",
+      "iso": "IM",
+      "name": "Isle of Man",
+      "slug": "isle-of-man",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "103",
+      "iso": "IL",
+      "name": "Israel",
+      "slug": "israel",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "110",
+      "iso": "IT",
+      "name": "Italy",
+      "slug": "italy",
+      "offerCount": 364,
+      "couponCount": 78,
+      "dealCount": 286
+    },
+    {
+      "id": "44",
+      "iso": "CI",
+      "name": "Ivory Coast",
+      "slug": "ivory-coast",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "112",
+      "iso": "JM",
+      "name": "Jamaica",
+      "slug": "jamaica",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "114",
+      "iso": "JP",
+      "name": "Japan",
+      "slug": "japan",
+      "offerCount": 350,
+      "couponCount": 70,
+      "dealCount": 280
+    },
+    {
+      "id": "111",
+      "iso": "JE",
+      "name": "Jersey",
+      "slug": "jersey",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "113",
+      "iso": "JO",
+      "name": "Jordan",
+      "slug": "jordan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "126",
+      "iso": "KZ",
+      "name": "Kazakhstan",
+      "slug": "kazakhstan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "115",
+      "iso": "KE",
+      "name": "Kenya",
+      "slug": "kenya",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "118",
+      "iso": "KI",
+      "name": "Kiribati",
+      "slug": "kiribati",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "123",
+      "iso": "XK",
+      "name": "Kosovo",
+      "slug": "kosovo",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "124",
+      "iso": "KW",
+      "name": "Kuwait",
+      "slug": "kuwait",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "116",
+      "iso": "KG",
+      "name": "Kyrgyzstan",
+      "slug": "kyrgyzstan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "127",
+      "iso": "LA",
+      "name": "Laos",
+      "slug": "laos",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "136",
+      "iso": "LV",
+      "name": "Latvia",
+      "slug": "latvia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "128",
+      "iso": "LB",
+      "name": "Lebanon",
+      "slug": "lebanon",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "133",
+      "iso": "LS",
+      "name": "Lesotho",
+      "slug": "lesotho",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "132",
+      "iso": "LR",
+      "name": "Liberia",
+      "slug": "liberia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "137",
+      "iso": "LY",
+      "name": "Libya",
+      "slug": "libya",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "130",
+      "iso": "LI",
+      "name": "Liechtenstein",
+      "slug": "liechtenstein",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "134",
+      "iso": "LT",
+      "name": "Lithuania",
+      "slug": "lithuania",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "135",
+      "iso": "LU",
+      "name": "Luxembourg",
+      "slug": "luxembourg",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "149",
+      "iso": "MO",
+      "name": "Macao",
+      "slug": "macao",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "145",
+      "iso": "MK",
+      "name": "Macedonia",
+      "slug": "macedonia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "143",
+      "iso": "MG",
+      "name": "Madagascar",
+      "slug": "madagascar",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "157",
+      "iso": "MW",
+      "name": "Malawi",
+      "slug": "malawi",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "159",
+      "iso": "MY",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "offerCount": 356,
+      "couponCount": 74,
+      "dealCount": 282
+    },
+    {
+      "id": "156",
+      "iso": "MV",
+      "name": "Maldives",
+      "slug": "maldives",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "146",
+      "iso": "ML",
+      "name": "Mali",
+      "slug": "mali",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "154",
+      "iso": "MT",
+      "name": "Malta",
+      "slug": "malta",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "144",
+      "iso": "MH",
+      "name": "Marshall Islands",
+      "slug": "marshall-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "151",
+      "iso": "MQ",
+      "name": "Martinique",
+      "slug": "martinique",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "152",
+      "iso": "MR",
+      "name": "Mauritania",
+      "slug": "mauritania",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "155",
+      "iso": "MU",
+      "name": "Mauritius",
+      "slug": "mauritius",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "246",
+      "iso": "YT",
+      "name": "Mayotte",
+      "slug": "mayotte",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "158",
+      "iso": "MX",
+      "name": "Mexico",
+      "slug": "mexico",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "73",
+      "iso": "FM",
+      "name": "Micronesia",
+      "slug": "micronesia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "140",
+      "iso": "MD",
+      "name": "Moldova",
+      "slug": "moldova",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "139",
+      "iso": "MC",
+      "name": "Monaco",
+      "slug": "monaco",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "148",
+      "iso": "MN",
+      "name": "Mongolia",
+      "slug": "mongolia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "141",
+      "iso": "ME",
+      "name": "Montenegro",
+      "slug": "montenegro",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "153",
+      "iso": "MS",
+      "name": "Montserrat",
+      "slug": "montserrat",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "138",
+      "iso": "MA",
+      "name": "Morocco",
+      "slug": "morocco",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "160",
+      "iso": "MZ",
+      "name": "Mozambique",
+      "slug": "mozambique",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "147",
+      "iso": "MM",
+      "name": "Myanmar",
+      "slug": "myanmar",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "161",
+      "iso": "NA",
+      "name": "Namibia",
+      "slug": "namibia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "170",
+      "iso": "NR",
+      "name": "Nauru",
+      "slug": "nauru",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "169",
+      "iso": "NP",
+      "name": "Nepal",
+      "slug": "nepal",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "167",
+      "iso": "NL",
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "251",
+      "iso": "AN",
+      "name": "Netherlands Antilles",
+      "slug": "netherlands-antilles",
+      "offerCount": 338,
+      "couponCount": 70,
+      "dealCount": 268
+    },
+    {
+      "id": "162",
+      "iso": "NC",
+      "name": "New Caledonia",
+      "slug": "new-caledonia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "172",
+      "iso": "NZ",
+      "name": "New Zealand",
+      "slug": "new-zealand",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "166",
+      "iso": "NI",
+      "name": "Nicaragua",
+      "slug": "nicaragua",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "163",
+      "iso": "NE",
+      "name": "Niger",
+      "slug": "niger",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "165",
+      "iso": "NG",
+      "name": "Nigeria",
+      "slug": "nigeria",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "171",
+      "iso": "NU",
+      "name": "Niue",
+      "slug": "niue",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "164",
+      "iso": "NF",
+      "name": "Norfolk Island",
+      "slug": "norfolk-island",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "121",
+      "iso": "KP",
+      "name": "North Korea",
+      "slug": "north-korea",
+      "offerCount": 338,
+      "couponCount": 70,
+      "dealCount": 268
+    },
+    {
+      "id": "150",
+      "iso": "MP",
+      "name": "Northern Mariana Islands",
+      "slug": "northern-mariana-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "168",
+      "iso": "NO",
+      "name": "Norway",
+      "slug": "norway",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "173",
+      "iso": "OM",
+      "name": "Oman",
+      "slug": "oman",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "179",
+      "iso": "PK",
+      "name": "Pakistan",
+      "slug": "pakistan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "186",
+      "iso": "PW",
+      "name": "Palau",
+      "slug": "palau",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "184",
+      "iso": "PS",
+      "name": "Palestinian Territory",
+      "slug": "palestinian-territory",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "174",
+      "iso": "PA",
+      "name": "Panama",
+      "slug": "panama",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "177",
+      "iso": "PG",
+      "name": "Papua New Guinea",
+      "slug": "papua-new-guinea",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "187",
+      "iso": "PY",
+      "name": "Paraguay",
+      "slug": "paraguay",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "175",
+      "iso": "PE",
+      "name": "Peru",
+      "slug": "peru",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "178",
+      "iso": "PH",
+      "name": "Philippines",
+      "slug": "philippines",
+      "offerCount": 366,
+      "couponCount": 72,
+      "dealCount": 294
+    },
+    {
+      "id": "182",
+      "iso": "PN",
+      "name": "Pitcairn",
+      "slug": "pitcairn",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "180",
+      "iso": "PL",
+      "name": "Poland",
+      "slug": "poland",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "185",
+      "iso": "PT",
+      "name": "Portugal",
+      "slug": "portugal",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "183",
+      "iso": "PR",
+      "name": "Puerto Rico",
+      "slug": "puerto-rico",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "188",
+      "iso": "QA",
+      "name": "Qatar",
+      "slug": "qatar",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "42",
+      "iso": "CG",
+      "name": "Republic of the Congo",
+      "slug": "republic-of-the-congo",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "189",
+      "iso": "RE",
+      "name": "Reunion",
+      "slug": "reunion",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "190",
+      "iso": "RO",
+      "name": "Romania",
+      "slug": "romania",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "192",
+      "iso": "RU",
+      "name": "Russia",
+      "slug": "russia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "193",
+      "iso": "RW",
+      "name": "Rwanda",
+      "slug": "rwanda",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "26",
+      "iso": "BL",
+      "name": "Saint Barthelemy",
+      "slug": "saint-barthelemy",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "200",
+      "iso": "SH",
+      "name": "Saint Helena",
+      "slug": "saint-helena",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "120",
+      "iso": "KN",
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "129",
+      "iso": "LC",
+      "name": "Saint Lucia",
+      "slug": "saint-lucia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "142",
+      "iso": "MF",
+      "name": "Saint Martin",
+      "slug": "saint-martin",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "181",
+      "iso": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "slug": "saint-pierre-and-miquelon",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "237",
+      "iso": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "slug": "saint-vincent-and-the-grenadines",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "244",
+      "iso": "WS",
+      "name": "Samoa",
+      "slug": "samoa",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "205",
+      "iso": "SM",
+      "name": "San Marino",
+      "slug": "san-marino",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "209",
+      "iso": "ST",
+      "name": "Sao Tome and Principe",
+      "slug": "sao-tome-and-principe",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "194",
+      "iso": "SA",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "206",
+      "iso": "SN",
+      "name": "Senegal",
+      "slug": "senegal",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "191",
+      "iso": "RS",
+      "name": "Serbia",
+      "slug": "serbia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "250",
+      "iso": "CS",
+      "name": "Serbia and Montenegro",
+      "slug": "serbia-and-montenegro",
+      "offerCount": 338,
+      "couponCount": 70,
+      "dealCount": 268
+    },
+    {
+      "id": "196",
+      "iso": "SC",
+      "name": "Seychelles",
+      "slug": "seychelles",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "204",
+      "iso": "SL",
+      "name": "Sierra Leone",
+      "slug": "sierra-leone",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "199",
+      "iso": "SG",
+      "name": "Singapore",
+      "slug": "singapore",
+      "offerCount": 408,
+      "couponCount": 80,
+      "dealCount": 328
+    },
+    {
+      "id": "211",
+      "iso": "SX",
+      "name": "Sint Maarten",
+      "slug": "sint-maarten",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "203",
+      "iso": "SK",
+      "name": "Slovakia",
+      "slug": "slovakia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "201",
+      "iso": "SI",
+      "name": "Slovenia",
+      "slug": "slovenia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "195",
+      "iso": "SB",
+      "name": "Solomon Islands",
+      "slug": "solomon-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "207",
+      "iso": "SO",
+      "name": "Somalia",
+      "slug": "somalia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "247",
+      "iso": "ZA",
+      "name": "South Africa",
+      "slug": "south-africa",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "90",
+      "iso": "GS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "slug": "south-georgia-and-the-south-sandwich-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "122",
+      "iso": "KR",
+      "name": "South Korea",
+      "slug": "south-korea",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "68",
+      "iso": "ES",
+      "name": "Spain",
+      "slug": "spain",
+      "offerCount": 360,
+      "couponCount": 76,
+      "dealCount": 284
+    },
+    {
+      "id": "131",
+      "iso": "LK",
+      "name": "Sri Lanka",
+      "slug": "sri-lanka",
+      "offerCount": 350,
+      "couponCount": 70,
+      "dealCount": 280
+    },
+    {
+      "id": "197",
+      "iso": "SD",
+      "name": "Sudan",
+      "slug": "sudan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "208",
+      "iso": "SR",
+      "name": "Suriname",
+      "slug": "suriname",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "202",
+      "iso": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "slug": "svalbard-and-jan-mayen",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "213",
+      "iso": "SZ",
+      "name": "Swaziland",
+      "slug": "swaziland",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "198",
+      "iso": "SE",
+      "name": "Sweden",
+      "slug": "sweden",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "43",
+      "iso": "CH",
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "212",
+      "iso": "SY",
+      "name": "Syria",
+      "slug": "syria",
+      "offerCount": 338,
+      "couponCount": 70,
+      "dealCount": 268
+    },
+    {
+      "id": "228",
+      "iso": "TW",
+      "name": "Taiwan",
+      "slug": "taiwan",
+      "offerCount": 350,
+      "couponCount": 70,
+      "dealCount": 280
+    },
+    {
+      "id": "219",
+      "iso": "TJ",
+      "name": "Tajikistan",
+      "slug": "tajikistan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "229",
+      "iso": "TZ",
+      "name": "Tanzania",
+      "slug": "tanzania",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "218",
+      "iso": "TH",
+      "name": "Thailand",
+      "slug": "thailand",
+      "offerCount": 366,
+      "couponCount": 74,
+      "dealCount": 292
+    },
+    {
+      "id": "217",
+      "iso": "TG",
+      "name": "Togo",
+      "slug": "togo",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "220",
+      "iso": "TK",
+      "name": "Tokelau",
+      "slug": "tokelau",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "224",
+      "iso": "TO",
+      "name": "Tonga",
+      "slug": "tonga",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "226",
+      "iso": "TT",
+      "name": "Trinidad and Tobago",
+      "slug": "trinidad-and-tobago",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "223",
+      "iso": "TN",
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "225",
+      "iso": "TR",
+      "name": "Turkey",
+      "slug": "turkey",
+      "offerCount": 342,
+      "couponCount": 70,
+      "dealCount": 272
+    },
+    {
+      "id": "222",
+      "iso": "TM",
+      "name": "Turkmenistan",
+      "slug": "turkmenistan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "214",
+      "iso": "TC",
+      "name": "Turks and Caicos Islands",
+      "slug": "turks-and-caicos-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "227",
+      "iso": "TV",
+      "name": "Tuvalu",
+      "slug": "tuvalu",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "240",
+      "iso": "VI",
+      "name": "U.S. Virgin Islands",
+      "slug": "u-s-virgin-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "231",
+      "iso": "UG",
+      "name": "Uganda",
+      "slug": "uganda",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "230",
+      "iso": "UA",
+      "name": "Ukraine",
+      "slug": "ukraine",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "2",
+      "iso": "AE",
+      "name": "United Arab Emirates",
+      "slug": "united-arab-emirates",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "77",
+      "iso": "GB",
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "offerCount": 432,
+      "couponCount": 80,
+      "dealCount": 352
+    },
+    {
+      "id": "233",
+      "iso": "US",
+      "name": "United States",
+      "slug": "united-states",
+      "offerCount": 492,
+      "couponCount": 96,
+      "dealCount": 396
+    },
+    {
+      "id": "232",
+      "iso": "UM",
+      "name": "United States Minor Outlying Islands",
+      "slug": "united-states-minor-outlying-islands",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "234",
+      "iso": "UY",
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "235",
+      "iso": "UZ",
+      "name": "Uzbekistan",
+      "slug": "uzbekistan",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "242",
+      "iso": "VU",
+      "name": "Vanuatu",
+      "slug": "vanuatu",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "236",
+      "iso": "VA",
+      "name": "Vatican",
+      "slug": "vatican",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "238",
+      "iso": "VE",
+      "name": "Venezuela",
+      "slug": "venezuela",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "241",
+      "iso": "VN",
+      "name": "Vietnam",
+      "slug": "vietnam",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "243",
+      "iso": "WF",
+      "name": "Wallis and Futuna",
+      "slug": "wallis-and-futuna",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "66",
+      "iso": "EH",
+      "name": "Western Sahara",
+      "slug": "western-sahara",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "245",
+      "iso": "YE",
+      "name": "Yemen",
+      "slug": "yemen",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "248",
+      "iso": "ZM",
+      "name": "Zambia",
+      "slug": "zambia",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    },
+    {
+      "id": "249",
+      "iso": "ZW",
+      "name": "Zimbabwe",
+      "slug": "zimbabwe",
+      "offerCount": 340,
+      "couponCount": 70,
+      "dealCount": 270
+    }
+  ],
   "files": {
     "offers": "offers.json",
     "coupons": "coupons.json",
     "deals": "deals.json",
     "merchants": "merchants.json",
-    "categories": "categories.json"
+    "categories": "categories.json",
+    "catalogDirectory": "catalog/"
+  },
+  "chunking": {
+    "maxChunkBytes": 8388608,
+    "countryScoped": true,
+    "appLoadsSelectedRegionOnly": true
   }
 }
