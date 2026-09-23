@@ -73,6 +73,14 @@ function clean(value) {
   return v || null;
 }
 
+function firstValue(object, keys) {
+  for (const key of keys) {
+    const value = clean(object?.[key]);
+    if (value) return value;
+  }
+  return null;
+}
+
 function parseDate(value) {
   const v = clean(value);
   if (!v) return null;
@@ -102,6 +110,23 @@ function splitCategories(value) {
   ];
 }
 
+function categoriesFromValue(value) {
+  if (Array.isArray(value)) {
+    return value
+      .flatMap(item => {
+        if (typeof item === "string") return [item];
+        if (item && typeof item === "object") {
+          return [item.name, item.title, item.label].filter(Boolean);
+        }
+        return [];
+      })
+      .map(clean)
+      .filter(Boolean);
+  }
+
+  return splitCategories(value);
+}
+
 function slug(value) {
   return String(value ?? "")
     .toLowerCase()
@@ -127,16 +152,34 @@ function campaignIdFromRow(row) {
   return null;
 }
 
-function stableId(row, countryIso = "") {
+function partnerFromRow(row) {
+  return (
+    firstValue(row, [
+      "AF-partner",
+      "AF Partner",
+      "Affiliate Partner",
+      "affiliate_partner",
+      "af_partner"
+    ]) || "Unknown"
+  );
+}
+
+function isCuelinksPartner(value) {
+  return String(value || "").trim().toLowerCase() === "cuelinks";
+}
+
+function stableId(row, countryIso = "", source = "csv", extra = "") {
   const raw = [
+    source,
     "Id",
     "Campaign ID",
     "Merchant",
     "Title",
     "Coupon Code",
-    "URL"
+    "URL",
+    extra
   ]
-    .map(k => String(row[k] ?? "").trim())
+    .map(k => String(row[k] ?? k ?? "").trim())
     .concat(countryIso)
     .join("|");
 
@@ -148,6 +191,22 @@ function stableId(row, countryIso = "") {
   }
 
   return "avd-" + (h >>> 0).toString(36);
+}
+
+function stableApiId(offer, countryIso = "") {
+  return stableId(
+    {
+      Id: offer?.id,
+      "Campaign ID": offer?.campaign_id,
+      Merchant: offer?.campaign_name,
+      Title: offer?.title || offer?.name,
+      "Coupon Code": offer?.coupon_code || offer?.code,
+      URL: offer?.tracking_url || offer?.url
+    },
+    countryIso,
+    "cuelinks-api",
+    String(offer?.id ?? "")
+  );
 }
 
 function normalizeCountry(country) {
@@ -165,6 +224,30 @@ function normalizeCountry(country) {
     name: name || iso || "Unknown",
     slug: slug(name || iso || "unknown")
   };
+}
+
+function countryFromRow(row) {
+  const iso = firstValue(row, [
+    "Country ISO",
+    "Country Iso",
+    "country_iso",
+    "Country Code",
+    "countryCode"
+  ]);
+
+  const name = firstValue(row, [
+    "Country",
+    "country",
+    "Country Name",
+    "country_name"
+  ]);
+
+  if (!iso && !name) return null;
+
+  return normalizeCountry({
+    iso: iso || null,
+    name: name || iso
+  });
 }
 
 async function fetchCuelinksJson(url) {
@@ -223,13 +306,11 @@ async function fetchOpenCampaigns() {
     campaigns.push(...data);
 
     const nextPage = body.meta?.next_page;
-
     if (!nextPage || data.length === 0) break;
 
     page = Number(nextPage);
-
     if (!Number.isFinite(page)) {
-      throw new Error("Cuelinks returned an invalid next_page value");
+      throw new Error("Cuelinks returned an invalid campaigns next_page value");
     }
   }
 
@@ -245,12 +326,112 @@ async function fetchOpenCampaigns() {
   };
 }
 
+async function fetchLiveCuelinksOffers() {
+  const offers = [];
+  let page = 1;
+  let expectedTotal = null;
+
+  while (true) {
+    const url = new URL(CUELINKS_API_BASE + "/offers");
+    url.searchParams.set("per_page", "500");
+    url.searchParams.set("page", String(page));
+    url.searchParams.set("valid_on", todayIndia());
+
+    const body = await fetchCuelinksJson(url);
+    const data = Array.isArray(body.data) ? body.data : [];
+
+    if (page === 1) {
+      expectedTotal = Number(body.meta?.total ?? 0);
+    }
+
+    offers.push(...data);
+
+    const nextPage = body.meta?.next_page;
+    if (!nextPage || data.length === 0) break;
+
+    page = Number(nextPage);
+    if (!Number.isFinite(page)) {
+      throw new Error("Cuelinks returned an invalid offers next_page value");
+    }
+  }
+
+  return {
+    offers,
+    expectedTotal: Number.isFinite(expectedTotal) ? expectedTotal : offers.length
+  };
+}
+
 function getCampaignCountries(campaign) {
   const raw = Array.isArray(campaign?.countries) ? campaign.countries : [];
   return raw.map(normalizeCountry).filter(Boolean);
 }
 
-function normalize(row, today, campaign, country) {
+function normalizeCommon({
+  sourceId,
+  title,
+  merchant,
+  categories,
+  description,
+  terms,
+  couponCode,
+  affiliateUrl,
+  imageUrl,
+  startDate,
+  endDate,
+  offerAddedAt,
+  campaignId,
+  campaignName,
+  partner,
+  source,
+  country,
+  campaign
+}) {
+  return {
+    id: source === "cuelinks-api"
+      ? stableApiId({ id: sourceId, campaign_id: campaignId, campaign_name: campaignName, title, coupon_code: couponCode, tracking_url: affiliateUrl }, country?.iso || "")
+      : stableId(
+          {
+            Id: sourceId,
+            "Campaign ID": campaignId,
+            Merchant: merchant,
+            Title: title,
+            "Coupon Code": couponCode,
+            URL: affiliateUrl
+          },
+          country?.iso || "",
+          "csv"
+        ),
+    sourceId: sourceId || null,
+    source,
+    afPartner: partner,
+    title: title || "Offer",
+    merchant: merchant || "Unknown Merchant",
+    merchantSlug: slug(merchant || "unknown-merchant"),
+    categories: [...new Set(categories.filter(Boolean))],
+    categorySlugs: [...new Set(categories.filter(Boolean).map(slug).filter(Boolean))],
+    description: description || null,
+    terms: terms || null,
+    couponCode: couponCode || null,
+    type: couponCode ? "coupon" : "deal",
+    affiliateUrl: affiliateUrl || null,
+    imageUrl: imageUrl || null,
+    startDate: startDate || null,
+    endDate: endDate || null,
+    offerAddedAt: offerAddedAt || null,
+    campaignId: campaignId || null,
+    campaignName: campaignName || null,
+    cuelinksCampaignId: campaign?.id ?? null,
+    cuelinksCampaignName: clean(campaign?.name),
+    cuelinksAccessStatus: clean(campaign?.access_status),
+    cuelinksTrackingUrl: clean(campaign?.tracking_url),
+    countryId: country?.id || null,
+    countryIso: country?.iso || null,
+    countryName: country?.name || null,
+    countrySlug: country?.slug || null
+  };
+}
+
+function normalizeCsvRow(row, today, campaign, country, partner) {
   const status = String(row["Status"] ?? "").trim().toLowerCase();
   const startDate = parseDate(row["Start Date"]);
   const endDate = parseDate(row["End Date"]);
@@ -269,18 +450,14 @@ function normalize(row, today, campaign, country) {
   const couponCode = clean(row["Coupon Code"]);
   const campaignId = campaignIdFromRow(row);
 
-  return {
-    id: stableId(row, country.iso || country.name),
+  return normalizeCommon({
     sourceId: clean(row["Id"]),
-    title: clean(row["Title"]) || "Offer",
+    title: clean(row["Title"]),
     merchant,
-    merchantSlug: slug(merchant),
     categories,
-    categorySlugs: categories.map(slug),
     description: clean(row["Description"]),
     terms: clean(row["Terms"]),
     couponCode,
-    type: couponCode ? "coupon" : "deal",
     affiliateUrl: clean(row["URL"]) || clean(campaign?.tracking_url),
     imageUrl: clean(row["Image URL"]) || clean(campaign?.image),
     startDate,
@@ -288,18 +465,79 @@ function normalize(row, today, campaign, country) {
     offerAddedAt: clean(row["Offer Added At"]),
     campaignId,
     campaignName: clean(row["Campaign Name"]) || clean(campaign?.name),
+    partner,
+    source: "csv",
+    country,
+    campaign
+  });
+}
 
-    // Cuelinks is the source of truth for campaign availability and geography.
-    cuelinksCampaignId: campaign?.id ?? null,
-    cuelinksCampaignName: clean(campaign?.name),
-    cuelinksAccessStatus: clean(campaign?.access_status),
-    cuelinksTrackingUrl: clean(campaign?.tracking_url),
+function normalizeCuelinksApiOffer(offer, today, campaign, country) {
+  const offerType = String(
+    firstValue(offer, ["offer_type", "type"]) || ""
+  ).toLowerCase();
 
-    countryId: country.id,
-    countryIso: country.iso,
-    countryName: country.name,
-    countrySlug: country.slug
-  };
+  const title =
+    firstValue(offer, ["title", "name"]) ||
+    firstValue(offer, ["description"]) ||
+    "Offer";
+
+  const merchant =
+    firstValue(offer, ["merchant", "merchant_name", "campaign_name"]) ||
+    clean(campaign?.name) ||
+    "Unknown Merchant";
+
+  const categories = categoriesFromValue(
+    offer?.categories ?? offer?.category ?? offer?.category_name
+  );
+
+  const couponCode = firstValue(offer, [
+    "coupon_code",
+    "code",
+    "voucher_code"
+  ]);
+
+  const startDate = parseDate(
+    firstValue(offer, ["start_date", "valid_from", "starts_at"])
+  );
+
+  const endDate = parseDate(
+    firstValue(offer, ["end_date", "valid_until", "expires_at"])
+  );
+
+  if (startDate && startDate > today) return null;
+  if (endDate && endDate < today) return null;
+
+  const affiliateUrl =
+    firstValue(offer, ["tracking_url", "affiliate_url", "url"]) ||
+    clean(campaign?.tracking_url);
+
+  const type = offerType === "coupon" || couponCode ? "coupon" : "deal";
+
+  const normalized = normalizeCommon({
+    sourceId: clean(offer?.id),
+    title,
+    merchant,
+    categories,
+    description: firstValue(offer, ["description"]),
+    terms: firstValue(offer, ["terms", "terms_and_condition"]),
+    couponCode: type === "coupon" ? couponCode : null,
+    affiliateUrl,
+    imageUrl: firstValue(offer, ["image", "image_url"]) || clean(campaign?.image),
+    startDate,
+    endDate,
+    offerAddedAt: firstValue(offer, ["created_at", "updated_at"]),
+    campaignId: clean(offer?.campaign_id),
+    campaignName: clean(offer?.campaign_name) || clean(campaign?.name),
+    partner: "Cuelinks",
+    source: "cuelinks-api",
+    country,
+    campaign
+  });
+
+  normalized.cuelinksOfferId = clean(offer?.id);
+  normalized.cuelinksOfferType = offerType || normalized.type;
+  return normalized;
 }
 
 function dedupe(items) {
@@ -308,6 +546,7 @@ function dedupe(items) {
   for (const item of items) {
     const key = [
       item.countryIso || "",
+      item.afPartner || "",
       item.merchantSlug,
       item.campaignId || "",
       item.couponCode || "",
@@ -317,7 +556,11 @@ function dedupe(items) {
 
     const old = map.get(key);
 
-    if (!old || (item.endDate || "") > (old.endDate || "")) {
+    if (
+      !old ||
+      (item.endDate || "") > (old.endDate || "") ||
+      (item.source === "cuelinks-api" && old.source !== "cuelinks-api")
+    ) {
       map.set(key, item);
     }
   }
@@ -344,15 +587,10 @@ function buildMerchantAndCategoryIndexes(offers) {
     const merchant = merchantMap.get(offer.merchantSlug);
     merchant.offerCount++;
 
-    if (offer.type === "coupon") {
-      merchant.couponCount++;
-    } else {
-      merchant.dealCount++;
-    }
+    if (offer.type === "coupon") merchant.couponCount++;
+    else merchant.dealCount++;
 
-    if (!merchant.logoUrl && offer.imageUrl) {
-      merchant.logoUrl = offer.imageUrl;
-    }
+    if (!merchant.logoUrl && offer.imageUrl) merchant.logoUrl = offer.imageUrl;
 
     for (const category of offer.categories) {
       const id = slug(category);
@@ -371,11 +609,8 @@ function buildMerchantAndCategoryIndexes(offers) {
       const item = categoryMap.get(id);
       item.offerCount++;
 
-      if (offer.type === "coupon") {
-        item.couponCount++;
-      } else {
-        item.dealCount++;
-      }
+      if (offer.type === "coupon") item.couponCount++;
+      else item.dealCount++;
     }
   }
 
@@ -390,6 +625,7 @@ function buildMerchantAndCategoryIndexes(offers) {
 }
 
 function writeJson(file, value) {
+  fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.writeFileSync(
     path.join(OUT_DIR, file),
     JSON.stringify(value, null, 2) + "\n",
@@ -407,8 +643,8 @@ function buildCountryStats(offers) {
       map.set(key, {
         id: offer.countryId,
         iso: offer.countryIso,
-        name: offer.countryName,
-        slug: offer.countrySlug,
+        name: offer.countryName || "Unknown",
+        slug: offer.countrySlug || "unknown",
         offerCount: 0,
         couponCount: 0,
         dealCount: 0
@@ -418,11 +654,8 @@ function buildCountryStats(offers) {
     const country = map.get(key);
     country.offerCount++;
 
-    if (offer.type === "coupon") {
-      country.couponCount++;
-    } else {
-      country.dealCount++;
-    }
+    if (offer.type === "coupon") country.couponCount++;
+    else country.dealCount++;
   }
 
   return [...map.values()].sort((a, b) =>
@@ -437,7 +670,7 @@ async function main() {
   console.log(
     JSON.stringify(
       {
-        step: "cuelinks_validation_start",
+        step: "cuelinks_and_multi_partner_build_start",
         sourceRows: rows.length,
         effectiveDate: today
       },
@@ -446,10 +679,11 @@ async function main() {
     )
   );
 
-  const {
-    campaigns,
-    expectedTotal
-  } = await fetchOpenCampaigns();
+  const { campaigns, expectedTotal: campaignsReportedTotal } =
+    await fetchOpenCampaigns();
+
+  const { offers: cuelinksApiOffers, expectedTotal: offersReportedTotal } =
+    await fetchLiveCuelinksOffers();
 
   const campaignMap = new Map();
 
@@ -464,52 +698,126 @@ async function main() {
     campaignMap.set(id, campaign);
   }
 
-  let rowsWithoutCampaignId = 0;
-  let rowsWithInactiveCampaign = 0;
-  let rowsWithoutCountry = 0;
-  let rowsRejectedByDateOrStatus = 0;
-  let matchedRows = 0;
+  let csvCuelinksRows = 0;
+  let csvNonCuelinksRows = 0;
+  let csvRowsWithoutPartner = 0;
+  let csvCuelinksWithoutCampaignId = 0;
+  let csvCuelinksInactiveCampaign = 0;
+  let csvCuelinksWithoutCountry = 0;
+  let csvCuelinksRejectedByDateOrStatus = 0;
+  let csvNonCuelinksRejectedByDateOrStatus = 0;
+  let csvOffersPublished = 0;
+  let apiOffersPublished = 0;
+  let apiOffersWithoutCampaign = 0;
+  let apiOffersWithoutCountry = 0;
+  let apiOffersRejectedByDate = 0;
 
   const expanded = [];
 
   for (const row of rows) {
-    const campaignId = campaignIdFromRow(row);
+    const partner = partnerFromRow(row);
+    const partnerWasMissing = !firstValue(row, [
+      "AF-partner",
+      "AF Partner",
+      "Affiliate Partner",
+      "affiliate_partner",
+      "af_partner"
+    ]);
+
+    if (partnerWasMissing) csvRowsWithoutPartner++;
+
+    if (isCuelinksPartner(partner)) {
+      csvCuelinksRows++;
+
+      const campaignId = campaignIdFromRow(row);
+
+      if (!campaignId) {
+        csvCuelinksWithoutCampaignId++;
+        continue;
+      }
+
+      const campaign = campaignMap.get(campaignId);
+
+      if (!campaign) {
+        csvCuelinksInactiveCampaign++;
+        continue;
+      }
+
+      const countries = getCampaignCountries(campaign);
+
+      if (countries.length === 0) {
+        csvCuelinksWithoutCountry++;
+        continue;
+      }
+
+      let produced = false;
+
+      for (const country of countries) {
+        const offer = normalizeCsvRow(row, today, campaign, country, partner);
+        if (!offer) continue;
+
+        expanded.push(offer);
+        produced = true;
+        csvOffersPublished++;
+      }
+
+      if (!produced) csvCuelinksRejectedByDateOrStatus++;
+      continue;
+    }
+
+    csvNonCuelinksRows++;
+
+    const country = countryFromRow(row);
+    const offer = normalizeCsvRow(row, today, null, country, partner);
+
+    if (offer) {
+      expanded.push(offer);
+      csvOffersPublished++;
+    } else {
+      csvNonCuelinksRejectedByDateOrStatus++;
+    }
+  }
+
+  for (const apiOffer of cuelinksApiOffers) {
+    const campaignId = clean(apiOffer?.campaign_id);
 
     if (!campaignId) {
-      rowsWithoutCampaignId++;
+      apiOffersWithoutCampaign++;
       continue;
     }
 
     const campaign = campaignMap.get(campaignId);
 
     if (!campaign) {
-      rowsWithInactiveCampaign++;
+      apiOffersWithoutCampaign++;
       continue;
     }
 
     const countries = getCampaignCountries(campaign);
 
     if (countries.length === 0) {
-      rowsWithoutCountry++;
+      apiOffersWithoutCountry++;
       continue;
     }
 
-    let rowProducedOffer = false;
+    let produced = false;
 
     for (const country of countries) {
-      const offer = normalize(row, today, campaign, country);
+      const offer = normalizeCuelinksApiOffer(
+        apiOffer,
+        today,
+        campaign,
+        country
+      );
 
       if (!offer) continue;
 
       expanded.push(offer);
-      rowProducedOffer = true;
+      produced = true;
+      apiOffersPublished++;
     }
 
-    if (rowProducedOffer) {
-      matchedRows++;
-    } else {
-      rowsRejectedByDateOrStatus++;
-    }
+    if (!produced) apiOffersRejectedByDate++;
   }
 
   const offers = dedupe(expanded).sort((a, b) =>
@@ -520,23 +828,18 @@ async function main() {
 
   const coupons = offers.filter(o => o.type === "coupon");
   const deals = offers.filter(o => o.type === "deal");
-  const {
-    merchants,
-    categories
-  } = buildMerchantAndCategoryIndexes(offers);
+  const { merchants, categories } = buildMerchantAndCategoryIndexes(offers);
   const countries = buildCountryStats(offers);
   const generatedAt = new Date().toISOString();
 
   if (offers.length === 0) {
     throw new Error(
-      "No offers survived Cuelinks campaign validation and country filtering. Refusing to publish an empty catalog."
+      "No offers survived validation. Refusing to publish an empty catalog."
     );
   }
 
-  // Single unified feed. Each offer carries countryIso/countryName/countrySlug,
-  // so the app can filter this same file according to the user's selected region.
   writeJson("offers.json", {
-    version: 2,
+    version: 3,
     generatedAt,
     effectiveDate: today,
     total: offers.length,
@@ -546,10 +849,8 @@ async function main() {
     offers
   });
 
-  // Keep the existing derived feeds for current consumers. They contain the
-  // same validated offers and retain the country fields.
   writeJson("coupons.json", {
-    version: 2,
+    version: 3,
     generatedAt,
     effectiveDate: today,
     total: coupons.length,
@@ -558,7 +859,7 @@ async function main() {
   });
 
   writeJson("deals.json", {
-    version: 2,
+    version: 3,
     generatedAt,
     effectiveDate: today,
     total: deals.length,
@@ -567,7 +868,7 @@ async function main() {
   });
 
   writeJson("merchants.json", {
-    version: 2,
+    version: 3,
     generatedAt,
     effectiveDate: today,
     total: merchants.length,
@@ -575,7 +876,7 @@ async function main() {
   });
 
   writeJson("categories.json", {
-    version: 2,
+    version: 3,
     generatedAt,
     effectiveDate: today,
     total: categories.length,
@@ -583,25 +884,38 @@ async function main() {
   });
 
   writeJson("offers-manifest.json", {
-    version: 2,
+    version: 3,
     generatedAt,
     effectiveDate: today,
-    source: "source/offers.csv",
+    source: "source/offers.csv + Cuelinks /offers",
     sourceRows: rows.length,
+
+    partners: {
+      csvCuelinksRows,
+      csvNonCuelinksRows,
+      csvRowsWithoutPartner
+    },
 
     cuelinks: {
       apiBase: CUELINKS_API_BASE,
       accessStatus: "open",
       campaignsReturned: campaigns.length,
-      campaignsReportedTotal: expectedTotal
+      campaignsReportedTotal,
+      liveOffersReturned: cuelinksApiOffers.length,
+      liveOffersReportedTotal: offersReportedTotal
     },
 
     validation: {
-      matchedRows,
-      rowsWithoutCampaignId,
-      rowsWithInactiveCampaign,
-      rowsWithoutCountry,
-      rowsRejectedByDateOrStatus,
+      csvCuelinksWithoutCampaignId,
+      csvCuelinksInactiveCampaign,
+      csvCuelinksWithoutCountry,
+      csvCuelinksRejectedByDateOrStatus,
+      csvNonCuelinksRejectedByDateOrStatus,
+      apiOffersWithoutCampaign,
+      apiOffersWithoutCountry,
+      apiOffersRejectedByDate,
+      csvOffersPublished,
+      apiOffersPublished,
       expandedOffersBeforeDedupe: expanded.length,
       activeOffersAfterDedupe: offers.length
     },
@@ -612,7 +926,6 @@ async function main() {
     merchants: merchants.length,
     categories: categories.length,
     countries: countries.length,
-
     countryBreakdown: countries,
 
     files: {
@@ -630,12 +943,17 @@ async function main() {
         effectiveDate: today,
         sourceRows: rows.length,
         cuelinksOpenCampaigns: campaigns.length,
-        matchedRows,
-        dropped: {
-          rowsWithoutCampaignId,
-          rowsWithInactiveCampaign,
-          rowsWithoutCountry,
-          rowsRejectedByDateOrStatus
+        cuelinksLiveOffers: cuelinksApiOffers.length,
+        csv: {
+          cuelinksRows: csvCuelinksRows,
+          nonCuelinksRows: csvNonCuelinksRows,
+          offersPublished: csvOffersPublished
+        },
+        api: {
+          offersPublished: apiOffersPublished,
+          withoutCampaign: apiOffersWithoutCampaign,
+          withoutCountry: apiOffersWithoutCountry,
+          rejectedByDate: apiOffersRejectedByDate
         },
         activeOffers: offers.length,
         coupons: coupons.length,
