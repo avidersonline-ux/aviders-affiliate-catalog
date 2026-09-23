@@ -28,7 +28,7 @@ Cuelinks CSV rows receive Cuelinks-specific validation:
 
 Non-Cuelinks rows are processed by the normal Aviders validation path and are not rejected because they are absent from Cuelinks.
 
-Rows without an `AF-partner` value are retained as `Unknown` during migration.
+The current legacy CSV predates `AF-partner`, so missing partner values are temporarily treated as `Cuelinks`. Once the column is populated, each row is routed according to its partner.
 
 ## Live Cuelinks offers
 
