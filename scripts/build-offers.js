@@ -627,6 +627,107 @@ function buildMerchantAndCategoryIndexes(offers) {
   };
 }
 
+function writeChunkedCatalog(kind, items, generatedAt, effectiveDate) {
+  const baseDir = path.join(OUT_DIR, "catalog", kind);
+  fs.rmSync(baseDir, { recursive: true, force: true });
+
+  const grouped = new Map();
+
+  for (const item of items) {
+    const countryKey = slug(item.countryIso || item.countrySlug || "unknown") || "unknown";
+    if (!grouped.has(countryKey)) grouped.set(countryKey, []);
+    grouped.get(countryKey).push(item);
+  }
+
+  const indexCountries = [];
+
+  for (const [countryKey, countryItems] of grouped.entries()) {
+    const countryDir = path.join(baseDir, countryKey);
+    fs.mkdirSync(countryDir, { recursive: true });
+
+    const chunks = [];
+    let current = [];
+
+    const makePayload = values => ({
+      version: 4,
+      generatedAt,
+      effectiveDate,
+      kind,
+      country: countryKey,
+      total: values.length,
+      offers: values
+    });
+
+    for (const item of countryItems) {
+      const candidate = [...current, item];
+      const candidateBytes = Buffer.byteLength(
+        JSON.stringify(makePayload(candidate)),
+        "utf8"
+      );
+
+      if (candidateBytes > 8 * 1024 * 1024 && current.length > 0) {
+        chunks.push(current);
+        current = [item];
+      } else {
+        current = candidate;
+      }
+
+      if (
+        Buffer.byteLength(JSON.stringify(makePayload(current)), "utf8") >
+        8 * 1024 * 1024
+      ) {
+        throw new Error(
+          "Single catalog offer exceeds the 8 MB chunk safety limit: " +
+          String(item.id || item.title || "unknown")
+        );
+      }
+    }
+
+    if (current.length) chunks.push(current);
+
+    for (let i = 0; i < chunks.length; i++) {
+      const filename = `${countryKey}-${String(i + 1).padStart(3, "0")}.json`;
+      fs.writeFileSync(
+        path.join(countryDir, filename),
+        JSON.stringify(makePayload(chunks[i])) + "\n",
+        "utf8"
+      );
+    }
+
+    const first = countryItems[0] || {};
+    indexCountries.push({
+      iso: first.countryIso || null,
+      id: first.countryId || null,
+      name: first.countryName || countryKey,
+      slug: first.countrySlug || countryKey,
+      offerCount: countryItems.length,
+      couponCount: countryItems.filter(o => o.type === "coupon").length,
+      dealCount: countryItems.filter(o => o.type === "deal").length,
+      chunks: chunks.map((_, i) =>
+        `data/catalog/${kind}/${countryKey}/${countryKey}-${String(i + 1).padStart(3, "0")}.json`
+      )
+    });
+  }
+
+  return indexCountries.sort((a, b) =>
+    String(a.name).localeCompare(String(b.name))
+  );
+}
+
+function writeCatalogIndex(file, kind, items, generatedAt, effectiveDate, countries) {
+  writeJson(file, {
+    version: 4,
+    generatedAt,
+    effectiveDate,
+    kind,
+    total: items.length,
+    coupons: items.filter(o => o.type === "coupon").length,
+    deals: items.filter(o => o.type === "deal").length,
+    countries,
+    chunks: countries.flatMap(country => country.chunks)
+  });
+}
+
 function writeJson(file, value) {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.writeFileSync(
@@ -841,34 +942,17 @@ async function main() {
     );
   }
 
-  writeJson("offers.json", {
-    version: 3,
-    generatedAt,
-    effectiveDate: today,
-    total: offers.length,
-    coupons: coupons.length,
-    deals: deals.length,
-    countries,
-    offers
-  });
+  // Generated catalogs are chunked because GitHub blocks individual files over 100 MiB.
+  // Chunks are country-scoped so the app only downloads the selected region.
+  fs.rmSync(path.join(OUT_DIR, "catalog"), { recursive: true, force: true });
 
-  writeJson("coupons.json", {
-    version: 3,
-    generatedAt,
-    effectiveDate: today,
-    total: coupons.length,
-    countries,
-    offers: coupons
-  });
+  const offerChunks = writeChunkedCatalog("offers", offers, generatedAt, today);
+  const couponChunks = writeChunkedCatalog("coupons", coupons, generatedAt, today);
+  const dealChunks = writeChunkedCatalog("deals", deals, generatedAt, today);
 
-  writeJson("deals.json", {
-    version: 3,
-    generatedAt,
-    effectiveDate: today,
-    total: deals.length,
-    countries,
-    offers: deals
-  });
+  writeCatalogIndex("offers.json", "offers", offers, generatedAt, today, offerChunks);
+  writeCatalogIndex("coupons.json", "coupons", coupons, generatedAt, today, couponChunks);
+  writeCatalogIndex("deals.json", "deals", deals, generatedAt, today, dealChunks);
 
   writeJson("merchants.json", {
     version: 3,
@@ -936,7 +1020,13 @@ async function main() {
       coupons: "coupons.json",
       deals: "deals.json",
       merchants: "merchants.json",
-      categories: "categories.json"
+      categories: "categories.json",
+      catalogDirectory: "catalog/"
+    },
+    chunking: {
+      maxChunkBytes: 8 * 1024 * 1024,
+      countryScoped: true,
+      appLoadsSelectedRegionOnly: true
     }
   });
 
