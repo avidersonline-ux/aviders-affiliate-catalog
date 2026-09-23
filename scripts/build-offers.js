@@ -153,15 +153,18 @@ function campaignIdFromRow(row) {
 }
 
 function partnerFromRow(row) {
-  return (
-    firstValue(row, [
-      "AF-partner",
-      "AF Partner",
-      "Affiliate Partner",
-      "affiliate_partner",
-      "af_partner"
-    ]) || "Unknown"
-  );
+  const explicitPartner = firstValue(row, [
+    "AF-partner",
+    "AF Partner",
+    "Affiliate Partner",
+    "affiliate_partner",
+    "af_partner"
+  ]);
+
+  // The existing CSV predates AF-partner and is the Cuelinks feed.
+  // Treat missing partner values as Cuelinks until the column is populated,
+  // so the existing catalog is not accidentally bypassed by the new routing.
+  return explicitPartner || "Cuelinks";
 }
 
 function isCuelinksPartner(value) {
