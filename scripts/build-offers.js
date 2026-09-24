@@ -5,6 +5,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const SOURCE = path.join(ROOT, "source", "offers.csv");
 const OUT_DIR = path.join(ROOT, "data");
+const COUNTRY_CONFIG = path.join(ROOT, "config", "countries.json");
 
 const CUELINKS_API_KEY = String(process.env.CUELINKS_API_KEY || "").trim();
 const CUELINKS_API_BASE = String(
@@ -17,7 +18,24 @@ function fail(message) {
 }
 
 if (!fs.existsSync(SOURCE)) fail("Missing source/offers.csv");
+if (!fs.existsSync(COUNTRY_CONFIG)) fail("Missing config/countries.json");
 if (!CUELINKS_API_KEY) fail("Missing CUELINKS_API_KEY environment variable");
+
+function loadAllowedCountries() {
+  const raw = JSON.parse(fs.readFileSync(COUNTRY_CONFIG, "utf8"));
+  const countries = Array.isArray(raw) ? raw : raw.countries;
+  if (!Array.isArray(countries) || countries.length === 0) {
+    fail("config/countries.json must contain a non-empty countries array");
+  }
+
+  const aliases = { UK: "GB" };
+  return new Set(
+    countries
+      .map(value => String(value || "").trim().toUpperCase())
+      .map(value => aliases[value] || value)
+      .filter(Boolean)
+  );
+}
 
 function parseCsv(text) {
   const rows = [];
@@ -152,19 +170,23 @@ function campaignIdFromRow(row) {
   return null;
 }
 
-function partnerFromRow(row) {
-  const explicitPartner = firstValue(row, [
-    "AF-partner",
-    "AF Partner",
-    "Affiliate Partner",
-    "affiliate_partner",
-    "af_partner"
-  ]);
+const PARTNER_COLUMNS = [
+  "AF-partner",
+  "AF Partner",
+  "AF affiliate",
+  "AF Affiliate",
+  "Affiliate Partner",
+  "affiliate_partner",
+  "af_partner"
+];
 
-  // The existing CSV predates AF-partner and is the Cuelinks feed.
-  // Treat missing partner values as Cuelinks until the column is populated,
-  // so the existing catalog is not accidentally bypassed by the new routing.
-  return explicitPartner || "Cuelinks";
+function partnerFromRow(row, hasPartnerColumn) {
+  const explicitPartner = firstValue(row, PARTNER_COLUMNS);
+  if (explicitPartner) return explicitPartner;
+
+  // Blank partner values remain Cuelinks for backward compatibility.
+  // This preserves the existing ~2K Cuelinks rows without requiring CSV edits.
+  return "Cuelinks";
 }
 
 function isCuelinksPartner(value) {
@@ -770,13 +792,18 @@ function buildCountryStats(offers) {
 async function main() {
   const today = todayIndia();
   const rows = parseCsv(fs.readFileSync(SOURCE, "utf8"));
+  const allowedCountries = loadAllowedCountries();
+  const csvHasPartnerColumn = rows.some(row =>
+    PARTNER_COLUMNS.some(key => Object.prototype.hasOwnProperty.call(row, key))
+  );
 
   console.log(
     JSON.stringify(
       {
         step: "cuelinks_and_multi_partner_build_start",
         sourceRows: rows.length,
-        effectiveDate: today
+        effectiveDate: today,
+        allowedCountries: [...allowedCountries]
       },
       null,
       2
@@ -819,16 +846,11 @@ async function main() {
   const expanded = [];
 
   for (const row of rows) {
-    const partner = partnerFromRow(row);
-    const partnerWasMissing = !firstValue(row, [
-      "AF-partner",
-      "AF Partner",
-      "Affiliate Partner",
-      "affiliate_partner",
-      "af_partner"
-    ]);
+    const partner = partnerFromRow(row, csvHasPartnerColumn);
 
-    if (partnerWasMissing) csvRowsWithoutPartner++;
+    if (!firstValue(row, PARTNER_COLUMNS)) {
+      csvRowsWithoutPartner++;
+    }
 
     if (isCuelinksPartner(partner)) {
       csvCuelinksRows++;
@@ -857,6 +879,8 @@ async function main() {
       let produced = false;
 
       for (const country of countries) {
+        if (!allowedCountries.has(String(country.iso || "").toUpperCase())) continue;
+
         const offer = normalizeCsvRow(row, today, campaign, country, partner);
         if (!offer) continue;
 
@@ -872,6 +896,11 @@ async function main() {
     csvNonCuelinksRows++;
 
     const country = countryFromRow(row);
+
+    if (!country || !allowedCountries.has(String(country.iso || "").toUpperCase())) {
+      continue;
+    }
+
     const offer = normalizeCsvRow(row, today, null, country, partner);
 
     if (offer) {
@@ -907,6 +936,8 @@ async function main() {
     let produced = false;
 
     for (const country of countries) {
+      if (!allowedCountries.has(String(country.iso || "").toUpperCase())) continue;
+
       const offer = normalizeCuelinksApiOffer(
         apiOffer,
         today,
@@ -1013,6 +1044,7 @@ async function main() {
     merchants: merchants.length,
     categories: categories.length,
     countries: countries.length,
+    allowedCountries: [...allowedCountries],
     countryBreakdown: countries,
 
     files: {
