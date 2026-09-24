@@ -1,10 +1,10 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-23T23:21:54.561Z",
-  "effectiveDate": "2026-09-24",
+  "generatedAt": "2026-09-24T20:47:33.077Z",
+  "effectiveDate": "2026-09-25",
   "kind": "coupons",
-  "total": 18293,
-  "coupons": 18293,
+  "total": 18271,
+  "coupons": 18271,
   "deals": 0,
   "countries": [
     {
@@ -1224,8 +1224,8 @@
       "id": "252",
       "name": "India",
       "slug": "india",
-      "offerCount": 675,
-      "couponCount": 675,
+      "offerCount": 654,
+      "couponCount": 654,
       "dealCount": 0,
       "chunks": [
         "data/catalog/coupons/in/in-001.json"
@@ -1608,8 +1608,8 @@
       "id": "159",
       "name": "Malaysia",
       "slug": "malaysia",
-      "offerCount": 74,
-      "couponCount": 74,
+      "offerCount": 73,
+      "couponCount": 73,
       "dealCount": 0,
       "chunks": [
         "data/catalog/coupons/my/my-001.json"
@@ -2436,8 +2436,8 @@
       "id": "199",
       "name": "Singapore",
       "slug": "singapore",
-      "offerCount": 80,
-      "couponCount": 80,
+      "offerCount": 79,
+      "couponCount": 79,
       "dealCount": 0,
       "chunks": [
         "data/catalog/coupons/sg/sg-001.json"
@@ -2888,6 +2888,18 @@
       ]
     },
     {
+      "iso": null,
+      "id": null,
+      "name": "unknown",
+      "slug": "unknown",
+      "offerCount": 1,
+      "couponCount": 1,
+      "dealCount": 0,
+      "chunks": [
+        "data/catalog/coupons/unknown/unknown-001.json"
+      ]
+    },
+    {
       "iso": "UY",
       "id": "234",
       "name": "Uruguay",
@@ -3261,6 +3273,7 @@
     "data/catalog/coupons/gb/gb-001.json",
     "data/catalog/coupons/us/us-001.json",
     "data/catalog/coupons/um/um-001.json",
+    "data/catalog/coupons/unknown/unknown-001.json",
     "data/catalog/coupons/uy/uy-001.json",
     "data/catalog/coupons/uz/uz-001.json",
     "data/catalog/coupons/vu/vu-001.json",
