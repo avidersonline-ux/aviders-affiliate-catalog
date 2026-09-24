@@ -184,9 +184,9 @@ function partnerFromRow(row, hasPartnerColumn) {
   const explicitPartner = firstValue(row, PARTNER_COLUMNS);
   if (explicitPartner) return explicitPartner;
 
-  // Legacy CSVs without a partner column are treated as Cuelinks.
-  // Once a partner column exists, a blank value is not silently treated as Cuelinks.
-  return hasPartnerColumn ? null : "Cuelinks";
+  // Blank partner values remain Cuelinks for backward compatibility.
+  // This preserves the existing ~2K Cuelinks rows without requiring CSV edits.
+  return "Cuelinks";
 }
 
 function isCuelinksPartner(value) {
@@ -848,9 +848,8 @@ async function main() {
   for (const row of rows) {
     const partner = partnerFromRow(row, csvHasPartnerColumn);
 
-    if (!partner) {
+    if (!firstValue(row, PARTNER_COLUMNS)) {
       csvRowsWithoutPartner++;
-      continue;
     }
 
     if (isCuelinksPartner(partner)) {
