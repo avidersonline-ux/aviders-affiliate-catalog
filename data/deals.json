@@ -1,11 +1,11 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-24T23:53:07.949Z",
-  "effectiveDate": "2026-09-25",
+  "generatedAt": "2026-09-25T21:33:36.891Z",
+  "effectiveDate": "2026-09-26",
   "kind": "deals",
-  "total": 3981,
+  "total": 4000,
   "coupons": 0,
-  "deals": 3981,
+  "deals": 4000,
   "countries": [
     {
       "iso": "CA",
@@ -36,9 +36,9 @@
       "id": "57",
       "name": "Germany",
       "slug": "germany",
-      "offerCount": 312,
+      "offerCount": 311,
       "couponCount": 0,
-      "dealCount": 312,
+      "dealCount": 311,
       "chunks": [
         "data/catalog/deals/de/de-001.json"
       ]
@@ -48,9 +48,9 @@
       "id": "252",
       "name": "India",
       "slug": "india",
-      "offerCount": 1210,
+      "offerCount": 1235,
       "couponCount": 0,
-      "dealCount": 1210,
+      "dealCount": 1235,
       "chunks": [
         "data/catalog/deals/in/in-001.json"
       ]
@@ -60,9 +60,9 @@
       "id": "110",
       "name": "Italy",
       "slug": "italy",
-      "offerCount": 284,
+      "offerCount": 283,
       "couponCount": 0,
-      "dealCount": 284,
+      "dealCount": 283,
       "chunks": [
         "data/catalog/deals/it/it-001.json"
       ]
@@ -72,9 +72,9 @@
       "id": "180",
       "name": "Poland",
       "slug": "poland",
-      "offerCount": 268,
+      "offerCount": 267,
       "couponCount": 0,
-      "dealCount": 268,
+      "dealCount": 267,
       "chunks": [
         "data/catalog/deals/pl/pl-001.json"
       ]
@@ -96,9 +96,9 @@
       "id": "198",
       "name": "Sweden",
       "slug": "sweden",
-      "offerCount": 268,
+      "offerCount": 267,
       "couponCount": 0,
-      "dealCount": 268,
+      "dealCount": 267,
       "chunks": [
         "data/catalog/deals/se/se-001.json"
       ]
@@ -108,9 +108,9 @@
       "id": "77",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "offerCount": 346,
+      "offerCount": 345,
       "couponCount": 0,
-      "dealCount": 346,
+      "dealCount": 345,
       "chunks": [
         "data/catalog/deals/gb/gb-001.json"
       ]
@@ -120,9 +120,9 @@
       "id": "233",
       "name": "United States",
       "slug": "united-states",
-      "offerCount": 387,
+      "offerCount": 386,
       "couponCount": 0,
-      "dealCount": 387,
+      "dealCount": 386,
       "chunks": [
         "data/catalog/deals/us/us-001.json"
       ]
