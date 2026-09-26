@@ -1,16 +1,16 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-25T21:33:36.891Z",
-  "effectiveDate": "2026-09-26",
-  "total": 284,
+  "generatedAt": "2026-09-26T21:07:59.835Z",
+  "effectiveDate": "2026-09-27",
+  "total": 285,
   "merchants": [
     {
       "id": "acer",
       "name": "Acer",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4360/medium/logo20250811-880075-1u1ka4n.jpg?1754923198",
-      "offerCount": 5,
+      "offerCount": 10,
       "couponCount": 1,
-      "dealCount": 4
+      "dealCount": 9
     },
     {
       "id": "adcreative-ai",
@@ -104,9 +104,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 15,
+      "offerCount": 16,
       "couponCount": 8,
-      "dealCount": 7
+      "dealCount": 8
     },
     {
       "id": "anantara",
@@ -123,6 +123,14 @@
       "offerCount": 4,
       "couponCount": 0,
       "dealCount": 4
+    },
+    {
+      "id": "antinorm",
+      "name": "Antinorm",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/80707/medium/image_%283%29.png?1789691873",
+      "offerCount": 5,
+      "couponCount": 0,
+      "dealCount": 5
     },
     {
       "id": "appsumo",
@@ -160,9 +168,9 @@
       "id": "asus-india",
       "name": "Asus India",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11211/medium/New_Project_-_2025-06-10T163442.719.png?1749573309",
-      "offerCount": 8,
+      "offerCount": 7,
       "couponCount": 0,
-      "dealCount": 8
+      "dealCount": 7
     },
     {
       "id": "avidlove",
@@ -203,6 +211,14 @@
       "offerCount": 19,
       "couponCount": 12,
       "dealCount": 7
+    },
+    {
+      "id": "biba",
+      "name": "Biba",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2172/medium/logo20250811-2184298-s4ecop.jpg?1754923730",
+      "offerCount": 4,
+      "couponCount": 0,
+      "dealCount": 4
     },
     {
       "id": "big-muscle",
@@ -592,8 +608,8 @@
       "id": "firstcry",
       "name": "Firstcry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/49/medium/FC-Logo-big_store_tagline.png?1582738700",
-      "offerCount": 29,
-      "couponCount": 29,
+      "offerCount": 28,
+      "couponCount": 28,
       "dealCount": 0
     },
     {
@@ -808,9 +824,9 @@
       "id": "hok-makeup",
       "name": "HOK Makeup",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5204/original/Hok_MakeUp.png?1681733021",
-      "offerCount": 15,
+      "offerCount": 14,
       "couponCount": 2,
-      "dealCount": 13
+      "dealCount": 12
     },
     {
       "id": "homestyler",
@@ -1384,17 +1400,17 @@
       "id": "nykaa-beauty",
       "name": "Nykaa Beauty",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/891/medium/open-uri20260422-2537676-1o7bz54.?1776856444",
-      "offerCount": 16,
+      "offerCount": 15,
       "couponCount": 8,
-      "dealCount": 8
+      "dealCount": 7
     },
     {
       "id": "nykaa-fashion",
       "name": "Nykaa Fashion",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3907/original/logo20250811-2184298-4zslyg.jpg?1754903847",
-      "offerCount": 29,
+      "offerCount": 28,
       "couponCount": 24,
-      "dealCount": 5
+      "dealCount": 4
     },
     {
       "id": "ogl-move",
@@ -1464,9 +1480,9 @@
       "id": "oyela",
       "name": "Oyela",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/7366/original/Screenshot_2024-07-25_183635.png?1721912971",
-      "offerCount": 13,
+      "offerCount": 12,
       "couponCount": 2,
-      "dealCount": 11
+      "dealCount": 10
     },
     {
       "id": "pacdora",
@@ -1488,8 +1504,8 @@
       "id": "pandas-box",
       "name": "Pandas Box",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80625/medium/Screenshot_2026-09-15_121634.png?1789474795",
-      "offerCount": 9,
-      "couponCount": 2,
+      "offerCount": 8,
+      "couponCount": 1,
       "dealCount": 7
     },
     {
@@ -1528,9 +1544,9 @@
       "id": "picwish",
       "name": "Picwish",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/30376/original/New_Project_-_2025-12-16T131659.688.png?1765871235",
-      "offerCount": 130,
+      "offerCount": 120,
       "couponCount": 0,
-      "dealCount": 130
+      "dealCount": 120
     },
     {
       "id": "plum-goodness",
@@ -1544,8 +1560,8 @@
       "id": "plush",
       "name": "Plush",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5050/medium/New_Project_%2856%29.png?1672421085",
-      "offerCount": 5,
-      "couponCount": 3,
+      "offerCount": 4,
+      "couponCount": 2,
       "dealCount": 2
     },
     {
@@ -2160,9 +2176,9 @@
       "id": "voyage-eyewear",
       "name": "Voyage Eyewear",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36661/original/New_Project_-_2025-12-04T141151.692.png?1764837728",
-      "offerCount": 3,
+      "offerCount": 8,
       "couponCount": 1,
-      "dealCount": 2
+      "dealCount": 7
     },
     {
       "id": "wakeup",
@@ -2267,14 +2283,6 @@
       "offerCount": 2,
       "couponCount": 0,
       "dealCount": 2
-    },
-    {
-      "id": "zop",
-      "name": "ZOP",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/32803/medium/download.png?1755622359",
-      "offerCount": 1,
-      "couponCount": 0,
-      "dealCount": 1
     }
   ]
 }
