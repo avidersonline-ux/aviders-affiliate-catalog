@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-26T21:07:59.835Z",
-  "effectiveDate": "2026-09-27",
+  "generatedAt": "2026-09-27T21:19:38.982Z",
+  "effectiveDate": "2026-09-28",
   "total": 19,
   "categories": [
     {
@@ -42,16 +42,16 @@
     {
       "id": "entertainment",
       "name": "Entertainment",
-      "offerCount": 390,
-      "couponCount": 98,
-      "dealCount": 292
+      "offerCount": 386,
+      "couponCount": 95,
+      "dealCount": 291
     },
     {
       "id": "fashion",
       "name": "Fashion",
-      "offerCount": 676,
+      "offerCount": 675,
       "couponCount": 137,
-      "dealCount": 539
+      "dealCount": 538
     },
     {
       "id": "finance",
@@ -63,16 +63,16 @@
     {
       "id": "flowers-and-gifts",
       "name": "Flowers & Gifts",
-      "offerCount": 51,
+      "offerCount": 50,
       "couponCount": 14,
-      "dealCount": 37
+      "dealCount": 36
     },
     {
       "id": "food-and-grocery",
       "name": "Food & Grocery",
-      "offerCount": 393,
-      "couponCount": 106,
-      "dealCount": 287
+      "offerCount": 389,
+      "couponCount": 103,
+      "dealCount": 286
     },
     {
       "id": "gaming",
@@ -112,9 +112,9 @@
     {
       "id": "services",
       "name": "Services",
-      "offerCount": 906,
-      "couponCount": 184,
-      "dealCount": 722
+      "offerCount": 901,
+      "couponCount": 181,
+      "dealCount": 720
     },
     {
       "id": "software",

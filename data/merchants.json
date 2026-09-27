@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-26T21:07:59.835Z",
-  "effectiveDate": "2026-09-27",
+  "generatedAt": "2026-09-27T21:19:38.982Z",
+  "effectiveDate": "2026-09-28",
   "total": 285,
   "merchants": [
     {
@@ -128,9 +128,9 @@
       "id": "antinorm",
       "name": "Antinorm",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80707/medium/image_%283%29.png?1789691873",
-      "offerCount": 5,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 5
+      "dealCount": 3
     },
     {
       "id": "appsumo",
@@ -1400,8 +1400,8 @@
       "id": "nykaa-beauty",
       "name": "Nykaa Beauty",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/891/medium/open-uri20260422-2537676-1o7bz54.?1776856444",
-      "offerCount": 15,
-      "couponCount": 8,
+      "offerCount": 12,
+      "couponCount": 5,
       "dealCount": 7
     },
     {
@@ -2256,9 +2256,9 @@
       "id": "zandu-care",
       "name": "Zandu Care",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4199/medium/Zandu.jpeg?1601914580",
-      "offerCount": 2,
+      "offerCount": 1,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 1
     },
     {
       "id": "zen-hotels",
