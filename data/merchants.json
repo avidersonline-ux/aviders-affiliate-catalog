@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-27T21:19:38.982Z",
-  "effectiveDate": "2026-09-28",
-  "total": 285,
+  "generatedAt": "2026-09-28T23:15:21.956Z",
+  "effectiveDate": "2026-09-29",
+  "total": 286,
   "merchants": [
     {
       "id": "acer",
@@ -104,8 +104,8 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 16,
-      "couponCount": 8,
+      "offerCount": 23,
+      "couponCount": 15,
       "dealCount": 8
     },
     {
@@ -323,14 +323,6 @@
       "offerCount": 4,
       "couponCount": 0,
       "dealCount": 4
-    },
-    {
-      "id": "campus-shoes",
-      "name": "Campus Shoes",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5589/original/New_Project_-_2023-10-20T152258.998.png?1697795593",
-      "offerCount": 15,
-      "couponCount": 5,
-      "dealCount": 10
     },
     {
       "id": "caprese",
@@ -840,9 +832,9 @@
       "id": "hyugalife",
       "name": "Hyugalife",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5280/medium/logo20250811-2181357-1o3pevk.jpg?1754923504",
-      "offerCount": 22,
+      "offerCount": 23,
       "couponCount": 4,
-      "dealCount": 18
+      "dealCount": 19
     },
     {
       "id": "ibacosmetics",
@@ -992,8 +984,8 @@
       "id": "khadi-natural",
       "name": "khadi Natural",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36458/medium/New_Project_-_2025-12-02T185508.098.png?1764701723",
-      "offerCount": 8,
-      "couponCount": 6,
+      "offerCount": 9,
+      "couponCount": 7,
       "dealCount": 2
     },
     {
@@ -1019,6 +1011,14 @@
       "offerCount": 14,
       "couponCount": 8,
       "dealCount": 6
+    },
+    {
+      "id": "kingdom-of-white",
+      "name": "Kingdom Of White",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4856/medium/Screenshot_2026-09-28_113419.png?1790595452",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
     },
     {
       "id": "kittl",
@@ -1144,9 +1144,9 @@
       "id": "linenclub",
       "name": "LinenClub",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/57530/original/images_%286%29.jpg?1779694946",
-      "offerCount": 6,
-      "couponCount": 2,
-      "dealCount": 4
+      "offerCount": 8,
+      "couponCount": 3,
+      "dealCount": 5
     },
     {
       "id": "livestorm",
@@ -1320,9 +1320,9 @@
       "id": "mymuse",
       "name": "Mymuse",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5491/original/images.png?1693814580",
-      "offerCount": 23,
-      "couponCount": 11,
-      "dealCount": 12
+      "offerCount": 24,
+      "couponCount": 10,
+      "dealCount": 14
     },
     {
       "id": "mywake",
@@ -1373,6 +1373,14 @@
       "dealCount": 0
     },
     {
+      "id": "norton",
+      "name": "Norton",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3908/original/logo20250811-2184298-hhp9sp.jpg?1754903844",
+      "offerCount": 60,
+      "couponCount": 0,
+      "dealCount": 60
+    },
+    {
       "id": "nuawomen",
       "name": "Nuawomen",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4585/original/New_Project_-_2021-11-29T124047.198_%281%29.png?1638169899",
@@ -1400,9 +1408,9 @@
       "id": "nykaa-beauty",
       "name": "Nykaa Beauty",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/891/medium/open-uri20260422-2537676-1o7bz54.?1776856444",
-      "offerCount": 12,
-      "couponCount": 5,
-      "dealCount": 7
+      "offerCount": 13,
+      "couponCount": 4,
+      "dealCount": 9
     },
     {
       "id": "nykaa-fashion",
@@ -1816,9 +1824,9 @@
       "id": "sleepwell",
       "name": "Sleepwell",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5586/medium/logo20250811-880075-1ytx0zk.jpg?1754923490",
-      "offerCount": 9,
+      "offerCount": 10,
       "couponCount": 1,
-      "dealCount": 8
+      "dealCount": 9
     },
     {
       "id": "sleepycat",
@@ -2200,9 +2208,9 @@
       "id": "wellbeing-nutrition",
       "name": "Wellbeing Nutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4469/original/New_Project_-_2021-07-19T113839.854_%281%29.png?1626675015",
-      "offerCount": 43,
+      "offerCount": 44,
       "couponCount": 9,
-      "dealCount": 34
+      "dealCount": 35
     },
     {
       "id": "wforwoman",
