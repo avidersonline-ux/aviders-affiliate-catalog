@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-30T22:13:48.992Z",
-  "effectiveDate": "2026-10-01",
+  "generatedAt": "2026-10-01T22:40:05.091Z",
+  "effectiveDate": "2026-10-02",
   "source": "source/offers.csv + Cuelinks /offers",
   "sourceRows": 1982,
   "partners": {
@@ -14,27 +14,27 @@
     "accessStatus": "open",
     "campaignsReturned": 1664,
     "campaignsReportedTotal": 1664,
-    "liveOffersReturned": 980,
-    "liveOffersReportedTotal": 980
+    "liveOffersReturned": 989,
+    "liveOffersReportedTotal": 989
   },
   "validation": {
     "csvCuelinksWithoutCampaignId": 0,
-    "csvCuelinksInactiveCampaign": 982,
+    "csvCuelinksInactiveCampaign": 989,
     "csvCuelinksWithoutCountry": 0,
-    "csvCuelinksRejectedByDateOrStatus": 113,
+    "csvCuelinksRejectedByDateOrStatus": 103,
     "csvNonCuelinksRejectedByDateOrStatus": 0,
     "apiOffersWithoutCampaign": 0,
     "apiOffersWithoutCountry": 0,
     "apiOffersRejectedByDate": 18,
-    "csvOffersPublished": 2472,
+    "csvOffersPublished": 2484,
     "apiOffersPublished": 2555,
-    "expandedOffersBeforeDedupe": 5027,
-    "activeOffersAfterDedupe": 5027
+    "expandedOffersBeforeDedupe": 5039,
+    "activeOffersAfterDedupe": 5039
   },
-  "activeOffers": 5027,
-  "coupons": 1244,
-  "deals": 3783,
-  "merchants": 282,
+  "activeOffers": 5039,
+  "coupons": 1239,
+  "deals": 3800,
+  "merchants": 281,
   "categories": 19,
   "countries": 10,
   "allowedCountries": [
@@ -82,9 +82,9 @@
       "iso": "IN",
       "name": "India",
       "slug": "india",
-      "offerCount": 1717,
-      "couponCount": 566,
-      "dealCount": 1151
+      "offerCount": 1729,
+      "couponCount": 561,
+      "dealCount": 1168
     },
     {
       "id": "110",
