@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-01T22:40:05.091Z",
-  "effectiveDate": "2026-10-02",
+  "generatedAt": "2026-10-02T22:12:23.293Z",
+  "effectiveDate": "2026-10-03",
   "total": 281,
   "merchants": [
     {
@@ -976,8 +976,8 @@
       "id": "khadi-natural",
       "name": "khadi Natural",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36458/medium/New_Project_-_2025-12-02T185508.098.png?1764701723",
-      "offerCount": 8,
-      "couponCount": 6,
+      "offerCount": 7,
+      "couponCount": 5,
       "dealCount": 2
     },
     {
@@ -1272,9 +1272,9 @@
       "id": "muscletech",
       "name": "Muscletech",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5259/original/logo20250811-880075-1qz8iqu.jpg?1754903614",
-      "offerCount": 8,
+      "offerCount": 7,
       "couponCount": 3,
-      "dealCount": 5
+      "dealCount": 4
     },
     {
       "id": "my-designation",
@@ -2096,9 +2096,9 @@
       "id": "uniqlo",
       "name": "Uniqlo",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4482/medium/logo20250811-880075-1jz4qbd.jpg?1754923551",
-      "offerCount": 31,
+      "offerCount": 32,
       "couponCount": 0,
-      "dealCount": 31
+      "dealCount": 32
     },
     {
       "id": "uptownie",
