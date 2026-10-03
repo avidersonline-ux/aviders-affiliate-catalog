@@ -1,16 +1,16 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-02T22:12:23.293Z",
-  "effectiveDate": "2026-10-03",
+  "generatedAt": "2026-10-03T21:13:14.392Z",
+  "effectiveDate": "2026-10-04",
   "total": 281,
   "merchants": [
     {
       "id": "acer",
       "name": "Acer",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4360/medium/logo20250811-880075-1u1ka4n.jpg?1754923198",
-      "offerCount": 8,
+      "offerCount": 10,
       "couponCount": 1,
-      "dealCount": 7
+      "dealCount": 9
     },
     {
       "id": "adcreative-ai",
@@ -40,9 +40,9 @@
       "id": "air-india",
       "name": "Air India",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/original/New_Project_-_2024-03-20T124625.923.png?1710919013",
-      "offerCount": 14,
+      "offerCount": 16,
       "couponCount": 8,
-      "dealCount": 6
+      "dealCount": 8
     },
     {
       "id": "air-india-express",
@@ -247,10 +247,10 @@
     {
       "id": "bla-bli-blu",
       "name": "Bla Bli Blu",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/39896/original/New_Project_-_2026-01-19T163158.540.png?1768820532",
-      "offerCount": 6,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/39896/medium/New_Project_-_2026-01-19T163158.540.png?1768840332",
+      "offerCount": 7,
       "couponCount": 0,
-      "dealCount": 6
+      "dealCount": 7
     },
     {
       "id": "blinq",
@@ -271,10 +271,10 @@
     {
       "id": "bookchor",
       "name": "Bookchor",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/40584/original/New_Project_-_2026-02-26T154812.139.png?1772101110",
-      "offerCount": 4,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/40584/medium/New_Project_-_2026-02-26T154812.139.png?1772120910",
+      "offerCount": 5,
       "couponCount": 0,
-      "dealCount": 4
+      "dealCount": 5
     },
     {
       "id": "brand24",
@@ -376,9 +376,9 @@
       "id": "chumbak",
       "name": "Chumbak",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1809/original/Chumbak.png?1489127100",
-      "offerCount": 1,
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 1
+      "dealCount": 4
     },
     {
       "id": "codeyoung",
@@ -544,9 +544,9 @@
       "id": "eternz",
       "name": "Eternz",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37553/medium/New_Project_-_2025-12-26T131817.669.png?1766755116",
-      "offerCount": 11,
+      "offerCount": 12,
       "couponCount": 5,
-      "dealCount": 6
+      "dealCount": 7
     },
     {
       "id": "etravelsim",
@@ -744,9 +744,9 @@
       "id": "hamara-mall",
       "name": "Hamara Mall",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/57751/medium/Logo_For_Hamara_Mall.png?1781184362",
-      "offerCount": 29,
-      "couponCount": 12,
-      "dealCount": 17
+      "offerCount": 27,
+      "couponCount": 11,
+      "dealCount": 16
     },
     {
       "id": "hammer",
@@ -808,9 +808,9 @@
       "id": "hok-makeup",
       "name": "HOK Makeup",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5204/original/Hok_MakeUp.png?1681733021",
-      "offerCount": 12,
+      "offerCount": 15,
       "couponCount": 2,
-      "dealCount": 10
+      "dealCount": 13
     },
     {
       "id": "homestyler",
@@ -1071,10 +1071,10 @@
     {
       "id": "lets-beco",
       "name": "Lets Beco",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5283/original/logo20250811-880075-5c37g3.jpg?1754903585",
-      "offerCount": 7,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5283/medium/logo20250811-880075-5c37g3.jpg?1754923385",
+      "offerCount": 10,
       "couponCount": 0,
-      "dealCount": 7
+      "dealCount": 10
     },
     {
       "id": "levi-s",
@@ -1280,9 +1280,9 @@
       "id": "my-designation",
       "name": "My Designation",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11209/medium/New_Project_-_2025-06-09T114545.620.png?1749469561",
-      "offerCount": 1,
+      "offerCount": 2,
       "couponCount": 0,
-      "dealCount": 1
+      "dealCount": 2
     },
     {
       "id": "mycosiq",
@@ -1296,9 +1296,9 @@
       "id": "mymuse",
       "name": "Mymuse",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5491/original/images.png?1693814580",
-      "offerCount": 23,
+      "offerCount": 22,
       "couponCount": 10,
-      "dealCount": 13
+      "dealCount": 12
     },
     {
       "id": "mywake",
@@ -1480,8 +1480,8 @@
       "id": "palmonas",
       "name": "Palmonas",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11155/original/New_Project_-_2025-04-21T130524.604.png?1745220941",
-      "offerCount": 30,
-      "couponCount": 14,
+      "offerCount": 29,
+      "couponCount": 13,
       "dealCount": 16
     },
     {
@@ -1536,9 +1536,9 @@
       "id": "plum-goodness",
       "name": "Plum Goodness",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4098/original/Plam.png?1593693725",
-      "offerCount": 8,
+      "offerCount": 9,
       "couponCount": 0,
-      "dealCount": 8
+      "dealCount": 9
     },
     {
       "id": "plush",
@@ -1568,8 +1568,8 @@
       "id": "purenutrition",
       "name": "Purenutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36500/medium/pure-nutrition-logo.png?1764782192",
-      "offerCount": 3,
-      "couponCount": 1,
+      "offerCount": 2,
+      "couponCount": 0,
       "dealCount": 2
     },
     {
@@ -1784,9 +1784,9 @@
       "id": "sirona",
       "name": "Sirona",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4604/original/New_Project_-_2021-12-14T160625.079.png?1639478327",
-      "offerCount": 3,
-      "couponCount": 1,
-      "dealCount": 2
+      "offerCount": 5,
+      "couponCount": 2,
+      "dealCount": 3
     },
     {
       "id": "skillshare",
@@ -2207,10 +2207,10 @@
     {
       "id": "wolf-and-badger",
       "name": "Wolf and Badger",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4452/original/New_Project_%2880%29_%281%29.png?1625566498",
-      "offerCount": 20,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4452/medium/New_Project_%2880%29_%281%29.png?1625586298",
+      "offerCount": 60,
       "couponCount": 0,
-      "dealCount": 20
+      "dealCount": 60
     },
     {
       "id": "wonderchef",
