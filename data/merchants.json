@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-03T21:13:14.392Z",
-  "effectiveDate": "2026-10-04",
+  "generatedAt": "2026-10-04T21:22:07.540Z",
+  "effectiveDate": "2026-10-05",
   "total": 281,
   "merchants": [
     {
@@ -200,9 +200,9 @@
       "id": "biba",
       "name": "Biba",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2172/medium/logo20250811-2184298-s4ecop.jpg?1754923730",
-      "offerCount": 9,
+      "offerCount": 8,
       "couponCount": 0,
-      "dealCount": 9
+      "dealCount": 8
     },
     {
       "id": "big-muscle",
@@ -263,18 +263,18 @@
     {
       "id": "boat",
       "name": "Boat",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/medium/New_Project_%2851%29_%281%29.png?1603904021",
-      "offerCount": 13,
-      "couponCount": 8,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/original/New_Project_%2851%29_%281%29.png?1603884221",
+      "offerCount": 12,
+      "couponCount": 7,
       "dealCount": 5
     },
     {
       "id": "bookchor",
       "name": "Bookchor",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/40584/medium/New_Project_-_2026-02-26T154812.139.png?1772120910",
-      "offerCount": 5,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/40584/original/New_Project_-_2026-02-26T154812.139.png?1772101110",
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 5
+      "dealCount": 4
     },
     {
       "id": "brand24",
@@ -1032,8 +1032,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/original/New_Project_-_2025-05-29T172428.907.png?1748519686",
-      "offerCount": 420,
-      "couponCount": 240,
+      "offerCount": 410,
+      "couponCount": 230,
       "dealCount": 180
     },
     {
@@ -2048,8 +2048,8 @@
       "id": "trip-com",
       "name": "Trip.com",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3529/medium/trip.png?1520861735",
-      "offerCount": 90,
-      "couponCount": 60,
+      "offerCount": 80,
+      "couponCount": 50,
       "dealCount": 30
     },
     {
@@ -2208,9 +2208,9 @@
       "id": "wolf-and-badger",
       "name": "Wolf and Badger",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4452/medium/New_Project_%2880%29_%281%29.png?1625586298",
-      "offerCount": 60,
+      "offerCount": 50,
       "couponCount": 0,
-      "dealCount": 60
+      "dealCount": 50
     },
     {
       "id": "wonderchef",
