@@ -1,11 +1,14 @@
 {
-  "version":"2025-10-11T22:34:35Z",
-  "total":34,
+  "version":"2026-10-04T01:12:59Z",
+  "total":27,
   "pageSize":1000,
   "pages":1,
   "index":{
     "top":{
       "Our Trusted Partners":[
+        1
+      ],
+      "Miscellaneous":[
         1
       ]
     },
@@ -13,36 +16,35 @@
       "Our Trusted Partners > Best Credit Cards":[
         1
       ],
+      "Our Trusted Partners > E-commerce brands":[
+        1
+      ],
       "Our Trusted Partners > Exclusive Offers":[
         1
       ],
       "Our Trusted Partners > Today Best Deals":[
         1
-      ],
-      "Our Trusted Partners > E-commerce brands":[
-        1
       ]
     },
     "leaf":{
-      "Our Trusted Partners > Exclusive Offers > Ethnic Deals":[
+      "Our Trusted Partners":[
         1
       ],
-      "Our Trusted Partners > Exclusive Offers > Men's Fashion":[
+      "Our Trusted Partners > Exclusive Offers > membership":[
         1
       ],
-      "Our Trusted Partners > Exclusive Offers > Accessories":[
+      "Miscellaneous":[
         1
       ],
-      "Our Trusted Partners > Exclusive Offers > Super Sellers":[
+      "Mobile Phone":[
+        1
+      ],
+      "Our Trusted Partners > Exclusive Offers > Personal Loan":[
         1
       ]
     },
     "facets":{
-      "audience":{
-        "Men":[
-          1
-        ]
-      }
+      "audience":{}
     }
   }
 }
