@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-04T21:22:07.540Z",
-  "effectiveDate": "2026-10-05",
-  "total": 281,
+  "generatedAt": "2026-10-06T00:02:34.600Z",
+  "effectiveDate": "2026-10-06",
+  "total": 282,
   "merchants": [
     {
       "id": "acer",
@@ -128,9 +128,9 @@
       "id": "appsumo",
       "name": "appsumo",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6271/medium/logo20250811-2184298-v5mupd.jpg?1754923528",
-      "offerCount": 160,
+      "offerCount": 180,
       "couponCount": 0,
-      "dealCount": 160
+      "dealCount": 180
     },
     {
       "id": "aramya",
@@ -216,8 +216,8 @@
       "id": "big-muscles",
       "name": "Big Muscles",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11174/medium/download.png?1747143804",
-      "offerCount": 3,
-      "couponCount": 0,
+      "offerCount": 4,
+      "couponCount": 1,
       "dealCount": 3
     },
     {
@@ -253,6 +253,14 @@
       "dealCount": 7
     },
     {
+      "id": "blackberrys",
+      "name": "blackberrys",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2445/medium/logo20250811-880075-lxteaz.jpg?1754923239",
+      "offerCount": 9,
+      "couponCount": 3,
+      "dealCount": 6
+    },
+    {
       "id": "blinq",
       "name": "Blinq",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/12096/original/download.jpeg?1753192135",
@@ -263,9 +271,9 @@
     {
       "id": "boat",
       "name": "Boat",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/original/New_Project_%2851%29_%281%29.png?1603884221",
-      "offerCount": 12,
-      "couponCount": 7,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/medium/New_Project_%2851%29_%281%29.png?1603904021",
+      "offerCount": 13,
+      "couponCount": 8,
       "dealCount": 5
     },
     {
@@ -312,9 +320,9 @@
       "id": "bytepe",
       "name": "Bytepe",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/66922/medium/Screenshot_2026-07-15_171805.jpg?1784135903",
-      "offerCount": 6,
+      "offerCount": 12,
       "couponCount": 0,
-      "dealCount": 6
+      "dealCount": 12
     },
     {
       "id": "caprese",
@@ -432,8 +440,8 @@
       "id": "crocs",
       "name": "Crocs",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2173/medium/logo20250811-2181357-bpmwdv.jpg?1754923556",
-      "offerCount": 1,
-      "couponCount": 0,
+      "offerCount": 2,
+      "couponCount": 1,
       "dealCount": 1
     },
     {
@@ -824,9 +832,9 @@
       "id": "hyugalife",
       "name": "Hyugalife",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5280/medium/logo20250811-2181357-1o3pevk.jpg?1754923504",
-      "offerCount": 20,
+      "offerCount": 21,
       "couponCount": 3,
-      "dealCount": 17
+      "dealCount": 18
     },
     {
       "id": "ibacosmetics",
@@ -935,10 +943,10 @@
     {
       "id": "jockey",
       "name": "Jockey",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2397/original/image_%287%29_%281%29.png?1785921433",
-      "offerCount": 36,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2397/medium/image_%287%29_%281%29.png?1785941233",
+      "offerCount": 37,
       "couponCount": 2,
-      "dealCount": 34
+      "dealCount": 35
     },
     {
       "id": "junglescout",
@@ -1032,8 +1040,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/original/New_Project_-_2025-05-29T172428.907.png?1748519686",
-      "offerCount": 410,
-      "couponCount": 230,
+      "offerCount": 420,
+      "couponCount": 240,
       "dealCount": 180
     },
     {
@@ -1088,8 +1096,8 @@
       "id": "levis",
       "name": "Levis",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3706/medium/logo20250811-2181357-7sc97.jpg?1754923609",
-      "offerCount": 2,
-      "couponCount": 0,
+      "offerCount": 3,
+      "couponCount": 1,
       "dealCount": 2
     },
     {
@@ -1296,8 +1304,8 @@
       "id": "mymuse",
       "name": "Mymuse",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5491/original/images.png?1693814580",
-      "offerCount": 22,
-      "couponCount": 10,
+      "offerCount": 23,
+      "couponCount": 11,
       "dealCount": 12
     },
     {
@@ -1384,9 +1392,9 @@
       "id": "nykaa-beauty",
       "name": "Nykaa Beauty",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/891/medium/open-uri20260422-2537676-1o7bz54.?1776856444",
-      "offerCount": 7,
+      "offerCount": 6,
       "couponCount": 2,
-      "dealCount": 5
+      "dealCount": 4
     },
     {
       "id": "nykaa-fashion",
@@ -1600,8 +1608,8 @@
       "id": "r-for-rabbit",
       "name": "R for Rabbit",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4726/original/logo20250811-880075-5fgge5.jpg?1754904035",
-      "offerCount": 2,
-      "couponCount": 2,
+      "offerCount": 7,
+      "couponCount": 7,
       "dealCount": 0
     },
     {
@@ -1784,8 +1792,8 @@
       "id": "sirona",
       "name": "Sirona",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4604/original/New_Project_-_2021-12-14T160625.079.png?1639478327",
-      "offerCount": 5,
-      "couponCount": 2,
+      "offerCount": 4,
+      "couponCount": 1,
       "dealCount": 3
     },
     {
@@ -2048,9 +2056,9 @@
       "id": "trip-com",
       "name": "Trip.com",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3529/medium/trip.png?1520861735",
-      "offerCount": 80,
+      "offerCount": 100,
       "couponCount": 50,
-      "dealCount": 30
+      "dealCount": 50
     },
     {
       "id": "trunativ",
@@ -2144,9 +2152,9 @@
       "id": "vijay-sales",
       "name": "Vijay Sales",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4164/medium/Vijay_sales.png?1598010142",
-      "offerCount": 39,
+      "offerCount": 40,
       "couponCount": 5,
-      "dealCount": 34
+      "dealCount": 35
     },
     {
       "id": "voyage-eyewear",
