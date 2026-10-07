@@ -1,20 +1,20 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-06T22:39:11.251Z",
-  "effectiveDate": "2026-10-07",
+  "generatedAt": "2026-10-07T23:04:07.198Z",
+  "effectiveDate": "2026-10-08",
   "kind": "deals",
-  "total": 3982,
+  "total": 4033,
   "coupons": 0,
-  "deals": 3982,
+  "deals": 4033,
   "countries": [
     {
       "iso": "CA",
       "id": "38",
       "name": "Canada",
       "slug": "canada",
-      "offerCount": 316,
+      "offerCount": 318,
       "couponCount": 0,
-      "dealCount": 316,
+      "dealCount": 318,
       "chunks": [
         "data/catalog/deals/ca/ca-001.json"
       ]
@@ -24,9 +24,9 @@
       "id": "75",
       "name": "France",
       "slug": "france",
-      "offerCount": 304,
+      "offerCount": 306,
       "couponCount": 0,
-      "dealCount": 304,
+      "dealCount": 306,
       "chunks": [
         "data/catalog/deals/fr/fr-001.json"
       ]
@@ -36,9 +36,9 @@
       "id": "57",
       "name": "Germany",
       "slug": "germany",
-      "offerCount": 309,
+      "offerCount": 311,
       "couponCount": 0,
-      "dealCount": 309,
+      "dealCount": 311,
       "chunks": [
         "data/catalog/deals/de/de-001.json"
       ]
@@ -48,9 +48,9 @@
       "id": "252",
       "name": "India",
       "slug": "india",
-      "offerCount": 1241,
+      "offerCount": 1274,
       "couponCount": 0,
-      "dealCount": 1241,
+      "dealCount": 1274,
       "chunks": [
         "data/catalog/deals/in/in-001.json"
       ]
@@ -60,9 +60,9 @@
       "id": "110",
       "name": "Italy",
       "slug": "italy",
-      "offerCount": 281,
+      "offerCount": 283,
       "couponCount": 0,
-      "dealCount": 281,
+      "dealCount": 283,
       "chunks": [
         "data/catalog/deals/it/it-001.json"
       ]
@@ -72,9 +72,9 @@
       "id": "180",
       "name": "Poland",
       "slug": "poland",
-      "offerCount": 266,
+      "offerCount": 268,
       "couponCount": 0,
-      "dealCount": 266,
+      "dealCount": 268,
       "chunks": [
         "data/catalog/deals/pl/pl-001.json"
       ]
@@ -84,9 +84,9 @@
       "id": "68",
       "name": "Spain",
       "slug": "spain",
-      "offerCount": 280,
+      "offerCount": 282,
       "couponCount": 0,
-      "dealCount": 280,
+      "dealCount": 282,
       "chunks": [
         "data/catalog/deals/es/es-001.json"
       ]
@@ -96,9 +96,9 @@
       "id": "198",
       "name": "Sweden",
       "slug": "sweden",
-      "offerCount": 266,
+      "offerCount": 268,
       "couponCount": 0,
-      "dealCount": 266,
+      "dealCount": 268,
       "chunks": [
         "data/catalog/deals/se/se-001.json"
       ]
@@ -108,9 +108,9 @@
       "id": "77",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "offerCount": 339,
+      "offerCount": 341,
       "couponCount": 0,
-      "dealCount": 339,
+      "dealCount": 341,
       "chunks": [
         "data/catalog/deals/gb/gb-001.json"
       ]
@@ -120,9 +120,9 @@
       "id": "233",
       "name": "United States",
       "slug": "united-states",
-      "offerCount": 380,
+      "offerCount": 382,
       "couponCount": 0,
-      "dealCount": 380,
+      "dealCount": 382,
       "chunks": [
         "data/catalog/deals/us/us-001.json"
       ]
