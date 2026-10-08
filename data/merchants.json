@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-07T23:04:07.198Z",
-  "effectiveDate": "2026-10-08",
+  "generatedAt": "2026-10-08T23:19:47.253Z",
+  "effectiveDate": "2026-10-09",
   "total": 285,
   "merchants": [
     {
@@ -40,9 +40,9 @@
       "id": "air-india",
       "name": "Air India",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/original/New_Project_-_2024-03-20T124625.923.png?1710919013",
-      "offerCount": 21,
+      "offerCount": 23,
       "couponCount": 12,
-      "dealCount": 9
+      "dealCount": 11
     },
     {
       "id": "air-india-express",
@@ -96,9 +96,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 58,
-      "couponCount": 30,
-      "dealCount": 28
+      "offerCount": 86,
+      "couponCount": 34,
+      "dealCount": 52
     },
     {
       "id": "akasa-air",
@@ -168,9 +168,9 @@
       "id": "asus-india",
       "name": "Asus India",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11211/medium/New_Project_-_2025-06-10T163442.719.png?1749573309",
-      "offerCount": 10,
+      "offerCount": 12,
       "couponCount": 0,
-      "dealCount": 10
+      "dealCount": 12
     },
     {
       "id": "avidlove",
@@ -648,9 +648,9 @@
       "id": "fuelone",
       "name": "FuelOne",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37501/medium/New_Project_-_2025-12-22T121305.879.png?1766405604",
-      "offerCount": 14,
+      "offerCount": 16,
       "couponCount": 5,
-      "dealCount": 9
+      "dealCount": 11
     },
     {
       "id": "full-shine",
@@ -784,8 +784,8 @@
       "id": "healthkart",
       "name": "HealthKart",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/medium/logo20250811-2184298-1hhpoyh.jpg?1754923584",
-      "offerCount": 22,
-      "couponCount": 21,
+      "offerCount": 29,
+      "couponCount": 28,
       "dealCount": 1
     },
     {
@@ -808,8 +808,8 @@
       "id": "hkvitals",
       "name": "Hkvitals",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4486/original/New_Project_-_2021-08-05T170551.551_%281%29.png?1628163430",
-      "offerCount": 22,
-      "couponCount": 12,
+      "offerCount": 23,
+      "couponCount": 13,
       "dealCount": 10
     },
     {
@@ -1287,10 +1287,10 @@
     {
       "id": "muscleblaze",
       "name": "Muscleblaze",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/original/logo20250811-2184298-nkjudb.jpg?1754903831",
-      "offerCount": 11,
-      "couponCount": 11,
-      "dealCount": 0
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/medium/logo20250811-2184298-nkjudb.jpg?1754923631",
+      "offerCount": 22,
+      "couponCount": 14,
+      "dealCount": 8
     },
     {
       "id": "muscletech",
@@ -1920,8 +1920,8 @@
       "id": "tata-cliq",
       "name": "Tata Cliq",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2588/original/tata.png?1495706199",
-      "offerCount": 42,
-      "couponCount": 27,
+      "offerCount": 49,
+      "couponCount": 34,
       "dealCount": 15
     },
     {
@@ -2208,8 +2208,8 @@
       "id": "wellbeing-nutrition",
       "name": "Wellbeing Nutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4469/original/New_Project_-_2021-07-19T113839.854_%281%29.png?1626675015",
-      "offerCount": 43,
-      "couponCount": 9,
+      "offerCount": 44,
+      "couponCount": 10,
       "dealCount": 34
     },
     {
