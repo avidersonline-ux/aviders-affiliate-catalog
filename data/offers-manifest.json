@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-08T23:19:47.253Z",
-  "effectiveDate": "2026-10-09",
+  "generatedAt": "2026-10-09T22:36:46.050Z",
+  "effectiveDate": "2026-10-10",
   "source": "source/offers.csv + Cuelinks /offers",
   "sourceRows": 1982,
   "partners": {
@@ -12,29 +12,29 @@
   "cuelinks": {
     "apiBase": "https://developers.cuelinks.com/pub_api/v3",
     "accessStatus": "open",
-    "campaignsReturned": 1733,
-    "campaignsReportedTotal": 1733,
-    "liveOffersReturned": 1197,
-    "liveOffersReportedTotal": 1197
+    "campaignsReturned": 1729,
+    "campaignsReportedTotal": 1729,
+    "liveOffersReturned": 1240,
+    "liveOffersReportedTotal": 1240
   },
   "validation": {
     "csvCuelinksWithoutCampaignId": 0,
     "csvCuelinksInactiveCampaign": 981,
     "csvCuelinksWithoutCountry": 0,
-    "csvCuelinksRejectedByDateOrStatus": 84,
+    "csvCuelinksRejectedByDateOrStatus": 98,
     "csvNonCuelinksRejectedByDateOrStatus": 0,
     "apiOffersWithoutCampaign": 0,
     "apiOffersWithoutCountry": 0,
     "apiOffersRejectedByDate": 19,
-    "csvOffersPublished": 2547,
-    "apiOffersPublished": 2960,
-    "expandedOffersBeforeDedupe": 5507,
-    "activeOffersAfterDedupe": 5507
+    "csvOffersPublished": 2524,
+    "apiOffersPublished": 3003,
+    "expandedOffersBeforeDedupe": 5527,
+    "activeOffersAfterDedupe": 5526
   },
-  "activeOffers": 5507,
-  "coupons": 1436,
-  "deals": 4071,
-  "merchants": 285,
+  "activeOffers": 5526,
+  "coupons": 1439,
+  "deals": 4087,
+  "merchants": 287,
   "categories": 19,
   "countries": 10,
   "allowedCountries": [
@@ -55,90 +55,90 @@
       "iso": "CA",
       "name": "Canada",
       "slug": "canada",
-      "offerCount": 407,
+      "offerCount": 406,
       "couponCount": 89,
-      "dealCount": 318
+      "dealCount": 317
     },
     {
       "id": "75",
       "iso": "FR",
       "name": "France",
       "slug": "france",
-      "offerCount": 391,
+      "offerCount": 390,
       "couponCount": 85,
-      "dealCount": 306
+      "dealCount": 305
     },
     {
       "id": "57",
       "iso": "DE",
       "name": "Germany",
       "slug": "germany",
-      "offerCount": 401,
+      "offerCount": 400,
       "couponCount": 90,
-      "dealCount": 311
+      "dealCount": 310
     },
     {
       "id": "252",
       "iso": "IN",
       "name": "India",
       "slug": "india",
-      "offerCount": 1961,
-      "couponCount": 649,
-      "dealCount": 1312
+      "offerCount": 1989,
+      "couponCount": 652,
+      "dealCount": 1337
     },
     {
       "id": "110",
       "iso": "IT",
       "name": "Italy",
       "slug": "italy",
-      "offerCount": 370,
+      "offerCount": 369,
       "couponCount": 87,
-      "dealCount": 283
+      "dealCount": 282
     },
     {
       "id": "180",
       "iso": "PL",
       "name": "Poland",
       "slug": "poland",
-      "offerCount": 347,
+      "offerCount": 346,
       "couponCount": 79,
-      "dealCount": 268
+      "dealCount": 267
     },
     {
       "id": "68",
       "iso": "ES",
       "name": "Spain",
       "slug": "spain",
-      "offerCount": 367,
+      "offerCount": 366,
       "couponCount": 85,
-      "dealCount": 282
+      "dealCount": 281
     },
     {
       "id": "198",
       "iso": "SE",
       "name": "Sweden",
       "slug": "sweden",
-      "offerCount": 347,
+      "offerCount": 346,
       "couponCount": 79,
-      "dealCount": 268
+      "dealCount": 267
     },
     {
       "id": "77",
       "iso": "GB",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "offerCount": 430,
+      "offerCount": 429,
       "couponCount": 89,
-      "dealCount": 341
+      "dealCount": 340
     },
     {
       "id": "233",
       "iso": "US",
       "name": "United States",
       "slug": "united-states",
-      "offerCount": 486,
+      "offerCount": 485,
       "couponCount": 104,
-      "dealCount": 382
+      "dealCount": 381
     }
   ],
   "files": {
