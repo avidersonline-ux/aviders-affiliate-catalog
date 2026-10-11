@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-10T21:41:35.577Z",
-  "effectiveDate": "2026-10-11",
+  "generatedAt": "2026-10-11T21:56:01.334Z",
+  "effectiveDate": "2026-10-12",
   "total": 19,
   "categories": [
     {
@@ -35,16 +35,16 @@
     {
       "id": "electronics",
       "name": "Electronics",
-      "offerCount": 214,
+      "offerCount": 213,
       "couponCount": 33,
-      "dealCount": 181
+      "dealCount": 180
     },
     {
       "id": "entertainment",
       "name": "Entertainment",
-      "offerCount": 357,
+      "offerCount": 356,
       "couponCount": 77,
-      "dealCount": 280
+      "dealCount": 279
     },
     {
       "id": "fashion",
@@ -133,9 +133,9 @@
     {
       "id": "travel",
       "name": "Travel",
-      "offerCount": 1458,
+      "offerCount": 1448,
       "couponCount": 753,
-      "dealCount": 705
+      "dealCount": 695
     }
   ]
 }

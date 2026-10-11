@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-10T21:41:35.577Z",
-  "effectiveDate": "2026-10-11",
+  "generatedAt": "2026-10-11T21:56:01.334Z",
+  "effectiveDate": "2026-10-12",
   "total": 287,
   "merchants": [
     {
@@ -1911,10 +1911,10 @@
     {
       "id": "strch",
       "name": "Strch",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/8060/medium/New_Project_-_2024-10-22T181827.494.png?1729621120",
-      "offerCount": 3,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/8060/original/New_Project_-_2024-10-22T181827.494.png?1729601320",
+      "offerCount": 2,
       "couponCount": 0,
-      "dealCount": 3
+      "dealCount": 2
     },
     {
       "id": "sugar-cosmetics",
@@ -2096,9 +2096,9 @@
       "id": "trip-com",
       "name": "Trip.com",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3529/medium/trip.png?1520861735",
-      "offerCount": 90,
+      "offerCount": 80,
       "couponCount": 50,
-      "dealCount": 40
+      "dealCount": 30
     },
     {
       "id": "truebasics",
@@ -2200,9 +2200,9 @@
       "id": "vijay-sales",
       "name": "Vijay Sales",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4164/medium/Vijay_sales.png?1598010142",
-      "offerCount": 51,
+      "offerCount": 50,
       "couponCount": 7,
-      "dealCount": 44
+      "dealCount": 43
     },
     {
       "id": "voyage-eyewear",
