@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-13T00:37:37.323Z",
-  "effectiveDate": "2026-10-13",
-  "total": 281,
+  "generatedAt": "2026-10-13T22:43:15.882Z",
+  "effectiveDate": "2026-10-14",
+  "total": 284,
   "merchants": [
     {
       "id": "acer",
@@ -37,6 +37,14 @@
       "dealCount": 6
     },
     {
+      "id": "air-india",
+      "name": "Air India",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/original/New_Project_-_2024-03-20T124625.923.png?1710919013",
+      "offerCount": 6,
+      "couponCount": 5,
+      "dealCount": 1
+    },
+    {
       "id": "air-india-express",
       "name": "Air India Express",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5195/original/logo20250811-2181357-1w4q0tb.jpg?1754903716",
@@ -51,6 +59,14 @@
       "offerCount": 10,
       "couponCount": 10,
       "dealCount": 0
+    },
+    {
+      "id": "airindia",
+      "name": "Airindia",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/medium/New_Project_-_2024-03-20T124625.923.png?1710938813",
+      "offerCount": 17,
+      "couponCount": 7,
+      "dealCount": 10
     },
     {
       "id": "airpaz",
@@ -88,8 +104,8 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 104,
-      "couponCount": 31,
+      "offerCount": 98,
+      "couponCount": 25,
       "dealCount": 73
     },
     {
@@ -440,9 +456,9 @@
       "id": "croma-retail",
       "name": "Croma Retail",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/201/original/Croma_TATA_with_guideline.jpg?1662727302",
-      "offerCount": 46,
+      "offerCount": 52,
       "couponCount": 1,
-      "dealCount": 45
+      "dealCount": 51
     },
     {
       "id": "decathlon",
@@ -680,9 +696,9 @@
       "id": "gharsoaps",
       "name": "GharSoaps",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/34089/original/Gharsoap.jpeg?1759744885",
-      "offerCount": 23,
+      "offerCount": 24,
       "couponCount": 9,
-      "dealCount": 14
+      "dealCount": 15
     },
     {
       "id": "gitmind",
@@ -712,8 +728,8 @@
       "id": "gonoise",
       "name": "Gonoise",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3278/original/NoiseLogo-01_%281%29.png?1713530556",
-      "offerCount": 26,
-      "couponCount": 8,
+      "offerCount": 27,
+      "couponCount": 9,
       "dealCount": 18
     },
     {
@@ -767,9 +783,9 @@
     {
       "id": "healthkart",
       "name": "HealthKart",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/original/logo20250811-2184298-1hhpoyh.jpg?1754903784",
-      "offerCount": 22,
-      "couponCount": 21,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/medium/logo20250811-2184298-1hhpoyh.jpg?1754923584",
+      "offerCount": 32,
+      "couponCount": 31,
       "dealCount": 1
     },
     {
@@ -911,9 +927,9 @@
     {
       "id": "jaypore",
       "name": "Jaypore",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3081/original/jaypore-logo.png?1491988365",
-      "offerCount": 9,
-      "couponCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3081/medium/jaypore-logo.png?1492008165",
+      "offerCount": 10,
+      "couponCount": 3,
       "dealCount": 7
     },
     {
@@ -989,12 +1005,20 @@
       "dealCount": 2
     },
     {
+      "id": "khadim",
+      "name": "Khadim",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4755/medium/Khadim.png?1791909935",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "kicks-crew",
       "name": "Kicks Crew",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4555/medium/New_Project_-_2021-10-21T164712.407_%281%29.png?1634834916",
-      "offerCount": 20,
+      "offerCount": 30,
       "couponCount": 0,
-      "dealCount": 20
+      "dealCount": 30
     },
     {
       "id": "kickscrew",
@@ -1027,14 +1051,6 @@
       "offerCount": 20,
       "couponCount": 0,
       "dealCount": 20
-    },
-    {
-      "id": "kkday",
-      "name": "KKday",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3429/medium/kkday_%281%29.png?1514398054",
-      "offerCount": 170,
-      "couponCount": 140,
-      "dealCount": 30
     },
     {
       "id": "klook",
@@ -1255,10 +1271,10 @@
     {
       "id": "muscleblaze",
       "name": "Muscleblaze",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/original/logo20250811-2184298-nkjudb.jpg?1754903831",
-      "offerCount": 11,
-      "couponCount": 11,
-      "dealCount": 0
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/medium/logo20250811-2184298-nkjudb.jpg?1754923631",
+      "offerCount": 18,
+      "couponCount": 12,
+      "dealCount": 6
     },
     {
       "id": "muscletech",
@@ -1368,9 +1384,9 @@
       "id": "nykaa-beauty",
       "name": "Nykaa Beauty",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/891/medium/open-uri20260422-2537676-1o7bz54.?1776856444",
-      "offerCount": 6,
+      "offerCount": 7,
       "couponCount": 2,
-      "dealCount": 4
+      "dealCount": 5
     },
     {
       "id": "nykaa-fashion",
@@ -1536,8 +1552,8 @@
       "id": "plush",
       "name": "Plush",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5050/medium/New_Project_%2856%29.png?1672421085",
-      "offerCount": 4,
-      "couponCount": 1,
+      "offerCount": 6,
+      "couponCount": 3,
       "dealCount": 3
     },
     {
@@ -1789,6 +1805,14 @@
       "dealCount": 20
     },
     {
+      "id": "skybags",
+      "name": "Skybags",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3712/medium/Skybags.png?1543598116",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "sleepwell",
       "name": "Sleepwell",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5586/medium/logo20250811-880075-1ytx0zk.jpg?1754923490",
@@ -1840,8 +1864,8 @@
       "id": "soulflower",
       "name": "Soulflower",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3468/original/logo20250811-2184298-87ji4s.jpg?1754903883",
-      "offerCount": 8,
-      "couponCount": 2,
+      "offerCount": 7,
+      "couponCount": 1,
       "dealCount": 6
     },
     {
