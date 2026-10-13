@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-11T21:56:01.334Z",
-  "effectiveDate": "2026-10-12",
-  "total": 287,
+  "generatedAt": "2026-10-13T00:37:37.323Z",
+  "effectiveDate": "2026-10-13",
+  "total": 281,
   "merchants": [
     {
       "id": "acer",
@@ -35,14 +35,6 @@
       "offerCount": 6,
       "couponCount": 0,
       "dealCount": 6
-    },
-    {
-      "id": "air-india",
-      "name": "Air India",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/original/New_Project_-_2024-03-20T124625.923.png?1710919013",
-      "offerCount": 23,
-      "couponCount": 12,
-      "dealCount": 11
     },
     {
       "id": "air-india-express",
@@ -158,19 +150,11 @@
     },
     {
       "id": "asus",
-      "name": "ASUS",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/11211/original/New_Project_-_2025-06-10T163442.719.png?1749553509",
-      "offerCount": 4,
-      "couponCount": 0,
-      "dealCount": 4
-    },
-    {
-      "id": "asus-india",
-      "name": "Asus India",
+      "name": "asus",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11211/medium/New_Project_-_2025-06-10T163442.719.png?1749573309",
-      "offerCount": 12,
+      "offerCount": 16,
       "couponCount": 0,
-      "dealCount": 12
+      "dealCount": 16
     },
     {
       "id": "avidlove",
@@ -208,9 +192,9 @@
       "id": "bewakoof",
       "name": "Bewakoof",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1918/medium/New_Project_%2837%29_%281%29.png?1602529550",
-      "offerCount": 19,
+      "offerCount": 21,
       "couponCount": 11,
-      "dealCount": 8
+      "dealCount": 10
     },
     {
       "id": "biba",
@@ -429,22 +413,6 @@
       "dealCount": 2
     },
     {
-      "id": "corel",
-      "name": "Corel",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/36423/original/images_%281%29.jpeg?1764746603",
-      "offerCount": 10,
-      "couponCount": 0,
-      "dealCount": 10
-    },
-    {
-      "id": "corel-roxio-and-pinnacle-multimedia-software",
-      "name": "Corel, Roxio & Pinnacle | Multimedia Software",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/36423/medium/images_%281%29.jpeg?1764766403",
-      "offerCount": 10,
-      "couponCount": 0,
-      "dealCount": 10
-    },
-    {
       "id": "coursera",
       "name": "Coursera",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3086/original/Cour.png?1490858917",
@@ -469,11 +437,19 @@
       "dealCount": 1
     },
     {
+      "id": "croma-retail",
+      "name": "Croma Retail",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/201/original/Croma_TATA_with_guideline.jpg?1662727302",
+      "offerCount": 46,
+      "couponCount": 1,
+      "dealCount": 45
+    },
+    {
       "id": "decathlon",
       "name": "Decathlon",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2248/original/download_%281%29.png?1473674858",
-      "offerCount": 8,
-      "couponCount": 2,
+      "offerCount": 7,
+      "couponCount": 1,
       "dealCount": 6
     },
     {
@@ -608,8 +584,8 @@
       "id": "firstcry",
       "name": "Firstcry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/49/original/FC-Logo-big_store_tagline.png?1582718900",
-      "offerCount": 27,
-      "couponCount": 27,
+      "offerCount": 29,
+      "couponCount": 29,
       "dealCount": 0
     },
     {
@@ -623,10 +599,10 @@
     {
       "id": "flower-aura",
       "name": "Flower Aura",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/889/original/logo20250902-1816682-omab3q.jpg?1756809389",
-      "offerCount": 7,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/889/medium/logo20250902-1816682-omab3q.jpg?1756829189",
+      "offerCount": 8,
       "couponCount": 3,
-      "dealCount": 4
+      "dealCount": 5
     },
     {
       "id": "fly-fairly",
@@ -791,9 +767,9 @@
     {
       "id": "healthkart",
       "name": "HealthKart",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/medium/logo20250811-2184298-1hhpoyh.jpg?1754923584",
-      "offerCount": 34,
-      "couponCount": 33,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/original/logo20250811-2184298-1hhpoyh.jpg?1754903784",
+      "offerCount": 22,
+      "couponCount": 21,
       "dealCount": 1
     },
     {
@@ -816,9 +792,9 @@
       "id": "hkvitals",
       "name": "Hkvitals",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4486/original/New_Project_-_2021-08-05T170551.551_%281%29.png?1628163430",
-      "offerCount": 23,
+      "offerCount": 24,
       "couponCount": 13,
-      "dealCount": 10
+      "dealCount": 11
     },
     {
       "id": "hok-makeup",
@@ -864,9 +840,9 @@
       "id": "indian-gifts-portal",
       "name": "Indian Gifts Portal",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1850/original/New_Project_-_2024-04-08T181136.528.png?1712580112",
-      "offerCount": 4,
+      "offerCount": 5,
       "couponCount": 1,
-      "dealCount": 3
+      "dealCount": 4
     },
     {
       "id": "indulgeo-essentials",
@@ -984,9 +960,9 @@
       "id": "kapiva",
       "name": "Kapiva",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3949/original/kapiva.png?1579089755",
-      "offerCount": 16,
+      "offerCount": 17,
       "couponCount": 7,
-      "dealCount": 9
+      "dealCount": 10
     },
     {
       "id": "kenaz-perfumes",
@@ -1064,8 +1040,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/original/New_Project_-_2025-05-29T172428.907.png?1748519686",
-      "offerCount": 450,
-      "couponCount": 270,
+      "offerCount": 440,
+      "couponCount": 260,
       "dealCount": 180
     },
     {
@@ -1173,14 +1149,6 @@
       "dealCount": 0
     },
     {
-      "id": "lot-polish-airlines",
-      "name": "LOT Polish Airlines",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/11139/original/download.jpg?1744024494",
-      "offerCount": 20,
-      "couponCount": 0,
-      "dealCount": 20
-    },
-    {
       "id": "luvlap",
       "name": "Luvlap",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/56288/original/channels4_profile.jpg?1776774659",
@@ -1208,14 +1176,6 @@
       "id": "marathonwatch",
       "name": "Marathonwatch",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/29593/original/New_Project_-_2025-12-12T103616.479.png?1765516005",
-      "offerCount": 40,
-      "couponCount": 0,
-      "dealCount": 40
-    },
-    {
-      "id": "marcopolohotels",
-      "name": "Marcopolohotels",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/21299/original/marco-polo-hotels-vector-logo.png?1759138965",
       "offerCount": 40,
       "couponCount": 0,
       "dealCount": 40
@@ -1295,10 +1255,10 @@
     {
       "id": "muscleblaze",
       "name": "Muscleblaze",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/medium/logo20250811-2184298-nkjudb.jpg?1754923631",
-      "offerCount": 22,
-      "couponCount": 14,
-      "dealCount": 8
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/original/logo20250811-2184298-nkjudb.jpg?1754903831",
+      "offerCount": 11,
+      "couponCount": 11,
+      "dealCount": 0
     },
     {
       "id": "muscletech",
@@ -1328,9 +1288,9 @@
       "id": "mymuse",
       "name": "Mymuse",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5491/original/images.png?1693814580",
-      "offerCount": 19,
+      "offerCount": 20,
       "couponCount": 8,
-      "dealCount": 11
+      "dealCount": 12
     },
     {
       "id": "mywake",
@@ -1379,14 +1339,6 @@
       "offerCount": 2,
       "couponCount": 2,
       "dealCount": 0
-    },
-    {
-      "id": "norton",
-      "name": "Norton",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3908/original/logo20250811-2184298-hhp9sp.jpg?1754903844",
-      "offerCount": 60,
-      "couponCount": 0,
-      "dealCount": 60
     },
     {
       "id": "nuawomen",
@@ -1627,14 +1579,6 @@
       "offerCount": 1,
       "couponCount": 0,
       "dealCount": 1
-    },
-    {
-      "id": "qustodio",
-      "name": "Qustodio",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3872/medium/qustodio-logo.png?1566994443",
-      "offerCount": 10,
-      "couponCount": 0,
-      "dealCount": 10
     },
     {
       "id": "r-for-rabbit",
@@ -1896,8 +1840,8 @@
       "id": "soulflower",
       "name": "Soulflower",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3468/original/logo20250811-2184298-87ji4s.jpg?1754903883",
-      "offerCount": 7,
-      "couponCount": 1,
+      "offerCount": 8,
+      "couponCount": 2,
       "dealCount": 6
     },
     {
@@ -2232,8 +2176,8 @@
       "id": "wellbeing-nutrition",
       "name": "Wellbeing Nutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4469/original/New_Project_-_2021-07-19T113839.854_%281%29.png?1626675015",
-      "offerCount": 35,
-      "couponCount": 1,
+      "offerCount": 39,
+      "couponCount": 5,
       "dealCount": 34
     },
     {
@@ -2267,6 +2211,14 @@
       "offerCount": 50,
       "couponCount": 0,
       "dealCount": 50
+    },
+    {
+      "id": "world-of-asaya",
+      "name": "World of Asaya",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6458/original/New_Project_-_2024-04-16T124642.979.png?1713251824",
+      "offerCount": 9,
+      "couponCount": 0,
+      "dealCount": 9
     },
     {
       "id": "world-of-warships",
