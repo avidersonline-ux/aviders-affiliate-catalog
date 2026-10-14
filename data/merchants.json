@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-13T22:43:15.882Z",
-  "effectiveDate": "2026-10-14",
-  "total": 284,
+  "generatedAt": "2026-10-14T21:39:24.670Z",
+  "effectiveDate": "2026-10-15",
+  "total": 290,
   "merchants": [
     {
       "id": "acer",
@@ -104,9 +104,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 98,
+      "offerCount": 97,
       "couponCount": 25,
-      "dealCount": 73
+      "dealCount": 72
     },
     {
       "id": "akasa-air",
@@ -232,8 +232,8 @@
       "id": "big-muscles",
       "name": "Big Muscles",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11174/medium/download.png?1747143804",
-      "offerCount": 3,
-      "couponCount": 1,
+      "offerCount": 2,
+      "couponCount": 0,
       "dealCount": 2
     },
     {
@@ -368,9 +368,9 @@
       "id": "cashify",
       "name": "Cashify",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3433/medium/Cashify.png?1511896634",
-      "offerCount": 3,
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 3
+      "dealCount": 4
     },
     {
       "id": "castmagic",
@@ -392,9 +392,9 @@
       "id": "cellecor",
       "name": "Cellecor",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5976/original/New_Project_-_2024-01-17T131304.401.png?1705477531",
-      "offerCount": 3,
-      "couponCount": 1,
-      "dealCount": 2
+      "offerCount": 5,
+      "couponCount": 2,
+      "dealCount": 3
     },
     {
       "id": "cheapoair",
@@ -648,9 +648,9 @@
       "id": "fuelone",
       "name": "FuelOne",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37501/medium/New_Project_-_2025-12-22T121305.879.png?1766405604",
-      "offerCount": 14,
+      "offerCount": 12,
       "couponCount": 3,
-      "dealCount": 11
+      "dealCount": 9
     },
     {
       "id": "full-shine",
@@ -720,8 +720,8 @@
       "id": "godrej-interio",
       "name": "Godrej Interio",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/238/original/godrej-interio_logo.gif?1352180117",
-      "offerCount": 13,
-      "couponCount": 0,
+      "offerCount": 14,
+      "couponCount": 1,
       "dealCount": 13
     },
     {
@@ -776,9 +776,9 @@
       "id": "havells",
       "name": "Havells",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3956/medium/Havelles.png?1579881690",
-      "offerCount": 7,
+      "offerCount": 9,
       "couponCount": 4,
-      "dealCount": 3
+      "dealCount": 5
     },
     {
       "id": "healthkart",
@@ -888,9 +888,9 @@
       "id": "instax-fujifilm",
       "name": "Instax Fujifilm",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11191/medium/New_Project_-_2025-05-28T172950.517.png?1748453405",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "iproyal",
@@ -1085,6 +1085,14 @@
       "dealCount": 3
     },
     {
+      "id": "kurlon",
+      "name": "kurlon",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7692/medium/download_%2865%29.jpg?1725472449",
+      "offerCount": 2,
+      "couponCount": 1,
+      "dealCount": 1
+    },
+    {
       "id": "lavieworld",
       "name": "Lavieworld",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/58001/medium/Screenshot_2026-06-23_171206.jpg?1782234744",
@@ -1171,6 +1179,14 @@
       "offerCount": 3,
       "couponCount": 1,
       "dealCount": 2
+    },
+    {
+      "id": "magzter",
+      "name": "Magzter",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2394/medium/magzterLogo.png?1448562802",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
     },
     {
       "id": "makemytrip-hotels",
@@ -1271,18 +1287,18 @@
     {
       "id": "muscleblaze",
       "name": "Muscleblaze",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/medium/logo20250811-2184298-nkjudb.jpg?1754923631",
-      "offerCount": 18,
-      "couponCount": 12,
-      "dealCount": 6
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/original/logo20250811-2184298-nkjudb.jpg?1754903831",
+      "offerCount": 11,
+      "couponCount": 11,
+      "dealCount": 0
     },
     {
       "id": "muscletech",
       "name": "Muscletech",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5259/original/logo20250811-880075-1qz8iqu.jpg?1754903614",
-      "offerCount": 7,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5259/medium/logo20250811-880075-1qz8iqu.jpg?1754923414",
+      "offerCount": 8,
       "couponCount": 3,
-      "dealCount": 4
+      "dealCount": 5
     },
     {
       "id": "my-designation",
@@ -1373,6 +1389,14 @@
       "dealCount": 0
     },
     {
+      "id": "nutriburst",
+      "name": "Nutriburst",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/75540/medium/Screenshot_2026-07-22_212546.png?1784755748",
+      "offerCount": 3,
+      "couponCount": 0,
+      "dealCount": 3
+    },
+    {
       "id": "nykaa",
       "name": "Nykaa",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/891/original/open-uri20260422-2537676-1o7bz54.?1776836644",
@@ -1461,6 +1485,14 @@
       "dealCount": 2
     },
     {
+      "id": "organic-tattva",
+      "name": "Organic Tattva",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/11207/medium/download.jpg?1749233105",
+      "offerCount": 4,
+      "couponCount": 3,
+      "dealCount": 1
+    },
+    {
       "id": "oyela",
       "name": "Oyela",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/7366/original/Screenshot_2024-07-25_183635.png?1721912971",
@@ -1503,9 +1535,9 @@
     {
       "id": "pepe-jeans",
       "name": "Pepe Jeans",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6205/original/New_Project_-_2024-02-28T115304.944.png?1709101402",
-      "offerCount": 6,
-      "couponCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6205/medium/New_Project_-_2024-02-28T115304.944.png?1709121202",
+      "offerCount": 11,
+      "couponCount": 7,
       "dealCount": 4
     },
     {
@@ -1768,9 +1800,9 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 19,
+      "offerCount": 22,
       "couponCount": 0,
-      "dealCount": 19
+      "dealCount": 22
     },
     {
       "id": "sider",
@@ -1893,6 +1925,14 @@
       "dealCount": 5
     },
     {
+      "id": "superyou",
+      "name": "SuperYou",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/80640/medium/image.png?1789562365",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "surveymonkey",
       "name": "SurveyMonkey",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36209/original/images_%2810%29.png?1763966182",
@@ -1952,9 +1992,9 @@
       "id": "the-formal-club",
       "name": "The Formal Club",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/42218/original/New_Project_-_2026-03-12T122839.535.png?1773298742",
-      "offerCount": 3,
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 3
+      "dealCount": 4
     },
     {
       "id": "the-house-of-rare",
@@ -2111,10 +2151,10 @@
     {
       "id": "unipin",
       "name": "Unipin",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7891/original/New_Project_-_2024-10-16T104633.394.png?1729055810",
-      "offerCount": 1,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7891/medium/New_Project_-_2024-10-16T104633.394.png?1729075610",
+      "offerCount": 2,
       "couponCount": 1,
-      "dealCount": 0
+      "dealCount": 1
     },
     {
       "id": "uniqlo",
@@ -2139,6 +2179,14 @@
       "offerCount": 2,
       "couponCount": 0,
       "dealCount": 2
+    },
+    {
+      "id": "vaaree",
+      "name": "Vaaree",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5191/original/apple-icon-152x152_55x.png?1681211527",
+      "offerCount": 15,
+      "couponCount": 1,
+      "dealCount": 14
     },
     {
       "id": "veda-oils",
@@ -2200,8 +2248,8 @@
       "id": "wellbeing-nutrition",
       "name": "Wellbeing Nutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4469/original/New_Project_-_2021-07-19T113839.854_%281%29.png?1626675015",
-      "offerCount": 39,
-      "couponCount": 5,
+      "offerCount": 38,
+      "couponCount": 4,
       "dealCount": 34
     },
     {
