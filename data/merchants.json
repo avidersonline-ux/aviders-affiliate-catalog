@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-14T21:39:24.670Z",
-  "effectiveDate": "2026-10-15",
+  "generatedAt": "2026-10-15T21:20:28.926Z",
+  "effectiveDate": "2026-10-16",
   "total": 290,
   "merchants": [
     {
@@ -64,9 +64,9 @@
       "id": "airindia",
       "name": "Airindia",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/medium/New_Project_-_2024-03-20T124625.923.png?1710938813",
-      "offerCount": 17,
+      "offerCount": 18,
       "couponCount": 7,
-      "dealCount": 10
+      "dealCount": 11
     },
     {
       "id": "airpaz",
@@ -104,9 +104,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 97,
-      "couponCount": 25,
-      "dealCount": 72
+      "offerCount": 94,
+      "couponCount": 24,
+      "dealCount": 70
     },
     {
       "id": "akasa-air",
@@ -184,9 +184,9 @@
       "id": "bacca-bucci",
       "name": "Bacca Bucci",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6566/medium/New_Project_-_2024-05-16T111415.561.png?1715858070",
-      "offerCount": 5,
+      "offerCount": 7,
       "couponCount": 0,
-      "dealCount": 5
+      "dealCount": 7
     },
     {
       "id": "banggood-india",
@@ -270,8 +270,8 @@
     },
     {
       "id": "blackberrys",
-      "name": "blackberrys",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2445/medium/logo20250811-880075-lxteaz.jpg?1754923239",
+      "name": "Blackberrys",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2445/original/logo20250811-880075-lxteaz.jpg?1754903439",
       "offerCount": 9,
       "couponCount": 3,
       "dealCount": 6
@@ -368,9 +368,9 @@
       "id": "cashify",
       "name": "Cashify",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3433/medium/Cashify.png?1511896634",
-      "offerCount": 4,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 4
+      "dealCount": 3
     },
     {
       "id": "castmagic",
@@ -387,14 +387,6 @@
       "offerCount": 30,
       "couponCount": 18,
       "dealCount": 12
-    },
-    {
-      "id": "cellecor",
-      "name": "Cellecor",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5976/original/New_Project_-_2024-01-17T131304.401.png?1705477531",
-      "offerCount": 5,
-      "couponCount": 2,
-      "dealCount": 3
     },
     {
       "id": "cheapoair",
@@ -760,9 +752,9 @@
       "id": "hamara-mall",
       "name": "Hamara Mall",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/57751/medium/Logo_For_Hamara_Mall.png?1781184362",
-      "offerCount": 15,
+      "offerCount": 13,
       "couponCount": 5,
-      "dealCount": 10
+      "dealCount": 8
     },
     {
       "id": "hammer",
@@ -784,8 +776,8 @@
       "id": "healthkart",
       "name": "HealthKart",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/medium/logo20250811-2184298-1hhpoyh.jpg?1754923584",
-      "offerCount": 32,
-      "couponCount": 31,
+      "offerCount": 31,
+      "couponCount": 30,
       "dealCount": 1
     },
     {
@@ -1095,9 +1087,9 @@
     {
       "id": "lavieworld",
       "name": "Lavieworld",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/58001/medium/Screenshot_2026-06-23_171206.jpg?1782234744",
-      "offerCount": 3,
-      "couponCount": 3,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/58001/original/Screenshot_2026-06-23_171206.jpg?1782214944",
+      "offerCount": 2,
+      "couponCount": 2,
       "dealCount": 0
     },
     {
@@ -1408,8 +1400,8 @@
       "id": "nykaa-beauty",
       "name": "Nykaa Beauty",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/891/medium/open-uri20260422-2537676-1o7bz54.?1776856444",
-      "offerCount": 7,
-      "couponCount": 2,
+      "offerCount": 6,
+      "couponCount": 1,
       "dealCount": 5
     },
     {
@@ -1451,6 +1443,14 @@
       "offerCount": 2,
       "couponCount": 2,
       "dealCount": 0
+    },
+    {
+      "id": "only",
+      "name": "Only",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3650/original/only.png?1530166436",
+      "offerCount": 5,
+      "couponCount": 2,
+      "dealCount": 3
     },
     {
       "id": "onspace-ai",
@@ -1584,9 +1584,9 @@
       "id": "plush",
       "name": "Plush",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5050/medium/New_Project_%2856%29.png?1672421085",
-      "offerCount": 6,
+      "offerCount": 5,
       "couponCount": 3,
-      "dealCount": 3
+      "dealCount": 2
     },
     {
       "id": "plush-for-her",
@@ -2216,9 +2216,9 @@
       "id": "vijay-sales",
       "name": "Vijay Sales",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4164/medium/Vijay_sales.png?1598010142",
-      "offerCount": 50,
+      "offerCount": 49,
       "couponCount": 7,
-      "dealCount": 43
+      "dealCount": 42
     },
     {
       "id": "voyage-eyewear",
@@ -2288,9 +2288,9 @@
       "id": "world-of-asaya",
       "name": "World of Asaya",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6458/original/New_Project_-_2024-04-16T124642.979.png?1713251824",
-      "offerCount": 9,
+      "offerCount": 13,
       "couponCount": 0,
-      "dealCount": 9
+      "dealCount": 13
     },
     {
       "id": "world-of-warships",

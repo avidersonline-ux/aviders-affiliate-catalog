@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-14T21:39:24.670Z",
-  "effectiveDate": "2026-10-15",
+  "generatedAt": "2026-10-15T21:20:28.926Z",
+  "effectiveDate": "2026-10-16",
   "total": 19,
   "categories": [
     {
@@ -35,23 +35,23 @@
     {
       "id": "electronics",
       "name": "Electronics",
-      "offerCount": 245,
-      "couponCount": 35,
-      "dealCount": 210
+      "offerCount": 238,
+      "couponCount": 33,
+      "dealCount": 205
     },
     {
       "id": "entertainment",
       "name": "Entertainment",
-      "offerCount": 360,
-      "couponCount": 78,
+      "offerCount": 359,
+      "couponCount": 77,
       "dealCount": 282
     },
     {
       "id": "fashion",
       "name": "Fashion",
       "offerCount": 728,
-      "couponCount": 156,
-      "dealCount": 572
+      "couponCount": 155,
+      "dealCount": 573
     },
     {
       "id": "finance",
@@ -70,9 +70,9 @@
     {
       "id": "food-and-grocery",
       "name": "Food & Grocery",
-      "offerCount": 374,
-      "couponCount": 88,
-      "dealCount": 286
+      "offerCount": 372,
+      "couponCount": 87,
+      "dealCount": 285
     },
     {
       "id": "gaming",
@@ -84,9 +84,9 @@
     {
       "id": "health-and-beauty",
       "name": "Health & Beauty",
-      "offerCount": 736,
+      "offerCount": 742,
       "couponCount": 180,
-      "dealCount": 556
+      "dealCount": 562
     },
     {
       "id": "home-and-kitchen",
@@ -105,16 +105,16 @@
     {
       "id": "others",
       "name": "Others",
-      "offerCount": 199,
+      "offerCount": 197,
       "couponCount": 46,
-      "dealCount": 153
+      "dealCount": 151
     },
     {
       "id": "services",
       "name": "Services",
-      "offerCount": 944,
+      "offerCount": 945,
       "couponCount": 162,
-      "dealCount": 782
+      "dealCount": 783
     },
     {
       "id": "software",
@@ -133,9 +133,9 @@
     {
       "id": "travel",
       "name": "Travel",
-      "offerCount": 1286,
+      "offerCount": 1287,
       "couponCount": 604,
-      "dealCount": 682
+      "dealCount": 683
     }
   ]
 }
