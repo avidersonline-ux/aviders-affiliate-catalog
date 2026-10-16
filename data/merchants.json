@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-15T21:20:28.926Z",
-  "effectiveDate": "2026-10-16",
-  "total": 290,
+  "generatedAt": "2026-10-16T21:04:31.253Z",
+  "effectiveDate": "2026-10-17",
+  "total": 291,
   "merchants": [
     {
       "id": "acer",
@@ -48,8 +48,8 @@
       "id": "air-india-express",
       "name": "Air India Express",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5195/original/logo20250811-2181357-1w4q0tb.jpg?1754903716",
-      "offerCount": 5,
-      "couponCount": 3,
+      "offerCount": 6,
+      "couponCount": 4,
       "dealCount": 2
     },
     {
@@ -128,9 +128,9 @@
       "id": "angara-in",
       "name": "Angara IN",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/78564/medium/Screenshot_2026-08-25_160919.png?1787674186",
-      "offerCount": 4,
-      "couponCount": 0,
-      "dealCount": 4
+      "offerCount": 6,
+      "couponCount": 1,
+      "dealCount": 5
     },
     {
       "id": "antinorm",
@@ -288,8 +288,8 @@
       "id": "boat",
       "name": "Boat",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/medium/New_Project_%2851%29_%281%29.png?1603904021",
-      "offerCount": 19,
-      "couponCount": 13,
+      "offerCount": 18,
+      "couponCount": 12,
       "dealCount": 6
     },
     {
@@ -336,9 +336,9 @@
       "id": "bytepe",
       "name": "Bytepe",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/66922/medium/Screenshot_2026-07-15_171805.jpg?1784135903",
-      "offerCount": 8,
+      "offerCount": 9,
       "couponCount": 0,
-      "dealCount": 8
+      "dealCount": 9
     },
     {
       "id": "campus-shoes",
@@ -472,9 +472,9 @@
       "id": "digihaat",
       "name": "Digihaat",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/56436/medium/Screenshot_2026-04-23_155915.jpg?1776959981",
-      "offerCount": 24,
-      "couponCount": 20,
-      "dealCount": 4
+      "offerCount": 28,
+      "couponCount": 22,
+      "dealCount": 6
     },
     {
       "id": "domain-com",
@@ -752,8 +752,8 @@
       "id": "hamara-mall",
       "name": "Hamara Mall",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/57751/medium/Logo_For_Hamara_Mall.png?1781184362",
-      "offerCount": 13,
-      "couponCount": 5,
+      "offerCount": 14,
+      "couponCount": 6,
       "dealCount": 8
     },
     {
@@ -768,9 +768,9 @@
       "id": "havells",
       "name": "Havells",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3956/medium/Havelles.png?1579881690",
-      "offerCount": 9,
+      "offerCount": 12,
       "couponCount": 4,
-      "dealCount": 5
+      "dealCount": 8
     },
     {
       "id": "healthkart",
@@ -992,8 +992,8 @@
       "id": "khadi-natural",
       "name": "khadi Natural",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36458/medium/New_Project_-_2025-12-02T185508.098.png?1764701723",
-      "offerCount": 7,
-      "couponCount": 5,
+      "offerCount": 8,
+      "couponCount": 6,
       "dealCount": 2
     },
     {
@@ -1048,8 +1048,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/original/New_Project_-_2025-05-29T172428.907.png?1748519686",
-      "offerCount": 440,
-      "couponCount": 260,
+      "offerCount": 510,
+      "couponCount": 330,
       "dealCount": 180
     },
     {
@@ -1096,9 +1096,9 @@
       "id": "lets-beco",
       "name": "Lets Beco",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5283/medium/logo20250811-880075-5c37g3.jpg?1754923385",
-      "offerCount": 9,
+      "offerCount": 10,
       "couponCount": 0,
-      "dealCount": 9
+      "dealCount": 10
     },
     {
       "id": "levi-s",
@@ -1327,10 +1327,10 @@
     {
       "id": "namakwali",
       "name": "Namakwali",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/56047/original/Screenshot_2026-04-16_101350.png?1776314803",
-      "offerCount": 4,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/56047/medium/Screenshot_2026-04-16_101350.png?1776334603",
+      "offerCount": 6,
       "couponCount": 2,
-      "dealCount": 2
+      "dealCount": 4
     },
     {
       "id": "namecheap",
@@ -1512,8 +1512,8 @@
       "id": "palmonas",
       "name": "Palmonas",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11155/medium/New_Project_-_2025-04-21T130524.604.png?1745240741",
-      "offerCount": 33,
-      "couponCount": 17,
+      "offerCount": 35,
+      "couponCount": 19,
       "dealCount": 16
     },
     {
@@ -1639,9 +1639,9 @@
     {
       "id": "rabitat",
       "name": "Rabitat",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/35420/original/New_Project_-_2025-11-11T182406.111.png?1762865663",
-      "offerCount": 2,
-      "couponCount": 0,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/35420/medium/New_Project_-_2025-11-11T182406.111.png?1762885463",
+      "offerCount": 3,
+      "couponCount": 1,
       "dealCount": 2
     },
     {
@@ -1800,9 +1800,17 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 22,
+      "offerCount": 24,
       "couponCount": 0,
-      "dealCount": 22
+      "dealCount": 24
+    },
+    {
+      "id": "shyaway",
+      "name": "shyaway",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2967/medium/logo20250811-880075-psbmwt.jpg?1754923487",
+      "offerCount": 9,
+      "couponCount": 7,
+      "dealCount": 2
     },
     {
       "id": "sider",
@@ -2128,8 +2136,8 @@
       "id": "tyresnmore",
       "name": "Tyresnmore",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37554/original/New_Project_-_2025-12-26T133138.808.png?1766736143",
-      "offerCount": 16,
-      "couponCount": 16,
+      "offerCount": 17,
+      "couponCount": 17,
       "dealCount": 0
     },
     {
@@ -2263,10 +2271,10 @@
     {
       "id": "wild-stone",
       "name": "Wild Stone",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/76497/original/Screenshot_2026-08-02_211009.png?1785685343",
-      "offerCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/76497/medium/Screenshot_2026-08-02_211009.png?1785705143",
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "wishluck",
@@ -2275,14 +2283,6 @@
       "offerCount": 5,
       "couponCount": 1,
       "dealCount": 4
-    },
-    {
-      "id": "wolf-and-badger",
-      "name": "Wolf and Badger",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4452/medium/New_Project_%2880%29_%281%29.png?1625586298",
-      "offerCount": 50,
-      "couponCount": 0,
-      "dealCount": 50
     },
     {
       "id": "world-of-asaya",
@@ -2299,6 +2299,14 @@
       "offerCount": 40,
       "couponCount": 0,
       "dealCount": 40
+    },
+    {
+      "id": "zandu-care",
+      "name": "Zandu Care",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4199/medium/Zandu.jpeg?1601914580",
+      "offerCount": 1,
+      "couponCount": 1,
+      "dealCount": 0
     },
     {
       "id": "zen-hotels",
