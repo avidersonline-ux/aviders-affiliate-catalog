@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-16T21:04:31.253Z",
-  "effectiveDate": "2026-10-17",
+  "generatedAt": "2026-10-17T20:34:16.695Z",
+  "effectiveDate": "2026-10-18",
   "total": 291,
   "merchants": [
     {
@@ -24,9 +24,9 @@
       "id": "adventuras",
       "name": "Adventuras",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37710/medium/Screenshot_2026-01-12_140544.png?1768226759",
-      "offerCount": 2,
+      "offerCount": 1,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 1
     },
     {
       "id": "agaro",
@@ -64,8 +64,8 @@
       "id": "airindia",
       "name": "Airindia",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/medium/New_Project_-_2024-03-20T124625.923.png?1710938813",
-      "offerCount": 18,
-      "couponCount": 7,
+      "offerCount": 17,
+      "couponCount": 6,
       "dealCount": 11
     },
     {
@@ -104,9 +104,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 94,
-      "couponCount": 24,
-      "dealCount": 70
+      "offerCount": 83,
+      "couponCount": 23,
+      "dealCount": 60
     },
     {
       "id": "akasa-air",
@@ -176,17 +176,17 @@
       "id": "avidlove",
       "name": "Avidlove",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9605/medium/New_Project_-_2025-02-21T151654.305.png?1740151028",
-      "offerCount": 30,
+      "offerCount": 40,
       "couponCount": 0,
-      "dealCount": 30
+      "dealCount": 40
     },
     {
       "id": "bacca-bucci",
       "name": "Bacca Bucci",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6566/medium/New_Project_-_2024-05-16T111415.561.png?1715858070",
-      "offerCount": 7,
+      "offerCount": 9,
       "couponCount": 0,
-      "dealCount": 7
+      "dealCount": 9
     },
     {
       "id": "banggood-india",
@@ -552,9 +552,9 @@
       "id": "eternz",
       "name": "Eternz",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37553/medium/New_Project_-_2025-12-26T131817.669.png?1766755116",
-      "offerCount": 12,
+      "offerCount": 11,
       "couponCount": 5,
-      "dealCount": 7
+      "dealCount": 6
     },
     {
       "id": "etravelsim",
@@ -808,9 +808,9 @@
       "id": "hok-makeup",
       "name": "HOK Makeup",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5204/original/Hok_MakeUp.png?1681733021",
-      "offerCount": 17,
+      "offerCount": 15,
       "couponCount": 2,
-      "dealCount": 15
+      "dealCount": 13
     },
     {
       "id": "homestyler",
@@ -1120,9 +1120,9 @@
       "id": "libas",
       "name": "Libas",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4613/medium/logo20250811-2181357-1v0dscf.jpg?1754923613",
-      "offerCount": 9,
+      "offerCount": 8,
       "couponCount": 0,
-      "dealCount": 9
+      "dealCount": 8
     },
     {
       "id": "lifepro",
@@ -1264,9 +1264,9 @@
       "id": "moglix",
       "name": "Moglix",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2536/medium/moglix.jpeg?1758717630",
-      "offerCount": 12,
+      "offerCount": 11,
       "couponCount": 4,
-      "dealCount": 8
+      "dealCount": 7
     },
     {
       "id": "momsco",
@@ -1496,8 +1496,8 @@
       "id": "oyela",
       "name": "Oyela",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/7366/original/Screenshot_2024-07-25_183635.png?1721912971",
-      "offerCount": 11,
-      "couponCount": 2,
+      "offerCount": 12,
+      "couponCount": 3,
       "dealCount": 9
     },
     {
@@ -1520,9 +1520,9 @@
       "id": "pandas-box",
       "name": "Pandas Box",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80625/medium/Screenshot_2026-09-15_121634.png?1789474795",
-      "offerCount": 11,
+      "offerCount": 10,
       "couponCount": 2,
-      "dealCount": 9
+      "dealCount": 8
     },
     {
       "id": "pebblecart",
@@ -1599,10 +1599,10 @@
     {
       "id": "protouch",
       "name": "Protouch",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6208/original/New_Project_-_2024-02-28T172846.531.png?1709121538",
-      "offerCount": 1,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6208/medium/New_Project_-_2024-02-28T172846.531.png?1709141338",
+      "offerCount": 2,
       "couponCount": 0,
-      "dealCount": 1
+      "dealCount": 2
     },
     {
       "id": "purenutrition",
@@ -1832,8 +1832,8 @@
       "id": "sirona",
       "name": "Sirona",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4604/original/New_Project_-_2021-12-14T160625.079.png?1639478327",
-      "offerCount": 5,
-      "couponCount": 2,
+      "offerCount": 4,
+      "couponCount": 1,
       "dealCount": 3
     },
     {
