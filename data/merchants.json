@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-17T20:34:16.695Z",
-  "effectiveDate": "2026-10-18",
-  "total": 291,
+  "generatedAt": "2026-10-18T20:38:55.027Z",
+  "effectiveDate": "2026-10-19",
+  "total": 290,
   "merchants": [
     {
       "id": "acer",
@@ -104,16 +104,16 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 83,
-      "couponCount": 23,
-      "dealCount": 60
+      "offerCount": 80,
+      "couponCount": 22,
+      "dealCount": 58
     },
     {
       "id": "akasa-air",
       "name": "Akasa Air",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/57507/medium/Screenshot_2026-05-21_153125.jpg?1779377765",
-      "offerCount": 4,
-      "couponCount": 1,
+      "offerCount": 3,
+      "couponCount": 0,
       "dealCount": 3
     },
     {
@@ -592,8 +592,8 @@
       "id": "firstcry",
       "name": "Firstcry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/49/original/FC-Logo-big_store_tagline.png?1582718900",
-      "offerCount": 29,
-      "couponCount": 29,
+      "offerCount": 28,
+      "couponCount": 28,
       "dealCount": 0
     },
     {
@@ -776,8 +776,8 @@
       "id": "healthkart",
       "name": "HealthKart",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/medium/logo20250811-2184298-1hhpoyh.jpg?1754923584",
-      "offerCount": 31,
-      "couponCount": 30,
+      "offerCount": 30,
+      "couponCount": 29,
       "dealCount": 1
     },
     {
@@ -1048,8 +1048,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/original/New_Project_-_2025-05-29T172428.907.png?1748519686",
-      "offerCount": 510,
-      "couponCount": 330,
+      "offerCount": 490,
+      "couponCount": 310,
       "dealCount": 180
     },
     {
@@ -1496,8 +1496,8 @@
       "id": "oyela",
       "name": "Oyela",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/7366/original/Screenshot_2024-07-25_183635.png?1721912971",
-      "offerCount": 12,
-      "couponCount": 3,
+      "offerCount": 11,
+      "couponCount": 2,
       "dealCount": 9
     },
     {
@@ -1523,14 +1523,6 @@
       "offerCount": 10,
       "couponCount": 2,
       "dealCount": 8
-    },
-    {
-      "id": "pebblecart",
-      "name": "Pebblecart",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/9507/medium/download_-_2024-12-11T180425.685.png?1733940492",
-      "offerCount": 1,
-      "couponCount": 0,
-      "dealCount": 1
     },
     {
       "id": "pepe-jeans",
@@ -1599,10 +1591,10 @@
     {
       "id": "protouch",
       "name": "Protouch",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6208/medium/New_Project_-_2024-02-28T172846.531.png?1709141338",
-      "offerCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6208/original/New_Project_-_2024-02-28T172846.531.png?1709121538",
+      "offerCount": 1,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 1
     },
     {
       "id": "purenutrition",
@@ -1632,8 +1624,8 @@
       "id": "r-for-rabbit",
       "name": "R for Rabbit",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4726/original/logo20250811-880075-5fgge5.jpg?1754904035",
-      "offerCount": 9,
-      "couponCount": 9,
+      "offerCount": 8,
+      "couponCount": 8,
       "dealCount": 0
     },
     {
@@ -1800,9 +1792,9 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 24,
+      "offerCount": 23,
       "couponCount": 0,
-      "dealCount": 24
+      "dealCount": 23
     },
     {
       "id": "shyaway",
@@ -1960,8 +1952,8 @@
       "id": "tata-cliq",
       "name": "Tata Cliq",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2588/original/tata.png?1495706199",
-      "offerCount": 55,
-      "couponCount": 39,
+      "offerCount": 51,
+      "couponCount": 35,
       "dealCount": 16
     },
     {
@@ -2288,9 +2280,9 @@
       "id": "world-of-asaya",
       "name": "World of Asaya",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6458/original/New_Project_-_2024-04-16T124642.979.png?1713251824",
-      "offerCount": 13,
+      "offerCount": 11,
       "couponCount": 0,
-      "dealCount": 13
+      "dealCount": 11
     },
     {
       "id": "world-of-warships",
