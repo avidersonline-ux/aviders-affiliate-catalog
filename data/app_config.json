@@ -42,6 +42,7 @@
       { "type": "basket_card" },
       { "type": "featured_products" },
       { "type": "recent_viewed" },
+      { "type": "avd_apparels", "title": "AVD Apparels", "enabled": true },
       { "type": "all_products" },
       {
         "type": "ad_banner",
