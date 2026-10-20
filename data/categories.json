@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-19T22:19:41.649Z",
-  "effectiveDate": "2026-10-20",
+  "generatedAt": "2026-10-20T21:35:11.245Z",
+  "effectiveDate": "2026-10-21",
   "total": 19,
   "categories": [
     {
@@ -49,9 +49,9 @@
     {
       "id": "fashion",
       "name": "Fashion",
-      "offerCount": 695,
-      "couponCount": 158,
-      "dealCount": 537
+      "offerCount": 685,
+      "couponCount": 157,
+      "dealCount": 528
     },
     {
       "id": "finance",
@@ -70,9 +70,9 @@
     {
       "id": "food-and-grocery",
       "name": "Food & Grocery",
-      "offerCount": 383,
+      "offerCount": 382,
       "couponCount": 92,
-      "dealCount": 291
+      "dealCount": 290
     },
     {
       "id": "gaming",
@@ -84,9 +84,9 @@
     {
       "id": "health-and-beauty",
       "name": "Health & Beauty",
-      "offerCount": 726,
-      "couponCount": 183,
-      "dealCount": 543
+      "offerCount": 715,
+      "couponCount": 184,
+      "dealCount": 531
     },
     {
       "id": "home-and-kitchen",
@@ -98,23 +98,23 @@
     {
       "id": "mobiles",
       "name": "Mobiles",
-      "offerCount": 18,
+      "offerCount": 17,
       "couponCount": 0,
-      "dealCount": 18
+      "dealCount": 17
     },
     {
       "id": "others",
       "name": "Others",
-      "offerCount": 198,
-      "couponCount": 48,
-      "dealCount": 150
+      "offerCount": 196,
+      "couponCount": 47,
+      "dealCount": 149
     },
     {
       "id": "services",
       "name": "Services",
-      "offerCount": 930,
-      "couponCount": 167,
-      "dealCount": 763
+      "offerCount": 919,
+      "couponCount": 168,
+      "dealCount": 751
     },
     {
       "id": "software",
@@ -126,16 +126,16 @@
     {
       "id": "sports",
       "name": "Sports",
-      "offerCount": 225,
+      "offerCount": 223,
       "couponCount": 56,
-      "dealCount": 169
+      "dealCount": 167
     },
     {
       "id": "travel",
       "name": "Travel",
-      "offerCount": 1264,
+      "offerCount": 1263,
       "couponCount": 622,
-      "dealCount": 642
+      "dealCount": 641
     }
   ]
 }

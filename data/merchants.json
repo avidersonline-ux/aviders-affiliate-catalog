@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-19T22:19:41.649Z",
-  "effectiveDate": "2026-10-20",
+  "generatedAt": "2026-10-20T21:35:11.245Z",
+  "effectiveDate": "2026-10-21",
   "total": 290,
   "merchants": [
     {
@@ -104,9 +104,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 70,
-      "couponCount": 19,
-      "dealCount": 51
+      "offerCount": 48,
+      "couponCount": 18,
+      "dealCount": 30
     },
     {
       "id": "akasa-air",
@@ -168,9 +168,9 @@
       "id": "asus",
       "name": "asus",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11211/medium/New_Project_-_2025-06-10T163442.719.png?1749573309",
-      "offerCount": 16,
+      "offerCount": 15,
       "couponCount": 0,
-      "dealCount": 16
+      "dealCount": 15
     },
     {
       "id": "avidlove",
@@ -336,9 +336,9 @@
       "id": "bytepe",
       "name": "Bytepe",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/66922/medium/Screenshot_2026-07-15_171805.jpg?1784135903",
-      "offerCount": 9,
+      "offerCount": 8,
       "couponCount": 0,
-      "dealCount": 9
+      "dealCount": 8
     },
     {
       "id": "campus-shoes",
@@ -472,9 +472,9 @@
       "id": "digihaat",
       "name": "Digihaat",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/56436/medium/Screenshot_2026-04-23_155915.jpg?1776959981",
-      "offerCount": 28,
+      "offerCount": 27,
       "couponCount": 22,
-      "dealCount": 6
+      "dealCount": 5
     },
     {
       "id": "domain-com",
@@ -808,9 +808,9 @@
       "id": "hok-makeup",
       "name": "HOK Makeup",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5204/original/Hok_MakeUp.png?1681733021",
-      "offerCount": 15,
+      "offerCount": 14,
       "couponCount": 2,
-      "dealCount": 13
+      "dealCount": 12
     },
     {
       "id": "homestyler",
@@ -1472,9 +1472,9 @@
       "id": "oppo-india",
       "name": "Oppo India",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4386/medium/New_Project_%2812%29_%281%29.png?1620826016",
-      "offerCount": 15,
+      "offerCount": 14,
       "couponCount": 0,
-      "dealCount": 15
+      "dealCount": 14
     },
     {
       "id": "organic-mandya",
@@ -1840,9 +1840,9 @@
       "id": "sleepwell",
       "name": "Sleepwell",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5586/medium/logo20250811-880075-1ytx0zk.jpg?1754923490",
-      "offerCount": 15,
+      "offerCount": 13,
       "couponCount": 0,
-      "dealCount": 15
+      "dealCount": 13
     },
     {
       "id": "sleepycat",

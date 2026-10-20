@@ -1,11 +1,11 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-19T22:19:41.649Z",
-  "effectiveDate": "2026-10-20",
+  "generatedAt": "2026-10-20T21:35:11.245Z",
+  "effectiveDate": "2026-10-21",
   "kind": "offers",
-  "total": 5235,
-  "coupons": 1316,
-  "deals": 3919,
+  "total": 5206,
+  "coupons": 1315,
+  "deals": 3891,
   "countries": [
     {
       "iso": "CA",
@@ -48,9 +48,9 @@
       "id": "252",
       "name": "India",
       "slug": "india",
-      "offerCount": 2051,
-      "couponCount": 647,
-      "dealCount": 1404,
+      "offerCount": 2022,
+      "couponCount": 646,
+      "dealCount": 1376,
       "chunks": [
         "data/catalog/offers/in/in-001.json"
       ]
