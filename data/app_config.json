@@ -96,10 +96,24 @@
         "type": "video",
         "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/AVD%20Wild%20collection.mp4",
         "title": "AVD Wild Collection",
-        "description": "Discover a world of rewards and quality products.",
+        "description": "Discover a world of Jungle collection and quality products.",
         "button_text": "EXPLORE NOW",
         "click_action": { "type": "internal_route", "value": "/catalog" }
       },
+      {
+        "id": "suprima_owl_tee",
+        "type": "video",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Suprima%20-%20AVD%20OWL%20Printed%20Tee.mp4",
+        "title": "AVD Premium Tee Collection",
+        "description": "Discover Premium collection and quality products.",
+        "button_text": "EXPLORE NOW",
+        "click_action": {
+          "type": "search",
+          "value": "Owl Tee"
+        }
+      },
+
+
       {
         "id": "eco_friendly_brush",
         "type": "image",
@@ -172,6 +186,18 @@
         "description": "Discover a world of rewards and quality products.",
         "button_text": "EXPLORE NOW",
         "click_action": { "type": "internal_route", "value": "/catalog" }
+      },
+      {
+        "id": "suprima_owl_tee",
+        "type": "video",
+        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Suprima%20-%20AVD%20OWL%20Printed%20Tee.mp4",
+        "title": "AVD Premium Tee Collection",
+        "description": "Discover Premium collection and quality products.",
+        "button_text": "EXPLORE NOW",
+        "click_action": {
+          "type": "search",
+          "value": "Owl Tee"
+        }
       },
       {
         "id": "eco_friendly_brush",
