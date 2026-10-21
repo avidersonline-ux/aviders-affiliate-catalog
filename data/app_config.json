@@ -98,7 +98,7 @@
         "title": "AVD Wild Collection",
         "description": "Discover a world of Jungle collection and quality products.",
         "button_text": "EXPLORE NOW",
-        "click_action": { "type": "internal_route", "value": "/catalog" }
+        "click_action": { "type": "internal_route", "value": "/category/wild-collection" }
       },
       {
         "id": "suprima_owl_tee",
@@ -185,7 +185,7 @@
         "title": "AVD Wild Collection",
         "description": "Discover a world of rewards and quality products.",
         "button_text": "EXPLORE NOW",
-        "click_action": { "type": "internal_route", "value": "/catalog" }
+        "click_action": { "type": "internal_route", "value": "/category/wild-collection" }
       },
       {
         "id": "suprima_owl_tee",
