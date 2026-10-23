@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-22T21:33:07.232Z",
-  "effectiveDate": "2026-10-23",
-  "total": 295,
+  "generatedAt": "2026-10-23T21:22:11.577Z",
+  "effectiveDate": "2026-10-24",
+  "total": 299,
   "merchants": [
     {
       "id": "acer",
@@ -11,6 +11,14 @@
       "offerCount": 12,
       "couponCount": 1,
       "dealCount": 11
+    },
+    {
+      "id": "actbest-ebike",
+      "name": "ACTBEST EBike",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/33305/medium/data.?1777893343",
+      "offerCount": 1,
+      "couponCount": 1,
+      "dealCount": 0
     },
     {
       "id": "adcreative-ai",
@@ -104,9 +112,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 59,
-      "couponCount": 23,
-      "dealCount": 36
+      "offerCount": 60,
+      "couponCount": 21,
+      "dealCount": 39
     },
     {
       "id": "akasa-air",
@@ -136,9 +144,9 @@
       "id": "antinorm",
       "name": "Antinorm",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80707/medium/image_%283%29.png?1789691873",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "appsumo",
@@ -344,9 +352,9 @@
       "id": "bytepe",
       "name": "Bytepe",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/66922/medium/Screenshot_2026-07-15_171805.jpg?1784135903",
-      "offerCount": 8,
+      "offerCount": 7,
       "couponCount": 0,
-      "dealCount": 8
+      "dealCount": 7
     },
     {
       "id": "campus-shoes",
@@ -624,9 +632,9 @@
       "id": "flower-aura",
       "name": "Flower Aura",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/889/medium/logo20250902-1816682-omab3q.jpg?1756829189",
-      "offerCount": 8,
+      "offerCount": 12,
       "couponCount": 3,
-      "dealCount": 5
+      "dealCount": 9
     },
     {
       "id": "fly-fairly",
@@ -727,10 +735,10 @@
     {
       "id": "godrej-interio",
       "name": "Godrej Interio",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/238/original/godrej-interio_logo.gif?1352180117",
-      "offerCount": 14,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/238/medium/godrej-interio_logo.gif?1352199917",
+      "offerCount": 16,
       "couponCount": 1,
-      "dealCount": 13
+      "dealCount": 15
     },
     {
       "id": "gonoise",
@@ -760,9 +768,9 @@
       "id": "hamara-mall",
       "name": "Hamara Mall",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/57751/medium/Logo_For_Hamara_Mall.png?1781184362",
-      "offerCount": 14,
-      "couponCount": 6,
-      "dealCount": 8
+      "offerCount": 20,
+      "couponCount": 9,
+      "dealCount": 11
     },
     {
       "id": "hammer",
@@ -776,9 +784,9 @@
       "id": "havells",
       "name": "Havells",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3956/medium/Havelles.png?1579881690",
-      "offerCount": 15,
+      "offerCount": 16,
       "couponCount": 4,
-      "dealCount": 11
+      "dealCount": 12
     },
     {
       "id": "healthkart",
@@ -1056,8 +1064,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/original/New_Project_-_2025-05-29T172428.907.png?1748519686",
-      "offerCount": 500,
-      "couponCount": 290,
+      "offerCount": 530,
+      "couponCount": 320,
       "dealCount": 210
     },
     {
@@ -1088,16 +1096,16 @@
       "id": "kurlon",
       "name": "kurlon",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/7692/medium/download_%2865%29.jpg?1725472449",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 1,
-      "dealCount": 1
+      "dealCount": 2
     },
     {
       "id": "lavieworld",
       "name": "Lavieworld",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/58001/original/Screenshot_2026-06-23_171206.jpg?1782214944",
-      "offerCount": 2,
-      "couponCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/58001/medium/Screenshot_2026-06-23_171206.jpg?1782234744",
+      "offerCount": 3,
+      "couponCount": 3,
       "dealCount": 0
     },
     {
@@ -1256,17 +1264,17 @@
       "id": "mini-wesst",
       "name": "Mini Wesst",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/55322/medium/New_Project_-_2026-04-06T113127.469.png?1775475122",
-      "offerCount": 3,
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 3
+      "dealCount": 4
     },
     {
       "id": "minus30",
       "name": "minus30",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/40529/original/Screenshot_2026-02-24_140439.png?1771922202",
-      "offerCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/40529/medium/Screenshot_2026-02-24_140439.png?1771942002",
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "mivi",
@@ -1488,9 +1496,9 @@
       "id": "oppo-india",
       "name": "Oppo India",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4386/medium/New_Project_%2812%29_%281%29.png?1620826016",
-      "offerCount": 14,
+      "offerCount": 17,
       "couponCount": 0,
-      "dealCount": 14
+      "dealCount": 17
     },
     {
       "id": "organic-mandya",
@@ -1528,9 +1536,9 @@
       "id": "palmonas",
       "name": "Palmonas",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11155/medium/New_Project_-_2025-04-21T130524.604.png?1745240741",
-      "offerCount": 36,
+      "offerCount": 37,
       "couponCount": 20,
-      "dealCount": 16
+      "dealCount": 17
     },
     {
       "id": "pandas-box",
@@ -1552,9 +1560,9 @@
       "id": "pepe-jeans",
       "name": "Pepe Jeans",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6205/medium/New_Project_-_2024-02-28T115304.944.png?1709121202",
-      "offerCount": 11,
+      "offerCount": 17,
       "couponCount": 7,
-      "dealCount": 4
+      "dealCount": 10
     },
     {
       "id": "pepperfry",
@@ -1576,9 +1584,9 @@
       "id": "petalpastee",
       "name": "Petalpastee",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80103/medium/Screenshot_2026-09-07_165628.png?1788800364",
-      "offerCount": 1,
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 1
+      "dealCount": 4
     },
     {
       "id": "picwish",
@@ -1600,9 +1608,9 @@
       "id": "plum-goodness",
       "name": "Plum Goodness",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4098/medium/Plam.png?1593713525",
-      "offerCount": 12,
+      "offerCount": 13,
       "couponCount": 1,
-      "dealCount": 11
+      "dealCount": 12
     },
     {
       "id": "plush",
@@ -1869,6 +1877,14 @@
       "dealCount": 20
     },
     {
+      "id": "skullcandy-india",
+      "name": "Skullcandy India",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/57469/medium/Screenshot_2026-05-19_120830.png?1779192608",
+      "offerCount": 3,
+      "couponCount": 1,
+      "dealCount": 2
+    },
+    {
       "id": "skybags",
       "name": "Skybags",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3712/medium/Skybags.png?1543598116",
@@ -1973,6 +1989,14 @@
       "dealCount": 20
     },
     {
+      "id": "suvasa",
+      "name": "Suvasa",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/56866/medium/Screenshot_2026-05-14_110400.png?1778757186",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "swiss-beauty",
       "name": "Swiss Beauty",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4957/original/29583-92bc40c674464646.jpg?1666436833",
@@ -2048,8 +2072,8 @@
       "id": "the-man-company",
       "name": "The Man Company",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2514/medium/logo20250811-2184298-15hwf79.jpg?1754923706",
-      "offerCount": 8,
-      "couponCount": 1,
+      "offerCount": 9,
+      "couponCount": 2,
       "dealCount": 7
     },
     {
@@ -2096,9 +2120,9 @@
       "id": "timex",
       "name": "Timex",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4638/medium/New_Project_-_2022-02-09T180721.963.png?1644430086",
-      "offerCount": 12,
+      "offerCount": 13,
       "couponCount": 6,
-      "dealCount": 6
+      "dealCount": 7
     },
     {
       "id": "titan-skinn",
@@ -2181,6 +2205,14 @@
       "dealCount": 0
     },
     {
+      "id": "ulike-uk",
+      "name": "Ulike - UK",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6182/medium/New_Project_-_2024-02-20T173436.002.png?1708450519",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "ultahost",
       "name": "Ultahost",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6396/original/Screenshot_2024-04-10_at_8.39.32_PM.png?1712761831",
@@ -2215,10 +2247,10 @@
     {
       "id": "ustraa",
       "name": "Ustraa",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2067/original/happily-unmarried.png?1548161606",
-      "offerCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2067/medium/happily-unmarried.png?1548181406",
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "vaaree",
@@ -2288,8 +2320,8 @@
       "id": "wellbeing-nutrition",
       "name": "Wellbeing Nutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4469/original/New_Project_-_2021-07-19T113839.854_%281%29.png?1626675015",
-      "offerCount": 35,
-      "couponCount": 1,
+      "offerCount": 36,
+      "couponCount": 2,
       "dealCount": 34
     },
     {
@@ -2320,9 +2352,9 @@
       "id": "world-of-asaya",
       "name": "World of Asaya",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6458/original/New_Project_-_2024-04-16T124642.979.png?1713251824",
-      "offerCount": 12,
+      "offerCount": 14,
       "couponCount": 0,
-      "dealCount": 12
+      "dealCount": 14
     },
     {
       "id": "world-of-warships",
