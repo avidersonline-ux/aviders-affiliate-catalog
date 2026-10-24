@@ -1,16 +1,16 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-23T21:22:11.577Z",
-  "effectiveDate": "2026-10-24",
+  "generatedAt": "2026-10-24T20:45:53.013Z",
+  "effectiveDate": "2026-10-25",
   "total": 299,
   "merchants": [
     {
       "id": "acer",
       "name": "Acer",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4360/medium/logo20250811-880075-1u1ka4n.jpg?1754923198",
-      "offerCount": 12,
+      "offerCount": 11,
       "couponCount": 1,
-      "dealCount": 11
+      "dealCount": 10
     },
     {
       "id": "actbest-ebike",
@@ -112,9 +112,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 60,
+      "offerCount": 54,
       "couponCount": 21,
-      "dealCount": 39
+      "dealCount": 33
     },
     {
       "id": "akasa-air",
@@ -280,9 +280,9 @@
       "id": "bla-bli-blu",
       "name": "Bla Bli Blu",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/39896/medium/New_Project_-_2026-01-19T163158.540.png?1768840332",
-      "offerCount": 7,
+      "offerCount": 9,
       "couponCount": 0,
-      "dealCount": 7
+      "dealCount": 9
     },
     {
       "id": "blackberrys",
@@ -360,8 +360,8 @@
       "id": "campus-shoes",
       "name": "Campus Shoes",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5589/original/New_Project_-_2023-10-20T152258.998.png?1697795593",
-      "offerCount": 11,
-      "couponCount": 3,
+      "offerCount": 10,
+      "couponCount": 2,
       "dealCount": 8
     },
     {
@@ -767,10 +767,10 @@
     {
       "id": "hamara-mall",
       "name": "Hamara Mall",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/57751/medium/Logo_For_Hamara_Mall.png?1781184362",
-      "offerCount": 20,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/57751/original/Logo_For_Hamara_Mall.png?1781164562",
+      "offerCount": 17,
       "couponCount": 9,
-      "dealCount": 11
+      "dealCount": 8
     },
     {
       "id": "hammer",
@@ -920,9 +920,9 @@
       "id": "jaipur-rugs",
       "name": "Jaipur Rugs",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5555/original/New_Project_-_2023-09-27T182120.046.png?1695819098",
-      "offerCount": 6,
+      "offerCount": 9,
       "couponCount": 0,
-      "dealCount": 6
+      "dealCount": 9
     },
     {
       "id": "jartoo",
@@ -1440,9 +1440,9 @@
       "id": "ogl-move",
       "name": "OGL Move",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/14183/medium/Screenshot_2025-12-15_182353.png?1765823082",
-      "offerCount": 48,
+      "offerCount": 56,
       "couponCount": 8,
-      "dealCount": 40
+      "dealCount": 48
     },
     {
       "id": "oglmove",
@@ -1496,9 +1496,9 @@
       "id": "oppo-india",
       "name": "Oppo India",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4386/medium/New_Project_%2812%29_%281%29.png?1620826016",
-      "offerCount": 17,
+      "offerCount": 16,
       "couponCount": 0,
-      "dealCount": 17
+      "dealCount": 16
     },
     {
       "id": "organic-mandya",
@@ -1519,10 +1519,10 @@
     {
       "id": "oyela",
       "name": "Oyela",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7366/original/Screenshot_2024-07-25_183635.png?1721912971",
-      "offerCount": 11,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7366/medium/Screenshot_2024-07-25_183635.png?1721932771",
+      "offerCount": 13,
       "couponCount": 2,
-      "dealCount": 9
+      "dealCount": 11
     },
     {
       "id": "pacdora",
@@ -1544,8 +1544,8 @@
       "id": "pandas-box",
       "name": "Pandas Box",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80625/medium/Screenshot_2026-09-15_121634.png?1789474795",
-      "offerCount": 10,
-      "couponCount": 2,
+      "offerCount": 9,
+      "couponCount": 1,
       "dealCount": 8
     },
     {
@@ -1832,16 +1832,16 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 25,
+      "offerCount": 22,
       "couponCount": 0,
-      "dealCount": 25
+      "dealCount": 22
     },
     {
       "id": "shyaway",
       "name": "shyaway",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2967/medium/logo20250811-880075-psbmwt.jpg?1754923487",
-      "offerCount": 9,
-      "couponCount": 7,
+      "offerCount": 8,
+      "couponCount": 6,
       "dealCount": 2
     },
     {
@@ -1904,8 +1904,8 @@
       "id": "sleepycat",
       "name": "Sleepycat",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4225/medium/logo20250811-880075-l3wr8n.jpg?1754923846",
-      "offerCount": 9,
-      "couponCount": 2,
+      "offerCount": 8,
+      "couponCount": 1,
       "dealCount": 7
     },
     {
@@ -2000,9 +2000,9 @@
       "id": "swiss-beauty",
       "name": "Swiss Beauty",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4957/original/29583-92bc40c674464646.jpg?1666436833",
-      "offerCount": 5,
+      "offerCount": 6,
       "couponCount": 3,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "switcher-studio",
@@ -2368,9 +2368,9 @@
       "id": "zandu-care",
       "name": "Zandu Care",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4199/medium/Zandu.jpeg?1601914580",
-      "offerCount": 1,
+      "offerCount": 3,
       "couponCount": 1,
-      "dealCount": 0
+      "dealCount": 2
     },
     {
       "id": "zen-hotels",
