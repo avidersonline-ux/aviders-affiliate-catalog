@@ -136,19 +136,6 @@
           "value": "astronaut Tee"
         }
       },
-      {
-        "id": "astronaut_tee",
-        "type": "video",
-        "url": "https://pub-d8ced2ea62514912b24e9b0389f4f142.r2.dev/Astronaut%20Tee%20vedio.mp4",
-        "title": "AVD Astronaut Tee Collection",
-        "description": "Discover creative astronaut graphic tees and suprima apparel.",
-        "button_text": "EXPLORE NOW",
-        "click_action": {
-          "type": "search",
-          "value": "Suprima Tees"
-        }
-      },
-
 
       {
         "id": "eco_friendly_brush",
