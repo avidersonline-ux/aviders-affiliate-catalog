@@ -1,10 +1,10 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-25T20:48:11.663Z",
-  "effectiveDate": "2026-10-26",
+  "generatedAt": "2026-10-26T22:38:13.694Z",
+  "effectiveDate": "2026-10-27",
   "kind": "coupons",
-  "total": 1357,
-  "coupons": 1357,
+  "total": 1352,
+  "coupons": 1352,
   "deals": 0,
   "countries": [
     {
@@ -12,8 +12,8 @@
       "id": "38",
       "name": "Canada",
       "slug": "canada",
-      "offerCount": 80,
-      "couponCount": 80,
+      "offerCount": 76,
+      "couponCount": 76,
       "dealCount": 0,
       "chunks": [
         "data/catalog/coupons/ca/ca-001.json"
@@ -48,8 +48,8 @@
       "id": "252",
       "name": "India",
       "slug": "india",
-      "offerCount": 651,
-      "couponCount": 651,
+      "offerCount": 657,
+      "couponCount": 657,
       "dealCount": 0,
       "chunks": [
         "data/catalog/coupons/in/in-001.json"
@@ -108,8 +108,8 @@
       "id": "77",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "offerCount": 80,
-      "couponCount": 80,
+      "offerCount": 76,
+      "couponCount": 76,
       "dealCount": 0,
       "chunks": [
         "data/catalog/coupons/gb/gb-001.json"
@@ -120,8 +120,8 @@
       "id": "233",
       "name": "United States",
       "slug": "united-states",
-      "offerCount": 95,
-      "couponCount": 95,
+      "offerCount": 92,
+      "couponCount": 92,
       "dealCount": 0,
       "chunks": [
         "data/catalog/coupons/us/us-001.json"
