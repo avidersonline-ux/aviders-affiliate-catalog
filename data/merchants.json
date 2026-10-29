@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-28T22:32:19.276Z",
-  "effectiveDate": "2026-10-29",
+  "generatedAt": "2026-10-29T22:43:13.931Z",
+  "effectiveDate": "2026-10-30",
   "total": 294,
   "merchants": [
     {
@@ -296,9 +296,9 @@
       "id": "bla-bli-blu",
       "name": "Bla Bli Blu",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/39896/medium/New_Project_-_2026-01-19T163158.540.png?1768840332",
-      "offerCount": 9,
+      "offerCount": 10,
       "couponCount": 0,
-      "dealCount": 9
+      "dealCount": 10
     },
     {
       "id": "blackberrys",
@@ -392,8 +392,8 @@
       "id": "campus-shoes",
       "name": "Campus Shoes",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5589/original/New_Project_-_2023-10-20T152258.998.png?1697795593",
-      "offerCount": 10,
-      "couponCount": 2,
+      "offerCount": 11,
+      "couponCount": 3,
       "dealCount": 8
     },
     {
@@ -448,6 +448,14 @@
       "id": "controlz-world",
       "name": "ControlZ World",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6632/original/New_Project_-_2025-03-21T114007.202.png?1742537432",
+      "offerCount": 2,
+      "couponCount": 0,
+      "dealCount": 2
+    },
+    {
+      "id": "corel",
+      "name": "corel",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/36423/medium/images_%281%29.jpeg?1764766403",
       "offerCount": 2,
       "couponCount": 0,
       "dealCount": 2
@@ -584,9 +592,9 @@
       "id": "eternz",
       "name": "Eternz",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37553/medium/New_Project_-_2025-12-26T131817.669.png?1766755116",
-      "offerCount": 11,
+      "offerCount": 14,
       "couponCount": 5,
-      "dealCount": 6
+      "dealCount": 9
     },
     {
       "id": "etravelsim",
@@ -800,8 +808,8 @@
       "id": "healthkart",
       "name": "HealthKart",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/medium/logo20250811-2184298-1hhpoyh.jpg?1754923584",
-      "offerCount": 31,
-      "couponCount": 30,
+      "offerCount": 32,
+      "couponCount": 31,
       "dealCount": 1
     },
     {
@@ -864,9 +872,9 @@
       "id": "imyfone",
       "name": "iMyFone",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4830/medium/iMyFone_logo_en_header.png?1700838001",
-      "offerCount": 20,
+      "offerCount": 40,
       "couponCount": 10,
-      "dealCount": 10
+      "dealCount": 30
     },
     {
       "id": "indian-gifts-portal",
@@ -1008,8 +1016,8 @@
       "id": "khadi-natural",
       "name": "khadi Natural",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36458/medium/New_Project_-_2025-12-02T185508.098.png?1764701723",
-      "offerCount": 7,
-      "couponCount": 5,
+      "offerCount": 8,
+      "couponCount": 6,
       "dealCount": 2
     },
     {
@@ -1053,19 +1061,11 @@
       "dealCount": 1
     },
     {
-      "id": "kittl",
-      "name": "Kittl",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/18841/medium/Screenshot_2026-01-23_172917.png?1769189368",
-      "offerCount": 20,
-      "couponCount": 0,
-      "dealCount": 20
-    },
-    {
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/original/New_Project_-_2025-05-29T172428.907.png?1748519686",
-      "offerCount": 540,
-      "couponCount": 320,
+      "offerCount": 550,
+      "couponCount": 330,
       "dealCount": 220
     },
     {
@@ -1112,9 +1112,9 @@
       "id": "lets-beco",
       "name": "Lets Beco",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5283/medium/logo20250811-880075-5c37g3.jpg?1754923385",
-      "offerCount": 10,
+      "offerCount": 11,
       "couponCount": 0,
-      "dealCount": 10
+      "dealCount": 11
     },
     {
       "id": "levi-s",
@@ -1360,8 +1360,8 @@
       "id": "namecheap-us",
       "name": "Namecheap - US",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/197/medium/namecheap.png?1348138797",
-      "offerCount": 5,
-      "couponCount": 0,
+      "offerCount": 9,
+      "couponCount": 4,
       "dealCount": 5
     },
     {
@@ -1416,8 +1416,8 @@
       "id": "nykaa-beauty",
       "name": "Nykaa Beauty",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/891/medium/open-uri20260422-2537676-1o7bz54.?1776856444",
-      "offerCount": 10,
-      "couponCount": 2,
+      "offerCount": 12,
+      "couponCount": 4,
       "dealCount": 8
     },
     {
@@ -1608,9 +1608,9 @@
       "id": "plum-goodness",
       "name": "Plum Goodness",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4098/medium/Plam.png?1593713525",
-      "offerCount": 13,
+      "offerCount": 14,
       "couponCount": 1,
-      "dealCount": 12
+      "dealCount": 13
     },
     {
       "id": "plush",
@@ -1664,9 +1664,9 @@
       "id": "r-for-rabbit",
       "name": "R for Rabbit",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4726/original/logo20250811-880075-5fgge5.jpg?1754904035",
-      "offerCount": 8,
+      "offerCount": 9,
       "couponCount": 8,
-      "dealCount": 0
+      "dealCount": 1
     },
     {
       "id": "rabitat",
@@ -1824,9 +1824,9 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 27,
+      "offerCount": 28,
       "couponCount": 0,
-      "dealCount": 27
+      "dealCount": 28
     },
     {
       "id": "sirona",
@@ -2183,9 +2183,9 @@
     {
       "id": "ultahost",
       "name": "Ultahost",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6396/original/Screenshot_2024-04-10_at_8.39.32_PM.png?1712761831",
-      "offerCount": 80,
-      "couponCount": 0,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6396/medium/Screenshot_2024-04-10_at_8.39.32_PM.png?1712781631",
+      "offerCount": 90,
+      "couponCount": 10,
       "dealCount": 80
     },
     {
@@ -2288,8 +2288,8 @@
       "id": "wellbeing-nutrition",
       "name": "Wellbeing Nutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4469/original/New_Project_-_2021-07-19T113839.854_%281%29.png?1626675015",
-      "offerCount": 36,
-      "couponCount": 2,
+      "offerCount": 37,
+      "couponCount": 3,
       "dealCount": 34
     },
     {

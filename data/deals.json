@@ -1,11 +1,11 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-28T22:32:19.276Z",
-  "effectiveDate": "2026-10-29",
+  "generatedAt": "2026-10-29T22:43:13.931Z",
+  "effectiveDate": "2026-10-30",
   "kind": "deals",
-  "total": 3949,
+  "total": 3959,
   "coupons": 0,
-  "deals": 3949,
+  "deals": 3959,
   "countries": [
     {
       "iso": "CA",
@@ -36,9 +36,9 @@
       "id": "57",
       "name": "Germany",
       "slug": "germany",
-      "offerCount": 279,
+      "offerCount": 281,
       "couponCount": 0,
-      "dealCount": 279,
+      "dealCount": 281,
       "chunks": [
         "data/catalog/deals/de/de-001.json"
       ]
@@ -48,9 +48,9 @@
       "id": "252",
       "name": "India",
       "slug": "india",
-      "offerCount": 1480,
+      "offerCount": 1488,
       "couponCount": 0,
-      "dealCount": 1480,
+      "dealCount": 1488,
       "chunks": [
         "data/catalog/deals/in/in-001.json"
       ]
