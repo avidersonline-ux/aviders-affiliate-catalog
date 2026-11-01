@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-31T21:30:16.469Z",
-  "effectiveDate": "2026-11-01",
+  "generatedAt": "2026-11-01T21:59:02.882Z",
+  "effectiveDate": "2026-11-02",
   "total": 281,
   "merchants": [
     {
@@ -40,8 +40,8 @@
       "id": "air-india",
       "name": "Air India",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/original/New_Project_-_2024-03-20T124625.923.png?1710919013",
-      "offerCount": 6,
-      "couponCount": 5,
+      "offerCount": 7,
+      "couponCount": 6,
       "dealCount": 1
     },
     {
@@ -104,8 +104,8 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 16,
-      "couponCount": 6,
+      "offerCount": 15,
+      "couponCount": 5,
       "dealCount": 10
     },
     {
@@ -168,9 +168,9 @@
       "id": "autofull-us",
       "name": "Autofull US",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/30947/medium/New_Project_-_2026-07-27T105242.690.png?1785149585",
-      "offerCount": 2,
+      "offerCount": 1,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 1
     },
     {
       "id": "avidlove",
@@ -280,8 +280,8 @@
       "id": "blackberrys",
       "name": "Blackberrys",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2445/original/logo20250811-880075-lxteaz.jpg?1754903439",
-      "offerCount": 13,
-      "couponCount": 3,
+      "offerCount": 15,
+      "couponCount": 5,
       "dealCount": 10
     },
     {
@@ -639,10 +639,10 @@
     {
       "id": "fuelone",
       "name": "FuelOne",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/37501/medium/New_Project_-_2025-12-22T121305.879.png?1766405604",
-      "offerCount": 14,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/37501/original/New_Project_-_2025-12-22T121305.879.png?1766385804",
+      "offerCount": 15,
       "couponCount": 5,
-      "dealCount": 9
+      "dealCount": 10
     },
     {
       "id": "full-shine",
@@ -808,8 +808,8 @@
       "id": "homestyler",
       "name": "Homestyler",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/7311/original/download_%281%29.jpeg?1721633845",
-      "offerCount": 40,
-      "couponCount": 10,
+      "offerCount": 30,
+      "couponCount": 0,
       "dealCount": 30
     },
     {
@@ -832,9 +832,9 @@
       "id": "imyfone",
       "name": "iMyFone",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4830/medium/iMyFone_logo_en_header.png?1700838001",
-      "offerCount": 20,
+      "offerCount": 10,
       "couponCount": 0,
-      "dealCount": 20
+      "dealCount": 10
     },
     {
       "id": "indian-gifts-portal",
@@ -1296,8 +1296,8 @@
       "id": "neemans",
       "name": "Neemans",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4107/original/logo20250811-880075-yi4hh6.jpg?1754903642",
-      "offerCount": 8,
-      "couponCount": 3,
+      "offerCount": 7,
+      "couponCount": 2,
       "dealCount": 5
     },
     {
@@ -1496,8 +1496,8 @@
       "id": "pepperfry",
       "name": "Pepperfry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/107/original/logo20250811-2184298-1qs9p3m.jpg?1754903940",
-      "offerCount": 17,
-      "couponCount": 11,
+      "offerCount": 16,
+      "couponCount": 10,
       "dealCount": 6
     },
     {
@@ -1552,9 +1552,9 @@
       "id": "protouch",
       "name": "Protouch",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6208/medium/New_Project_-_2024-02-28T172846.531.png?1709141338",
-      "offerCount": 3,
+      "offerCount": 2,
       "couponCount": 0,
-      "dealCount": 3
+      "dealCount": 2
     },
     {
       "id": "purenutrition",
@@ -1880,8 +1880,8 @@
       "id": "tata-cliq",
       "name": "Tata Cliq",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2588/medium/tata.png?1495725999",
-      "offerCount": 38,
-      "couponCount": 22,
+      "offerCount": 36,
+      "couponCount": 20,
       "dealCount": 16
     },
     {
