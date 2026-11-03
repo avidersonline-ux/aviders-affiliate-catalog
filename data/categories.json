@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-01T21:59:02.882Z",
-  "effectiveDate": "2026-11-02",
+  "generatedAt": "2026-11-03T00:56:25.218Z",
+  "effectiveDate": "2026-11-03",
   "total": 19,
   "categories": [
     {
@@ -14,8 +14,8 @@
     {
       "id": "baby-and-kids",
       "name": "Baby & Kids",
-      "offerCount": 37,
-      "couponCount": 26,
+      "offerCount": 38,
+      "couponCount": 27,
       "dealCount": 11
     },
     {
@@ -42,16 +42,16 @@
     {
       "id": "entertainment",
       "name": "Entertainment",
-      "offerCount": 342,
+      "offerCount": 344,
       "couponCount": 73,
-      "dealCount": 269
+      "dealCount": 271
     },
     {
       "id": "fashion",
       "name": "Fashion",
-      "offerCount": 628,
-      "couponCount": 113,
-      "dealCount": 515
+      "offerCount": 607,
+      "couponCount": 96,
+      "dealCount": 511
     },
     {
       "id": "finance",
@@ -63,16 +63,16 @@
     {
       "id": "flowers-and-gifts",
       "name": "Flowers & Gifts",
-      "offerCount": 60,
-      "couponCount": 7,
+      "offerCount": 61,
+      "couponCount": 8,
       "dealCount": 53
     },
     {
       "id": "food-and-grocery",
       "name": "Food & Grocery",
-      "offerCount": 362,
+      "offerCount": 364,
       "couponCount": 87,
-      "dealCount": 275
+      "dealCount": 277
     },
     {
       "id": "gaming",
@@ -84,23 +84,23 @@
     {
       "id": "health-and-beauty",
       "name": "Health & Beauty",
-      "offerCount": 709,
-      "couponCount": 177,
-      "dealCount": 532
+      "offerCount": 715,
+      "couponCount": 178,
+      "dealCount": 537
     },
     {
       "id": "home-and-kitchen",
       "name": "Home & Kitchen",
-      "offerCount": 98,
+      "offerCount": 96,
       "couponCount": 1,
-      "dealCount": 97
+      "dealCount": 95
     },
     {
       "id": "mobiles",
       "name": "Mobiles",
-      "offerCount": 14,
-      "couponCount": 0,
-      "dealCount": 14
+      "offerCount": 19,
+      "couponCount": 1,
+      "dealCount": 18
     },
     {
       "id": "others",
@@ -112,30 +112,30 @@
     {
       "id": "services",
       "name": "Services",
-      "offerCount": 887,
+      "offerCount": 889,
       "couponCount": 176,
-      "dealCount": 711
+      "dealCount": 713
     },
     {
       "id": "software",
       "name": "Software",
-      "offerCount": 589,
-      "couponCount": 14,
+      "offerCount": 587,
+      "couponCount": 12,
       "dealCount": 575
     },
     {
       "id": "sports",
       "name": "Sports",
-      "offerCount": 203,
-      "couponCount": 52,
-      "dealCount": 151
+      "offerCount": 196,
+      "couponCount": 53,
+      "dealCount": 143
     },
     {
       "id": "travel",
       "name": "Travel",
-      "offerCount": 1161,
-      "couponCount": 542,
-      "dealCount": 619
+      "offerCount": 1191,
+      "couponCount": 562,
+      "dealCount": 629
     }
   ]
 }
