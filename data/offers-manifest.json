@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-03T00:56:25.218Z",
-  "effectiveDate": "2026-11-03",
+  "generatedAt": "2026-11-03T23:18:54.715Z",
+  "effectiveDate": "2026-11-04",
   "source": "source/offers.csv + Cuelinks /offers",
   "sourceRows": 1982,
   "partners": {
@@ -14,27 +14,27 @@
     "accessStatus": "open",
     "campaignsReturned": 1588,
     "campaignsReportedTotal": 1588,
-    "liveOffersReturned": 1085,
-    "liveOffersReportedTotal": 1085
+    "liveOffersReturned": 1105,
+    "liveOffersReportedTotal": 1105
   },
   "validation": {
     "csvCuelinksWithoutCampaignId": 0,
-    "csvCuelinksInactiveCampaign": 997,
+    "csvCuelinksInactiveCampaign": 1000,
     "csvCuelinksWithoutCountry": 0,
-    "csvCuelinksRejectedByDateOrStatus": 88,
+    "csvCuelinksRejectedByDateOrStatus": 85,
     "csvNonCuelinksRejectedByDateOrStatus": 0,
     "apiOffersWithoutCampaign": 0,
     "apiOffersWithoutCountry": 0,
     "apiOffersRejectedByDate": 22,
-    "csvOffersPublished": 2298,
-    "apiOffersPublished": 2430,
-    "expandedOffersBeforeDedupe": 4728,
-    "activeOffersAfterDedupe": 4727
+    "csvOffersPublished": 2288,
+    "apiOffersPublished": 2469,
+    "expandedOffersBeforeDedupe": 4757,
+    "activeOffersAfterDedupe": 4756
   },
-  "activeOffers": 4727,
-  "coupons": 1138,
-  "deals": 3589,
-  "merchants": 280,
+  "activeOffers": 4756,
+  "coupons": 1141,
+  "deals": 3615,
+  "merchants": 283,
   "categories": 19,
   "countries": 10,
   "allowedCountries": [
@@ -55,90 +55,90 @@
       "iso": "CA",
       "name": "Canada",
       "slug": "canada",
-      "offerCount": 332,
-      "couponCount": 65,
-      "dealCount": 267
+      "offerCount": 335,
+      "couponCount": 66,
+      "dealCount": 269
     },
     {
       "id": "75",
       "iso": "FR",
       "name": "France",
       "slug": "france",
-      "offerCount": 321,
-      "couponCount": 65,
-      "dealCount": 256
+      "offerCount": 324,
+      "couponCount": 66,
+      "dealCount": 258
     },
     {
       "id": "57",
       "iso": "DE",
       "name": "Germany",
       "slug": "germany",
-      "offerCount": 332,
-      "couponCount": 69,
-      "dealCount": 263
+      "offerCount": 326,
+      "couponCount": 65,
+      "dealCount": 261
     },
     {
       "id": "252",
       "iso": "IN",
       "name": "India",
       "slug": "india",
-      "offerCount": 1831,
-      "couponCount": 542,
-      "dealCount": 1289
+      "offerCount": 1860,
+      "couponCount": 551,
+      "dealCount": 1309
     },
     {
       "id": "110",
       "iso": "IT",
       "name": "Italy",
       "slug": "italy",
-      "offerCount": 298,
-      "couponCount": 66,
-      "dealCount": 232
+      "offerCount": 292,
+      "couponCount": 62,
+      "dealCount": 230
     },
     {
       "id": "180",
       "iso": "PL",
       "name": "Poland",
       "slug": "poland",
-      "offerCount": 275,
-      "couponCount": 59,
-      "dealCount": 216
+      "offerCount": 278,
+      "couponCount": 60,
+      "dealCount": 218
     },
     {
       "id": "68",
       "iso": "ES",
       "name": "Spain",
       "slug": "spain",
-      "offerCount": 296,
-      "couponCount": 65,
-      "dealCount": 231
+      "offerCount": 299,
+      "couponCount": 66,
+      "dealCount": 233
     },
     {
       "id": "198",
       "iso": "SE",
       "name": "Sweden",
       "slug": "sweden",
-      "offerCount": 275,
-      "couponCount": 59,
-      "dealCount": 216
+      "offerCount": 278,
+      "couponCount": 60,
+      "dealCount": 218
     },
     {
       "id": "77",
       "iso": "GB",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "offerCount": 357,
-      "couponCount": 65,
-      "dealCount": 292
+      "offerCount": 360,
+      "couponCount": 66,
+      "dealCount": 294
     },
     {
       "id": "233",
       "iso": "US",
       "name": "United States",
       "slug": "united-states",
-      "offerCount": 410,
-      "couponCount": 83,
-      "dealCount": 327
+      "offerCount": 404,
+      "couponCount": 79,
+      "dealCount": 325
     }
   ],
   "files": {
