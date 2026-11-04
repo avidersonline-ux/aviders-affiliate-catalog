@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-03T23:18:54.715Z",
-  "effectiveDate": "2026-11-04",
-  "total": 283,
+  "generatedAt": "2026-11-04T23:38:30.667Z",
+  "effectiveDate": "2026-11-05",
+  "total": 286,
   "merchants": [
     {
       "id": "acer",
@@ -119,10 +119,10 @@
     {
       "id": "aldo",
       "name": "Aldo",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5184/original/logo.png?1680695442",
-      "offerCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5184/medium/Screenshot_2026-11-03_183131.png?1793730717",
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 4
     },
     {
       "id": "anantara",
@@ -139,14 +139,6 @@
       "offerCount": 4,
       "couponCount": 1,
       "dealCount": 3
-    },
-    {
-      "id": "antinorm",
-      "name": "Antinorm",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/80707/medium/image_%283%29.png?1789691873",
-      "offerCount": 1,
-      "couponCount": 0,
-      "dealCount": 1
     },
     {
       "id": "appsumo",
@@ -216,8 +208,8 @@
       "id": "bewakoof",
       "name": "Bewakoof",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1918/original/New_Project_%2837%29_%281%29.png?1602509750",
-      "offerCount": 21,
-      "couponCount": 8,
+      "offerCount": 22,
+      "couponCount": 9,
       "dealCount": 13
     },
     {
@@ -352,9 +344,9 @@
       "id": "bytepe",
       "name": "Bytepe",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/66922/medium/Screenshot_2026-07-15_171805.jpg?1784135903",
-      "offerCount": 9,
+      "offerCount": 10,
       "couponCount": 0,
-      "dealCount": 9
+      "dealCount": 10
     },
     {
       "id": "campus-shoes",
@@ -384,8 +376,8 @@
       "id": "cashify",
       "name": "Cashify",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3433/medium/Cashify.png?1511896634",
-      "offerCount": 4,
-      "couponCount": 0,
+      "offerCount": 5,
+      "couponCount": 1,
       "dealCount": 4
     },
     {
@@ -400,6 +392,14 @@
       "id": "cleartrip-flight",
       "name": "Cleartrip Flight",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/29/medium/New_Project_%2834%29.png?1662578863",
+      "offerCount": 2,
+      "couponCount": 2,
+      "dealCount": 0
+    },
+    {
+      "id": "cleartrip-hotels",
+      "name": "Cleartrip Hotels",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/58550/medium/Screenshot_2026-07-06_120052.png?1783339259",
       "offerCount": 2,
       "couponCount": 2,
       "dealCount": 0
@@ -576,9 +576,9 @@
       "id": "expressvpn",
       "name": "ExpressVPN",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/7392/medium/New_Project_-_2024-07-30T124632.310.png?1722343605",
-      "offerCount": 30,
+      "offerCount": 36,
       "couponCount": 12,
-      "dealCount": 18
+      "dealCount": 24
     },
     {
       "id": "eyejack",
@@ -600,8 +600,8 @@
       "id": "firstcry",
       "name": "Firstcry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/49/original/FC-Logo-big_store_tagline.png?1582718900",
-      "offerCount": 24,
-      "couponCount": 24,
+      "offerCount": 25,
+      "couponCount": 25,
       "dealCount": 0
     },
     {
@@ -776,16 +776,16 @@
       "id": "havells",
       "name": "Havells",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3956/medium/Havelles.png?1579881690",
-      "offerCount": 15,
-      "couponCount": 4,
-      "dealCount": 11
+      "offerCount": 17,
+      "couponCount": 5,
+      "dealCount": 12
     },
     {
       "id": "healthkart",
       "name": "HealthKart",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/medium/logo20250811-2184298-1hhpoyh.jpg?1754923584",
-      "offerCount": 35,
-      "couponCount": 34,
+      "offerCount": 31,
+      "couponCount": 30,
       "dealCount": 1
     },
     {
@@ -1040,8 +1040,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/medium/New_Project_-_2025-05-29T172428.907.png?1748539486",
-      "offerCount": 470,
-      "couponCount": 270,
+      "offerCount": 480,
+      "couponCount": 280,
       "dealCount": 200
     },
     {
@@ -1255,9 +1255,9 @@
     {
       "id": "muscleblaze",
       "name": "Muscleblaze",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/medium/logo20250811-2184298-nkjudb.jpg?1754923631",
-      "offerCount": 15,
-      "couponCount": 15,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/original/logo20250811-2184298-nkjudb.jpg?1754903831",
+      "offerCount": 12,
+      "couponCount": 12,
       "dealCount": 0
     },
     {
@@ -1267,6 +1267,14 @@
       "offerCount": 8,
       "couponCount": 3,
       "dealCount": 5
+    },
+    {
+      "id": "my-designation",
+      "name": "My Designation",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/11209/medium/New_Project_-_2025-06-09T114545.620.png?1749469561",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
     },
     {
       "id": "mycosiq",
@@ -1331,6 +1339,14 @@
       "offerCount": 2,
       "couponCount": 2,
       "dealCount": 0
+    },
+    {
+      "id": "nordpass",
+      "name": "Nordpass",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3963/medium/Nordpass.png?1581358263",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
     },
     {
       "id": "nuawomen",
@@ -1415,10 +1431,10 @@
     {
       "id": "onspace-ai",
       "name": "OnSpace AI",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/55426/medium/open-uri20260409-2004774-tmunlb.?1775757794",
-      "offerCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/55426/original/open-uri20260409-2004774-tmunlb.?1775737994",
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 4
     },
     {
       "id": "oppo",
@@ -1488,9 +1504,9 @@
       "id": "pantaloons",
       "name": "Pantaloons",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3941/medium/logo20250811-2184298-1k308c9.jpg?1754923651",
-      "offerCount": 6,
+      "offerCount": 9,
       "couponCount": 4,
-      "dealCount": 2
+      "dealCount": 5
     },
     {
       "id": "pebblecart",
@@ -1571,6 +1587,14 @@
       "offerCount": 1,
       "couponCount": 0,
       "dealCount": 1
+    },
+    {
+      "id": "purevpn",
+      "name": "PureVPN",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3075/medium/logo20250811-2184298-1vzmx96.jpg?1754923660",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
     },
     {
       "id": "quench",
@@ -1672,9 +1696,9 @@
       "id": "safeshellvpn",
       "name": "Safeshellvpn",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/29548/original/New_Project_-_2025-11-17T115926.025.png?1763360998",
-      "offerCount": 30,
+      "offerCount": 40,
       "couponCount": 0,
-      "dealCount": 30
+      "dealCount": 40
     },
     {
       "id": "sakuramobile",
@@ -1696,17 +1720,17 @@
       "id": "sarkar-perfume",
       "name": "Sarkar Perfume",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80201/medium/Screenshot_2026-09-09_185053.png?1788980036",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "sassafras",
       "name": "Sassafras",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5186/medium/New_Project_-_2023-04-06T150112.801.png?1680793296",
-      "offerCount": 1,
+      "offerCount": 2,
       "couponCount": 0,
-      "dealCount": 1
+      "dealCount": 2
     },
     {
       "id": "scarletperiod",
@@ -1752,9 +1776,9 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 14,
+      "offerCount": 16,
       "couponCount": 0,
-      "dealCount": 14
+      "dealCount": 16
     },
     {
       "id": "sirona",
@@ -2240,8 +2264,8 @@
       "id": "zandu-care",
       "name": "Zandu Care",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4199/medium/Zandu.jpeg?1601914580",
-      "offerCount": 3,
-      "couponCount": 1,
+      "offerCount": 6,
+      "couponCount": 4,
       "dealCount": 2
     },
     {
