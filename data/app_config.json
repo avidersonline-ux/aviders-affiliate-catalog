@@ -108,8 +108,8 @@
         "description": "Discover Premium collection and quality products.",
         "button_text": "EXPLORE NOW",
         "click_action": {
-          "type": "search",
-          "value": "Owl Tee"
+          "type": "external_url",
+          "value": "https://aviders.com/shop/aviders-unisex-supima-t-shirt-owl-100-supima-cotton"
         }
       },
       {
@@ -218,8 +218,8 @@
         "description": "Discover Premium collection and quality products.",
         "button_text": "EXPLORE NOW",
         "click_action": {
-          "type": "search",
-          "value": "Owl Tee"
+          "type": "external_url",
+          "value": "https://aviders.com/shop/aviders-unisex-supima-t-shirt-owl-100-supima-cotton"
         }
       },
       {
