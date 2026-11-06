@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-04T23:38:30.667Z",
-  "effectiveDate": "2026-11-05",
+  "generatedAt": "2026-11-05T23:37:19.413Z",
+  "effectiveDate": "2026-11-06",
   "total": 286,
   "merchants": [
     {
@@ -784,8 +784,8 @@
       "id": "healthkart",
       "name": "HealthKart",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/medium/logo20250811-2184298-1hhpoyh.jpg?1754923584",
-      "offerCount": 31,
-      "couponCount": 30,
+      "offerCount": 26,
+      "couponCount": 25,
       "dealCount": 1
     },
     {
@@ -1256,8 +1256,8 @@
       "id": "muscleblaze",
       "name": "Muscleblaze",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/original/logo20250811-2184298-nkjudb.jpg?1754903831",
-      "offerCount": 12,
-      "couponCount": 12,
+      "offerCount": 10,
+      "couponCount": 10,
       "dealCount": 0
     },
     {

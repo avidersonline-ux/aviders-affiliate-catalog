@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-04T23:38:30.667Z",
-  "effectiveDate": "2026-11-05",
+  "generatedAt": "2026-11-05T23:37:19.413Z",
+  "effectiveDate": "2026-11-06",
   "total": 19,
   "categories": [
     {
@@ -84,8 +84,8 @@
     {
       "id": "health-and-beauty",
       "name": "Health & Beauty",
-      "offerCount": 724,
-      "couponCount": 176,
+      "offerCount": 719,
+      "couponCount": 171,
       "dealCount": 548
     },
     {
@@ -126,8 +126,8 @@
     {
       "id": "sports",
       "name": "Sports",
-      "offerCount": 196,
-      "couponCount": 50,
+      "offerCount": 194,
+      "couponCount": 48,
       "dealCount": 146
     },
     {
