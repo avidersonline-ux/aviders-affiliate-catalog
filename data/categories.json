@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-07T21:47:00.123Z",
-  "effectiveDate": "2026-11-08",
+  "generatedAt": "2026-11-08T22:00:11.289Z",
+  "effectiveDate": "2026-11-09",
   "total": 19,
   "categories": [
     {
@@ -28,9 +28,9 @@
     {
       "id": "education",
       "name": "Education",
-      "offerCount": 74,
+      "offerCount": 64,
       "couponCount": 2,
-      "dealCount": 72
+      "dealCount": 62
     },
     {
       "id": "electronics",
@@ -126,15 +126,15 @@
     {
       "id": "sports",
       "name": "Sports",
-      "offerCount": 173,
-      "couponCount": 47,
+      "offerCount": 172,
+      "couponCount": 46,
       "dealCount": 126
     },
     {
       "id": "travel",
       "name": "Travel",
-      "offerCount": 1215,
-      "couponCount": 590,
+      "offerCount": 1214,
+      "couponCount": 589,
       "dealCount": 625
     }
   ]

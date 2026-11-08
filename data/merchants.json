@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-07T21:47:00.123Z",
-  "effectiveDate": "2026-11-08",
+  "generatedAt": "2026-11-08T22:00:11.289Z",
+  "effectiveDate": "2026-11-09",
   "total": 287,
   "merchants": [
     {
@@ -408,8 +408,8 @@
       "id": "cleartrip-flight",
       "name": "Cleartrip Flight",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/29/medium/New_Project_%2834%29.png?1662578863",
-      "offerCount": 2,
-      "couponCount": 2,
+      "offerCount": 1,
+      "couponCount": 1,
       "dealCount": 0
     },
     {
@@ -448,9 +448,9 @@
       "id": "coursera",
       "name": "Coursera",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3086/original/Cour.png?1490858917",
-      "offerCount": 50,
+      "offerCount": 40,
       "couponCount": 0,
-      "dealCount": 50
+      "dealCount": 40
     },
     {
       "id": "crocs",
@@ -2216,8 +2216,8 @@
       "id": "wakeup",
       "name": "Wakeup",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5016/medium/New_Project_%2825%29.png?1670263799",
-      "offerCount": 2,
-      "couponCount": 1,
+      "offerCount": 1,
+      "couponCount": 0,
       "dealCount": 1
     },
     {
