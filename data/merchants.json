@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-08T22:00:11.289Z",
-  "effectiveDate": "2026-11-09",
+  "generatedAt": "2026-11-10T01:29:33.021Z",
+  "effectiveDate": "2026-11-10",
   "total": 287,
   "merchants": [
     {
@@ -312,8 +312,8 @@
       "id": "boat",
       "name": "Boat",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/medium/New_Project_%2851%29_%281%29.png?1603904021",
-      "offerCount": 14,
-      "couponCount": 10,
+      "offerCount": 13,
+      "couponCount": 9,
       "dealCount": 4
     },
     {
@@ -616,8 +616,8 @@
       "id": "firstcry",
       "name": "Firstcry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/49/original/FC-Logo-big_store_tagline.png?1582718900",
-      "offerCount": 25,
-      "couponCount": 25,
+      "offerCount": 26,
+      "couponCount": 26,
       "dealCount": 0
     },
     {
@@ -712,9 +712,9 @@
       "id": "gharsoaps",
       "name": "GharSoaps",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/34089/original/Gharsoap.jpeg?1759744885",
-      "offerCount": 30,
+      "offerCount": 32,
       "couponCount": 9,
-      "dealCount": 21
+      "dealCount": 23
     },
     {
       "id": "gitmind",
@@ -816,9 +816,9 @@
       "id": "hkvitals",
       "name": "Hkvitals",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4486/original/New_Project_-_2021-08-05T170551.551_%281%29.png?1628163430",
-      "offerCount": 24,
-      "couponCount": 11,
-      "dealCount": 13
+      "offerCount": 26,
+      "couponCount": 12,
+      "dealCount": 14
     },
     {
       "id": "homestyler",
@@ -840,9 +840,9 @@
       "id": "hyugalife",
       "name": "Hyugalife",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5280/medium/logo20250811-2181357-1o3pevk.jpg?1754923504",
-      "offerCount": 21,
+      "offerCount": 22,
       "couponCount": 5,
-      "dealCount": 16
+      "dealCount": 17
     },
     {
       "id": "ibacosmetics",
@@ -864,9 +864,9 @@
       "id": "indian-gifts-portal",
       "name": "Indian Gifts Portal",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1850/medium/New_Project_-_2024-04-08T181136.528.png?1712599912",
-      "offerCount": 8,
+      "offerCount": 10,
       "couponCount": 1,
-      "dealCount": 7
+      "dealCount": 9
     },
     {
       "id": "indulgeo-essentials",
@@ -1048,8 +1048,8 @@
       "id": "kindlife",
       "name": "Kindlife",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5122/original/logo20250811-2181357-1iyek7o.jpg?1754903712",
-      "offerCount": 12,
-      "couponCount": 7,
+      "offerCount": 13,
+      "couponCount": 8,
       "dealCount": 5
     },
     {
@@ -1099,6 +1099,14 @@
       "offerCount": 2,
       "couponCount": 2,
       "dealCount": 0
+    },
+    {
+      "id": "learnworlds",
+      "name": "learnworlds",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/12092/medium/download.jpeg?1753190125",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
     },
     {
       "id": "lets-beco",
@@ -1311,10 +1319,10 @@
     {
       "id": "mymuse",
       "name": "Mymuse",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5491/medium/images.png?1693834380",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5491/original/images.png?1693814580",
       "offerCount": 23,
-      "couponCount": 8,
-      "dealCount": 15
+      "couponCount": 9,
+      "dealCount": 14
     },
     {
       "id": "mywake",
@@ -1383,9 +1391,9 @@
     {
       "id": "nutrabay",
       "name": "Nutrabay",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5597/original/New_Project_-_2023-10-25T104650.172.png?1698211025",
-      "offerCount": 10,
-      "couponCount": 10,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5597/medium/New_Project_-_2023-10-25T104650.172.png?1698230825",
+      "offerCount": 11,
+      "couponCount": 11,
       "dealCount": 0
     },
     {
@@ -1575,10 +1583,10 @@
     {
       "id": "plum-goodness",
       "name": "Plum Goodness",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4098/original/Plam.png?1593693725",
-      "offerCount": 9,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4098/medium/Plam.png?1593713525",
+      "offerCount": 11,
       "couponCount": 1,
-      "dealCount": 8
+      "dealCount": 10
     },
     {
       "id": "plush",
@@ -2141,14 +2149,6 @@
       "dealCount": 35
     },
     {
-      "id": "uptownie",
-      "name": "Uptownie",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/80641/original/New_Project_-_2026-09-17T165940.329.png?1789644609",
-      "offerCount": 1,
-      "couponCount": 1,
-      "dealCount": 0
-    },
-    {
       "id": "ustraa",
       "name": "Ustraa",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2067/medium/happily-unmarried.png?1548181406",
@@ -2192,9 +2192,9 @@
       "id": "vijay-sales",
       "name": "Vijay Sales",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4164/medium/Vijay_sales.png?1598010142",
-      "offerCount": 41,
+      "offerCount": 40,
       "couponCount": 6,
-      "dealCount": 35
+      "dealCount": 34
     },
     {
       "id": "virgio",
