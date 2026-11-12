@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-12T00:39:01.046Z",
-  "effectiveDate": "2026-11-12",
+  "generatedAt": "2026-11-12T23:35:23.400Z",
+  "effectiveDate": "2026-11-13",
   "source": "source/offers.csv + Cuelinks /offers",
   "sourceRows": 1982,
   "partners": {
@@ -12,29 +12,29 @@
   "cuelinks": {
     "apiBase": "https://developers.cuelinks.com/pub_api/v3",
     "accessStatus": "open",
-    "campaignsReturned": 1570,
-    "campaignsReportedTotal": 1570,
-    "liveOffersReturned": 1125,
-    "liveOffersReportedTotal": 1125
+    "campaignsReturned": 1565,
+    "campaignsReportedTotal": 1565,
+    "liveOffersReturned": 1115,
+    "liveOffersReportedTotal": 1115
   },
   "validation": {
     "csvCuelinksWithoutCampaignId": 0,
-    "csvCuelinksInactiveCampaign": 1022,
+    "csvCuelinksInactiveCampaign": 1036,
     "csvCuelinksWithoutCountry": 0,
     "csvCuelinksRejectedByDateOrStatus": 60,
     "csvNonCuelinksRejectedByDateOrStatus": 0,
     "apiOffersWithoutCampaign": 0,
     "apiOffersWithoutCountry": 0,
     "apiOffersRejectedByDate": 22,
-    "csvOffersPublished": 2227,
-    "apiOffersPublished": 2513,
-    "expandedOffersBeforeDedupe": 4740,
-    "activeOffersAfterDedupe": 4738
+    "csvOffersPublished": 2213,
+    "apiOffersPublished": 2503,
+    "expandedOffersBeforeDedupe": 4716,
+    "activeOffersAfterDedupe": 4714
   },
-  "activeOffers": 4738,
-  "coupons": 1163,
-  "deals": 3575,
-  "merchants": 284,
+  "activeOffers": 4714,
+  "coupons": 1164,
+  "deals": 3550,
+  "merchants": 283,
   "categories": 19,
   "countries": 10,
   "allowedCountries": [
@@ -82,9 +82,9 @@
       "iso": "IN",
       "name": "India",
       "slug": "india",
-      "offerCount": 1882,
-      "couponCount": 543,
-      "dealCount": 1339
+      "offerCount": 1855,
+      "couponCount": 544,
+      "dealCount": 1311
     },
     {
       "id": "110",
@@ -136,9 +136,9 @@
       "iso": "US",
       "name": "United States",
       "slug": "united-states",
-      "offerCount": 405,
+      "offerCount": 408,
       "couponCount": 83,
-      "dealCount": 322
+      "dealCount": 325
     }
   ],
   "files": {

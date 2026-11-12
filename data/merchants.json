@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-12T00:39:01.046Z",
-  "effectiveDate": "2026-11-12",
-  "total": 284,
+  "generatedAt": "2026-11-12T23:35:23.400Z",
+  "effectiveDate": "2026-11-13",
+  "total": 283,
   "merchants": [
     {
       "id": "acer",
@@ -96,9 +96,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 25,
-      "couponCount": 5,
-      "dealCount": 20
+      "offerCount": 33,
+      "couponCount": 9,
+      "dealCount": 24
     },
     {
       "id": "akasa-air",
@@ -224,8 +224,8 @@
       "id": "big-muscles",
       "name": "Big Muscles",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11174/medium/download.png?1747143804",
-      "offerCount": 4,
-      "couponCount": 2,
+      "offerCount": 2,
+      "couponCount": 0,
       "dealCount": 2
     },
     {
@@ -264,9 +264,9 @@
       "id": "bla-bli-blu",
       "name": "Bla Bli Blu",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/39896/original/New_Project_-_2026-01-19T163158.540.png?1768820532",
-      "offerCount": 8,
+      "offerCount": 7,
       "couponCount": 0,
-      "dealCount": 8
+      "dealCount": 7
     },
     {
       "id": "blackberrys",
@@ -320,9 +320,9 @@
       "id": "bubble-me",
       "name": "Bubble Me",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80492/medium/Screenshot_2026-09-11_172731.png?1789147811",
-      "offerCount": 3,
+      "offerCount": 2,
       "couponCount": 0,
-      "dealCount": 3
+      "dealCount": 2
     },
     {
       "id": "buyindusvalley",
@@ -552,9 +552,9 @@
       "id": "eternz",
       "name": "Eternz",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37553/medium/New_Project_-_2025-12-26T131817.669.png?1766755116",
-      "offerCount": 10,
+      "offerCount": 9,
       "couponCount": 2,
-      "dealCount": 8
+      "dealCount": 7
     },
     {
       "id": "etravelsim",
@@ -816,8 +816,8 @@
       "id": "hyugalife",
       "name": "Hyugalife",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5280/medium/logo20250811-2181357-1o3pevk.jpg?1754923504",
-      "offerCount": 22,
-      "couponCount": 5,
+      "offerCount": 21,
+      "couponCount": 4,
       "dealCount": 17
     },
     {
@@ -840,9 +840,9 @@
       "id": "indian-gifts-portal",
       "name": "Indian Gifts Portal",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1850/original/New_Project_-_2024-04-08T181136.528.png?1712580112",
-      "offerCount": 9,
+      "offerCount": 7,
       "couponCount": 1,
-      "dealCount": 8
+      "dealCount": 6
     },
     {
       "id": "indulgeo-essentials",
@@ -1125,12 +1125,12 @@
       "dealCount": 2
     },
     {
-      "id": "linenclub",
-      "name": "LinenClub",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/57530/original/images_%286%29.jpg?1779694946",
-      "offerCount": 6,
-      "couponCount": 2,
-      "dealCount": 4
+      "id": "lifepro-us",
+      "name": "Lifepro - US",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7653/medium/New_Project_-_2026-08-28T181826.428.png?1787941125",
+      "offerCount": 3,
+      "couponCount": 0,
+      "dealCount": 3
     },
     {
       "id": "livestorm",
@@ -1227,14 +1227,6 @@
       "offerCount": 3,
       "couponCount": 0,
       "dealCount": 3
-    },
-    {
-      "id": "mivi",
-      "name": "Mivi",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3618/original/logo20250811-880075-1imt90t.jpg?1754903598",
-      "offerCount": 22,
-      "couponCount": 0,
-      "dealCount": 22
     },
     {
       "id": "moglix",
@@ -1367,9 +1359,9 @@
     {
       "id": "nutrabay",
       "name": "Nutrabay",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5597/medium/New_Project_-_2023-10-25T104650.172.png?1698230825",
-      "offerCount": 11,
-      "couponCount": 11,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5597/original/New_Project_-_2023-10-25T104650.172.png?1698211025",
+      "offerCount": 10,
+      "couponCount": 10,
       "dealCount": 0
     },
     {
@@ -1488,8 +1480,8 @@
       "id": "palmonas",
       "name": "Palmonas",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11155/medium/New_Project_-_2025-04-21T130524.604.png?1745240741",
-      "offerCount": 32,
-      "couponCount": 14,
+      "offerCount": 31,
+      "couponCount": 13,
       "dealCount": 18
     },
     {
@@ -1912,8 +1904,8 @@
       "id": "tata-cliq",
       "name": "Tata Cliq",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2588/medium/tata.png?1495725999",
-      "offerCount": 39,
-      "couponCount": 21,
+      "offerCount": 43,
+      "couponCount": 25,
       "dealCount": 18
     },
     {
@@ -2120,9 +2112,9 @@
       "id": "uniqlo",
       "name": "Uniqlo",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4482/original/logo20250811-880075-1jz4qbd.jpg?1754903751",
-      "offerCount": 34,
+      "offerCount": 33,
       "couponCount": 0,
-      "dealCount": 34
+      "dealCount": 33
     },
     {
       "id": "ustraa",
