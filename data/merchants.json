@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-10T23:16:23.378Z",
-  "effectiveDate": "2026-11-11",
-  "total": 287,
+  "generatedAt": "2026-11-12T00:39:01.046Z",
+  "effectiveDate": "2026-11-12",
+  "total": 284,
   "merchants": [
     {
       "id": "acer",
@@ -43,14 +43,6 @@
       "offerCount": 7,
       "couponCount": 6,
       "dealCount": 1
-    },
-    {
-      "id": "air-india-express",
-      "name": "Air India Express",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5195/original/logo20250811-2181357-1w4q0tb.jpg?1754903716",
-      "offerCount": 5,
-      "couponCount": 3,
-      "dealCount": 2
     },
     {
       "id": "airalo",
@@ -104,9 +96,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 20,
+      "offerCount": 25,
       "couponCount": 5,
-      "dealCount": 15
+      "dealCount": 20
     },
     {
       "id": "akasa-air",
@@ -139,14 +131,6 @@
       "offerCount": 6,
       "couponCount": 2,
       "dealCount": 4
-    },
-    {
-      "id": "appsumo",
-      "name": "appsumo",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6271/medium/logo20250811-2184298-v5mupd.jpg?1754923528",
-      "offerCount": 180,
-      "couponCount": 0,
-      "dealCount": 180
     },
     {
       "id": "asap-tickets",
@@ -205,14 +189,6 @@
       "dealCount": 0
     },
     {
-      "id": "beastlife",
-      "name": "Beastlife",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7892/medium/download.png?1729092583",
-      "offerCount": 1,
-      "couponCount": 0,
-      "dealCount": 1
-    },
-    {
       "id": "bella-vita",
       "name": "Bella Vita",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4384/medium/logo20250811-2181357-1hbg73p.jpg?1754923433",
@@ -232,8 +208,8 @@
       "id": "biba",
       "name": "Biba",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2172/medium/logo20250811-2184298-s4ecop.jpg?1754923730",
-      "offerCount": 11,
-      "couponCount": 1,
+      "offerCount": 10,
+      "couponCount": 0,
       "dealCount": 10
     },
     {
@@ -368,8 +344,8 @@
       "id": "campus-shoes",
       "name": "Campus Shoes",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5589/original/New_Project_-_2023-10-20T152258.998.png?1697795593",
-      "offerCount": 11,
-      "couponCount": 4,
+      "offerCount": 12,
+      "couponCount": 5,
       "dealCount": 7
     },
     {
@@ -392,9 +368,9 @@
       "id": "cashify",
       "name": "Cashify",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3433/medium/Cashify.png?1511896634",
-      "offerCount": 6,
+      "offerCount": 5,
       "couponCount": 1,
-      "dealCount": 5
+      "dealCount": 4
     },
     {
       "id": "castmagic",
@@ -440,9 +416,9 @@
       "id": "corel",
       "name": "corel",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36423/medium/images_%281%29.jpeg?1764766403",
-      "offerCount": 2,
+      "offerCount": 20,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 20
     },
     {
       "id": "coursera",
@@ -863,10 +839,10 @@
     {
       "id": "indian-gifts-portal",
       "name": "Indian Gifts Portal",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/1850/medium/New_Project_-_2024-04-08T181136.528.png?1712599912",
-      "offerCount": 10,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/1850/original/New_Project_-_2024-04-08T181136.528.png?1712580112",
+      "offerCount": 9,
       "couponCount": 1,
-      "dealCount": 9
+      "dealCount": 8
     },
     {
       "id": "indulgeo-essentials",
@@ -1016,9 +992,9 @@
       "id": "khadim",
       "name": "Khadim",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4755/medium/Khadim.png?1791909935",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "khet-perfumes",
@@ -1529,8 +1505,8 @@
       "name": "Pantaloons",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3941/medium/logo20250811-2184298-1k308c9.jpg?1754923651",
       "offerCount": 9,
-      "couponCount": 4,
-      "dealCount": 5
+      "couponCount": 3,
+      "dealCount": 6
     },
     {
       "id": "pebblecart",
@@ -1800,9 +1776,9 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 17,
+      "offerCount": 16,
       "couponCount": 0,
-      "dealCount": 17
+      "dealCount": 16
     },
     {
       "id": "sirona",
@@ -1896,9 +1872,9 @@
       "id": "sugar-cosmetics",
       "name": "Sugar Cosmetics",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3666/medium/Sugar.png?1531928849",
-      "offerCount": 7,
+      "offerCount": 6,
       "couponCount": 1,
-      "dealCount": 6
+      "dealCount": 5
     },
     {
       "id": "superyou",
@@ -1936,9 +1912,9 @@
       "id": "tata-cliq",
       "name": "Tata Cliq",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2588/medium/tata.png?1495725999",
-      "offerCount": 37,
+      "offerCount": 39,
       "couponCount": 21,
-      "dealCount": 16
+      "dealCount": 18
     },
     {
       "id": "techsmith",
