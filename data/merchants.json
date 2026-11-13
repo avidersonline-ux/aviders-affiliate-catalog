@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-12T23:35:23.400Z",
-  "effectiveDate": "2026-11-13",
-  "total": 283,
+  "generatedAt": "2026-11-13T23:30:28.120Z",
+  "effectiveDate": "2026-11-14",
+  "total": 281,
   "merchants": [
     {
       "id": "acer",
@@ -96,9 +96,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 33,
-      "couponCount": 9,
-      "dealCount": 24
+      "offerCount": 37,
+      "couponCount": 14,
+      "dealCount": 23
     },
     {
       "id": "akasa-air",
@@ -317,14 +317,6 @@
       "dealCount": 20
     },
     {
-      "id": "bubble-me",
-      "name": "Bubble Me",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/80492/medium/Screenshot_2026-09-11_172731.png?1789147811",
-      "offerCount": 2,
-      "couponCount": 0,
-      "dealCount": 2
-    },
-    {
       "id": "buyindusvalley",
       "name": "Buyindusvalley",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/35579/original/Screenshot_2025-11-19_162137.jpg?1763549533",
@@ -424,9 +416,9 @@
       "id": "coursera",
       "name": "Coursera",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3086/original/Cour.png?1490858917",
-      "offerCount": 40,
+      "offerCount": 30,
       "couponCount": 0,
-      "dealCount": 40
+      "dealCount": 30
     },
     {
       "id": "crocs",
@@ -443,14 +435,6 @@
       "offerCount": 1,
       "couponCount": 0,
       "dealCount": 1
-    },
-    {
-      "id": "croma-retail",
-      "name": "Croma Retail",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/201/original/Croma_TATA_with_guideline.jpg?1662727302",
-      "offerCount": 53,
-      "couponCount": 1,
-      "dealCount": 52
     },
     {
       "id": "decathlon",
@@ -496,8 +480,8 @@
       "id": "dot-and-key",
       "name": "Dot & Key",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4879/medium/New_Project_%2831%29.png?1662489839",
-      "offerCount": 14,
-      "couponCount": 1,
+      "offerCount": 15,
+      "couponCount": 2,
       "dealCount": 13
     },
     {
@@ -688,9 +672,9 @@
       "id": "gharsoaps",
       "name": "GharSoaps",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/34089/original/Gharsoap.jpeg?1759744885",
-      "offerCount": 32,
+      "offerCount": 33,
       "couponCount": 9,
-      "dealCount": 23
+      "dealCount": 24
     },
     {
       "id": "gitmind",
@@ -712,9 +696,9 @@
       "id": "gonoise",
       "name": "Gonoise",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3278/medium/NoiseLogo-01_%281%29.png?1713550356",
-      "offerCount": 25,
+      "offerCount": 26,
       "couponCount": 7,
-      "dealCount": 18
+      "dealCount": 19
     },
     {
       "id": "gritzo",
@@ -1488,9 +1472,9 @@
       "id": "pandas-box",
       "name": "Pandas Box",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80625/original/Screenshot_2026-09-15_121634.png?1789454995",
-      "offerCount": 7,
+      "offerCount": 8,
       "couponCount": 1,
-      "dealCount": 6
+      "dealCount": 7
     },
     {
       "id": "pantaloons",
@@ -1560,9 +1544,9 @@
       "id": "plush",
       "name": "Plush",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5050/medium/New_Project_%2856%29.png?1672421085",
-      "offerCount": 2,
-      "couponCount": 1,
-      "dealCount": 1
+      "offerCount": 5,
+      "couponCount": 3,
+      "dealCount": 2
     },
     {
       "id": "plush-for-her",
@@ -1975,10 +1959,10 @@
     {
       "id": "the-wallet-store",
       "name": "The Wallet Store",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/79312/original/Screenshot_2026-09-01_123602.png?1788246606",
-      "offerCount": 1,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/79312/medium/Screenshot_2026-09-01_123602.png?1788266406",
+      "offerCount": 2,
       "couponCount": 0,
-      "dealCount": 1
+      "dealCount": 2
     },
     {
       "id": "themancompany",
@@ -2160,9 +2144,9 @@
       "id": "vijay-sales",
       "name": "Vijay Sales",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4164/medium/Vijay_sales.png?1598010142",
-      "offerCount": 40,
+      "offerCount": 43,
       "couponCount": 6,
-      "dealCount": 34
+      "dealCount": 37
     },
     {
       "id": "virgio",
