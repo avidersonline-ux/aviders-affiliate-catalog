@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-14T22:20:31.753Z",
-  "effectiveDate": "2026-11-15",
-  "total": 278,
+  "generatedAt": "2026-11-15T22:46:52.652Z",
+  "effectiveDate": "2026-11-16",
+  "total": 276,
   "merchants": [
     {
       "id": "acer",
@@ -96,8 +96,8 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 30,
-      "couponCount": 13,
+      "offerCount": 25,
+      "couponCount": 8,
       "dealCount": 17
     },
     {
@@ -584,8 +584,8 @@
       "id": "firstcry",
       "name": "Firstcry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/49/original/FC-Logo-big_store_tagline.png?1582718900",
-      "offerCount": 25,
-      "couponCount": 25,
+      "offerCount": 23,
+      "couponCount": 23,
       "dealCount": 0
     },
     {
@@ -600,9 +600,9 @@
       "id": "flower-aura",
       "name": "Flower Aura",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/889/medium/logo20250902-1816682-omab3q.jpg?1756829189",
-      "offerCount": 13,
-      "couponCount": 5,
-      "dealCount": 8
+      "offerCount": 11,
+      "couponCount": 4,
+      "dealCount": 7
     },
     {
       "id": "fly-fairly",
@@ -728,8 +728,8 @@
       "id": "hamara-mall",
       "name": "Hamara Mall",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/57751/original/Logo_For_Hamara_Mall.png?1781164562",
-      "offerCount": 7,
-      "couponCount": 5,
+      "offerCount": 5,
+      "couponCount": 3,
       "dealCount": 2
     },
     {
@@ -739,14 +739,6 @@
       "offerCount": 4,
       "couponCount": 0,
       "dealCount": 4
-    },
-    {
-      "id": "hatke",
-      "name": "Hatke",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/40528/medium/New_Project_-_2026-02-24T130934.180.png?1771938609",
-      "offerCount": 1,
-      "couponCount": 1,
-      "dealCount": 0
     },
     {
       "id": "havells",
@@ -887,10 +879,10 @@
     {
       "id": "itc-hotels",
       "name": "ITC Hotels",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5490/medium/New_Project_-_2023-09-04T131504.420.png?1693833320",
-      "offerCount": 21,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5490/original/New_Project_-_2023-09-04T131504.420.png?1693813520",
+      "offerCount": 18,
       "couponCount": 0,
-      "dealCount": 21
+      "dealCount": 18
     },
     {
       "id": "jaipur-rugs",
@@ -1016,8 +1008,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/medium/New_Project_-_2025-05-29T172428.907.png?1748539486",
-      "offerCount": 460,
-      "couponCount": 280,
+      "offerCount": 450,
+      "couponCount": 270,
       "dealCount": 180
     },
     {
@@ -1175,10 +1167,10 @@
     {
       "id": "marks-and-spencer",
       "name": "Marks and Spencer",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4094/medium/download_-_2025-11-14T185927.287.png?1763146789",
-      "offerCount": 5,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4094/original/download_-_2025-11-14T185927.287.png?1763126989",
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 5
+      "dealCount": 4
     },
     {
       "id": "medibuddy",
@@ -1448,17 +1440,17 @@
       "id": "palmonas",
       "name": "Palmonas",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11155/original/New_Project_-_2025-04-21T130524.604.png?1745220941",
-      "offerCount": 28,
+      "offerCount": 27,
       "couponCount": 12,
-      "dealCount": 16
+      "dealCount": 15
     },
     {
       "id": "pandas-box",
       "name": "Pandas Box",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80625/original/Screenshot_2026-09-15_121634.png?1789454995",
-      "offerCount": 8,
+      "offerCount": 7,
       "couponCount": 1,
-      "dealCount": 7
+      "dealCount": 6
     },
     {
       "id": "pantaloons",
@@ -1467,14 +1459,6 @@
       "offerCount": 9,
       "couponCount": 3,
       "dealCount": 6
-    },
-    {
-      "id": "pebblecart",
-      "name": "Pebblecart",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/9507/medium/download_-_2024-12-11T180425.685.png?1733940492",
-      "offerCount": 1,
-      "couponCount": 0,
-      "dealCount": 1
     },
     {
       "id": "pepe-jeans",
@@ -1680,9 +1664,9 @@
       "id": "sassafras",
       "name": "Sassafras",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5186/medium/New_Project_-_2023-04-06T150112.801.png?1680793296",
-      "offerCount": 3,
+      "offerCount": 2,
       "couponCount": 0,
-      "dealCount": 3
+      "dealCount": 2
     },
     {
       "id": "scarletperiod",
@@ -2040,8 +2024,8 @@
       "id": "tyresnmore",
       "name": "Tyresnmore",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37554/original/New_Project_-_2025-12-26T133138.808.png?1766736143",
-      "offerCount": 17,
-      "couponCount": 17,
+      "offerCount": 16,
+      "couponCount": 16,
       "dealCount": 0
     },
     {

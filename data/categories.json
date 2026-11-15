@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-14T22:20:31.753Z",
-  "effectiveDate": "2026-11-15",
+  "generatedAt": "2026-11-15T22:46:52.652Z",
+  "effectiveDate": "2026-11-16",
   "total": 19,
   "categories": [
     {
@@ -14,9 +14,9 @@
     {
       "id": "baby-and-kids",
       "name": "Baby & Kids",
-      "offerCount": 44,
-      "couponCount": 30,
-      "dealCount": 14
+      "offerCount": 42,
+      "couponCount": 29,
+      "dealCount": 13
     },
     {
       "id": "books",
@@ -49,9 +49,9 @@
     {
       "id": "fashion",
       "name": "Fashion",
-      "offerCount": 637,
+      "offerCount": 636,
       "couponCount": 93,
-      "dealCount": 544
+      "dealCount": 543
     },
     {
       "id": "finance",
@@ -63,9 +63,9 @@
     {
       "id": "flowers-and-gifts",
       "name": "Flowers & Gifts",
-      "offerCount": 64,
-      "couponCount": 11,
-      "dealCount": 53
+      "offerCount": 61,
+      "couponCount": 10,
+      "dealCount": 51
     },
     {
       "id": "food-and-grocery",
@@ -84,9 +84,9 @@
     {
       "id": "health-and-beauty",
       "name": "Health & Beauty",
-      "offerCount": 746,
-      "couponCount": 191,
-      "dealCount": 555
+      "offerCount": 740,
+      "couponCount": 186,
+      "dealCount": 554
     },
     {
       "id": "home-and-kitchen",
@@ -98,23 +98,23 @@
     {
       "id": "mobiles",
       "name": "Mobiles",
-      "offerCount": 21,
-      "couponCount": 1,
+      "offerCount": 20,
+      "couponCount": 0,
       "dealCount": 20
     },
     {
       "id": "others",
       "name": "Others",
-      "offerCount": 194,
-      "couponCount": 30,
+      "offerCount": 191,
+      "couponCount": 27,
       "dealCount": 164
     },
     {
       "id": "services",
       "name": "Services",
-      "offerCount": 951,
-      "couponCount": 213,
-      "dealCount": 738
+      "offerCount": 941,
+      "couponCount": 206,
+      "dealCount": 735
     },
     {
       "id": "software",
@@ -133,9 +133,9 @@
     {
       "id": "travel",
       "name": "Travel",
-      "offerCount": 1160,
-      "couponCount": 586,
-      "dealCount": 574
+      "offerCount": 1146,
+      "couponCount": 576,
+      "dealCount": 570
     }
   ]
 }
