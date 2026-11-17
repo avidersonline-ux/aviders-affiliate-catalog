@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-15T22:46:52.652Z",
-  "effectiveDate": "2026-11-16",
-  "total": 276,
+  "generatedAt": "2026-11-17T01:51:24.341Z",
+  "effectiveDate": "2026-11-17",
+  "total": 278,
   "merchants": [
     {
       "id": "acer",
@@ -96,8 +96,8 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 25,
-      "couponCount": 8,
+      "offerCount": 26,
+      "couponCount": 9,
       "dealCount": 17
     },
     {
@@ -173,14 +173,6 @@
       "dealCount": 7
     },
     {
-      "id": "banggood",
-      "name": "Banggood",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2757/medium/logo20250811-2184298-1lgtmy4.jpg?1754923535",
-      "offerCount": 10,
-      "couponCount": 0,
-      "dealCount": 10
-    },
-    {
       "id": "be-neude",
       "name": "Be Neude",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/81463/medium/Screenshot_2026-10-06_121036.png?1791288712",
@@ -200,8 +192,8 @@
       "id": "bewakoof",
       "name": "Bewakoof",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1918/original/New_Project_%2837%29_%281%29.png?1602509750",
-      "offerCount": 25,
-      "couponCount": 11,
+      "offerCount": 26,
+      "couponCount": 12,
       "dealCount": 14
     },
     {
@@ -287,7 +279,7 @@
     {
       "id": "boat",
       "name": "Boat",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/medium/New_Project_%2851%29_%281%29.png?1603904021",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/original/New_Project_%2851%29_%281%29.png?1603884221",
       "offerCount": 13,
       "couponCount": 9,
       "dealCount": 4
@@ -371,6 +363,14 @@
       "offerCount": 20,
       "couponCount": 0,
       "dealCount": 20
+    },
+    {
+      "id": "chumbak",
+      "name": "Chumbak",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/1809/medium/Chumbak.png?1489146900",
+      "offerCount": 2,
+      "couponCount": 0,
+      "dealCount": 2
     },
     {
       "id": "cleartrip-flight",
@@ -480,9 +480,9 @@
       "id": "doodhvale-farms",
       "name": "Doodhvale Farms",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/42757/medium/unnamed_%281%29.png?1773422405",
-      "offerCount": 4,
+      "offerCount": 3,
       "couponCount": 2,
-      "dealCount": 2
+      "dealCount": 1
     },
     {
       "id": "dot-and-key",
@@ -584,8 +584,8 @@
       "id": "firstcry",
       "name": "Firstcry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/49/original/FC-Logo-big_store_tagline.png?1582718900",
-      "offerCount": 23,
-      "couponCount": 23,
+      "offerCount": 24,
+      "couponCount": 24,
       "dealCount": 0
     },
     {
@@ -752,8 +752,8 @@
       "id": "healthkart",
       "name": "HealthKart",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/847/original/logo20250811-2184298-1hhpoyh.jpg?1754903784",
-      "offerCount": 18,
-      "couponCount": 17,
+      "offerCount": 17,
+      "couponCount": 16,
       "dealCount": 1
     },
     {
@@ -1008,17 +1008,17 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/medium/New_Project_-_2025-05-29T172428.907.png?1748539486",
-      "offerCount": 450,
-      "couponCount": 270,
+      "offerCount": 480,
+      "couponCount": 300,
       "dealCount": 180
     },
     {
       "id": "kospet-smartwatch",
       "name": "KOSPET Smartwatch",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11123/original/New_Project_-_2025-03-27T114524.941.png?1743056140",
-      "offerCount": 60,
+      "offerCount": 70,
       "couponCount": 0,
-      "dealCount": 60
+      "dealCount": 70
     },
     {
       "id": "krisp",
@@ -1160,9 +1160,9 @@
       "id": "marathonwatch",
       "name": "Marathonwatch",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/29593/original/New_Project_-_2025-12-12T103616.479.png?1765516005",
-      "offerCount": 20,
+      "offerCount": 30,
       "couponCount": 0,
-      "dealCount": 20
+      "dealCount": 30
     },
     {
       "id": "marks-and-spencer",
@@ -1472,8 +1472,8 @@
       "id": "pepperfry",
       "name": "Pepperfry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/107/medium/logo20250811-2184298-1qs9p3m.jpg?1754923740",
-      "offerCount": 24,
-      "couponCount": 17,
+      "offerCount": 25,
+      "couponCount": 18,
       "dealCount": 7
     },
     {
@@ -1501,12 +1501,20 @@
       "dealCount": 120
     },
     {
+      "id": "planner5d",
+      "name": "Planner5d",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/8389/medium/images_%2812%29.png?1770397322",
+      "offerCount": 10,
+      "couponCount": 10,
+      "dealCount": 0
+    },
+    {
       "id": "plum-goodness",
       "name": "Plum Goodness",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4098/medium/Plam.png?1593713525",
-      "offerCount": 10,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4098/original/Plam.png?1593693725",
+      "offerCount": 9,
       "couponCount": 1,
-      "dealCount": 9
+      "dealCount": 8
     },
     {
       "id": "plush",
@@ -1656,8 +1664,8 @@
       "id": "sarkar-perfume",
       "name": "Sarkar Perfume",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80201/medium/Screenshot_2026-09-09_185053.png?1788980036",
-      "offerCount": 1,
-      "couponCount": 0,
+      "offerCount": 2,
+      "couponCount": 1,
       "dealCount": 1
     },
     {
@@ -1712,9 +1720,9 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 15,
+      "offerCount": 18,
       "couponCount": 0,
-      "dealCount": 15
+      "dealCount": 18
     },
     {
       "id": "sirona",
@@ -1859,14 +1867,6 @@
       "offerCount": 50,
       "couponCount": 0,
       "dealCount": 50
-    },
-    {
-      "id": "tecsox",
-      "name": "TecSox",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/57696/original/Screenshot_2026-06-08_133940.png?1780906289",
-      "offerCount": 2,
-      "couponCount": 0,
-      "dealCount": 2
     },
     {
       "id": "temptation-experience",
@@ -2037,6 +2037,14 @@
       "dealCount": 0
     },
     {
+      "id": "ulike-de",
+      "name": "Ulike - DE",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/8626/medium/New_Project_-_2024-11-19T165346.629.png?1732035237",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "ultahost",
       "name": "Ultahost",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6396/original/Screenshot_2024-04-10_at_8.39.32_PM.png?1712761831",
@@ -2056,9 +2064,9 @@
       "id": "uniqlo",
       "name": "Uniqlo",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4482/original/logo20250811-880075-1jz4qbd.jpg?1754903751",
-      "offerCount": 32,
+      "offerCount": 33,
       "couponCount": 0,
-      "dealCount": 32
+      "dealCount": 33
     },
     {
       "id": "ustraa",
@@ -2117,6 +2125,14 @@
       "dealCount": 2
     },
     {
+      "id": "vollyc",
+      "name": "Vollyc",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/40287/medium/New_Project_-_2026-02-25T130418.037.png?1772024692",
+      "offerCount": 30,
+      "couponCount": 30,
+      "dealCount": 0
+    },
+    {
       "id": "voyage-eyewear",
       "name": "Voyage Eyewear",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36661/original/New_Project_-_2025-12-04T141151.692.png?1764837728",
@@ -2144,17 +2160,17 @@
       "id": "wellbeing-nutrition",
       "name": "Wellbeing Nutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4469/original/New_Project_-_2021-07-19T113839.854_%281%29.png?1626675015",
-      "offerCount": 35,
+      "offerCount": 36,
       "couponCount": 1,
-      "dealCount": 34
+      "dealCount": 35
     },
     {
       "id": "wild-stone",
       "name": "Wild Stone",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/76497/medium/Screenshot_2026-08-02_211009.png?1785705143",
-      "offerCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/76497/original/Screenshot_2026-08-02_211009.png?1785685343",
+      "offerCount": 1,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 1
     },
     {
       "id": "wishluck",
