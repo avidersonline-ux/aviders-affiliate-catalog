@@ -1,9 +1,17 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-17T01:51:24.341Z",
-  "effectiveDate": "2026-11-17",
-  "total": 278,
+  "generatedAt": "2026-11-18T00:56:41.607Z",
+  "effectiveDate": "2026-11-18",
+  "total": 284,
   "merchants": [
+    {
+      "id": "360totalsecurity",
+      "name": "360totalsecurity",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/18144/medium/Screenshot_2026-09-25_151208.png?1790349205",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
+    },
     {
       "id": "acer",
       "name": "Acer",
@@ -96,9 +104,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 26,
-      "couponCount": 9,
-      "dealCount": 17
+      "offerCount": 28,
+      "couponCount": 10,
+      "dealCount": 18
     },
     {
       "id": "akasa-air",
@@ -131,6 +139,14 @@
       "offerCount": 4,
       "couponCount": 0,
       "dealCount": 4
+    },
+    {
+      "id": "aramya",
+      "name": "Aramya",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/37489/medium/images_%2824%29.png?1766250116",
+      "offerCount": 7,
+      "couponCount": 0,
+      "dealCount": 7
     },
     {
       "id": "asap-tickets",
@@ -368,9 +384,9 @@
       "id": "chumbak",
       "name": "Chumbak",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1809/medium/Chumbak.png?1489146900",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "cleartrip-flight",
@@ -408,9 +424,9 @@
       "id": "corel",
       "name": "corel",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36423/medium/images_%281%29.jpeg?1764766403",
-      "offerCount": 20,
+      "offerCount": 30,
       "couponCount": 0,
-      "dealCount": 20
+      "dealCount": 30
     },
     {
       "id": "coursera",
@@ -728,9 +744,9 @@
       "id": "hamara-mall",
       "name": "Hamara Mall",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/57751/original/Logo_For_Hamara_Mall.png?1781164562",
-      "offerCount": 5,
+      "offerCount": 9,
       "couponCount": 3,
-      "dealCount": 2
+      "dealCount": 6
     },
     {
       "id": "hammer",
@@ -776,9 +792,9 @@
       "id": "hkvitals",
       "name": "Hkvitals",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4486/original/New_Project_-_2021-08-05T170551.551_%281%29.png?1628163430",
-      "offerCount": 26,
+      "offerCount": 28,
       "couponCount": 12,
-      "dealCount": 14
+      "dealCount": 16
     },
     {
       "id": "homestyler",
@@ -800,8 +816,8 @@
       "id": "hyugalife",
       "name": "Hyugalife",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5280/medium/logo20250811-2181357-1o3pevk.jpg?1754923504",
-      "offerCount": 21,
-      "couponCount": 4,
+      "offerCount": 22,
+      "couponCount": 5,
       "dealCount": 17
     },
     {
@@ -824,9 +840,9 @@
       "id": "indian-gifts-portal",
       "name": "Indian Gifts Portal",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1850/original/New_Project_-_2024-04-08T181136.528.png?1712580112",
-      "offerCount": 7,
+      "offerCount": 9,
       "couponCount": 1,
-      "dealCount": 6
+      "dealCount": 8
     },
     {
       "id": "indulgeo-essentials",
@@ -907,6 +923,14 @@
       "offerCount": 11,
       "couponCount": 2,
       "dealCount": 9
+    },
+    {
+      "id": "jeannot",
+      "name": "Jeannot",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/83703/medium/jeannot.png?1794854116",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
     },
     {
       "id": "jeena-sikho",
@@ -1008,9 +1032,9 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/medium/New_Project_-_2025-05-29T172428.907.png?1748539486",
-      "offerCount": 480,
-      "couponCount": 300,
-      "dealCount": 180
+      "offerCount": 500,
+      "couponCount": 310,
+      "dealCount": 190
     },
     {
       "id": "kospet-smartwatch",
@@ -1157,6 +1181,14 @@
       "dealCount": 40
     },
     {
+      "id": "maniac-life",
+      "name": "Maniac Life",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/83240/medium/maniac.png?1794492555",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "marathonwatch",
       "name": "Marathonwatch",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/29593/original/New_Project_-_2025-12-12T103616.479.png?1765516005",
@@ -1211,14 +1243,6 @@
       "offerCount": 13,
       "couponCount": 4,
       "dealCount": 9
-    },
-    {
-      "id": "momsco",
-      "name": "MomsCo",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3692/original/MomsCo.png?1538129157",
-      "offerCount": 1,
-      "couponCount": 1,
-      "dealCount": 0
     },
     {
       "id": "muscleblaze",
@@ -1608,9 +1632,9 @@
       "id": "realme",
       "name": "RealMe",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3902/original/RealMe.png?1570851423",
-      "offerCount": 10,
+      "offerCount": 11,
       "couponCount": 0,
-      "dealCount": 10
+      "dealCount": 11
     },
     {
       "id": "reclaim-ai",
@@ -1725,6 +1749,14 @@
       "dealCount": 18
     },
     {
+      "id": "similarweb",
+      "name": "Similarweb",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/17915/medium/png.?1769614529",
+      "offerCount": 10,
+      "couponCount": 10,
+      "dealCount": 0
+    },
+    {
       "id": "sirona",
       "name": "Sirona",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4604/original/New_Project_-_2021-12-14T160625.079.png?1639478327",
@@ -1739,6 +1771,22 @@
       "offerCount": 30,
       "couponCount": 0,
       "dealCount": 30
+    },
+    {
+      "id": "skylum",
+      "name": "skylum",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6257/medium/download_%2879%29.jpg?1729622351",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
+    },
+    {
+      "id": "sleepwell",
+      "name": "Sleepwell",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5586/medium/logo20250811-880075-1ytx0zk.jpg?1754923490",
+      "offerCount": 11,
+      "couponCount": 0,
+      "dealCount": 11
     },
     {
       "id": "sleepycat",
@@ -2013,6 +2061,14 @@
       "dealCount": 0
     },
     {
+      "id": "truemeds",
+      "name": "Truemeds",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5051/medium/Truemeds-Storelogo.jpg?1672421970",
+      "offerCount": 2,
+      "couponCount": 2,
+      "dealCount": 0
+    },
+    {
       "id": "trunativ",
       "name": "Trunativ",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/63622/original/Screenshot_2026-07-14_182844.jpg?1784033955",
@@ -2069,14 +2125,6 @@
       "dealCount": 33
     },
     {
-      "id": "ustraa",
-      "name": "Ustraa",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2067/medium/happily-unmarried.png?1548181406",
-      "offerCount": 3,
-      "couponCount": 0,
-      "dealCount": 3
-    },
-    {
       "id": "vaaree",
       "name": "Vaaree",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5191/original/apple-icon-152x152_55x.png?1681211527",
@@ -2112,9 +2160,9 @@
       "id": "vijay-sales",
       "name": "Vijay Sales",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4164/medium/Vijay_sales.png?1598010142",
-      "offerCount": 43,
+      "offerCount": 47,
       "couponCount": 6,
-      "dealCount": 37
+      "dealCount": 41
     },
     {
       "id": "virgio",
@@ -2184,9 +2232,9 @@
       "id": "world-of-asaya",
       "name": "World of Asaya",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6458/medium/New_Project_-_2024-04-16T124642.979.png?1713271624",
-      "offerCount": 15,
+      "offerCount": 13,
       "couponCount": 0,
-      "dealCount": 15
+      "dealCount": 13
     },
     {
       "id": "world-of-warships",
