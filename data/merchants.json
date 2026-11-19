@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-18T00:56:41.607Z",
-  "effectiveDate": "2026-11-18",
-  "total": 284,
+  "generatedAt": "2026-11-19T00:19:46.139Z",
+  "effectiveDate": "2026-11-19",
+  "total": 286,
   "merchants": [
     {
       "id": "360totalsecurity",
@@ -23,10 +23,10 @@
     {
       "id": "adcreative-ai",
       "name": "AdCreative.ai",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/14078/original/adcreative.jpg?1754637167",
-      "offerCount": 20,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/14078/medium/adcreative.jpg?1754656967",
+      "offerCount": 30,
       "couponCount": 0,
-      "dealCount": 20
+      "dealCount": 30
     },
     {
       "id": "adventuras",
@@ -104,9 +104,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 28,
-      "couponCount": 10,
-      "dealCount": 18
+      "offerCount": 27,
+      "couponCount": 8,
+      "dealCount": 19
     },
     {
       "id": "akasa-air",
@@ -168,8 +168,8 @@
       "id": "autofull-us",
       "name": "Autofull US",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/30947/medium/New_Project_-_2026-07-27T105242.690.png?1785149585",
-      "offerCount": 1,
-      "couponCount": 0,
+      "offerCount": 2,
+      "couponCount": 1,
       "dealCount": 1
     },
     {
@@ -189,6 +189,14 @@
       "dealCount": 7
     },
     {
+      "id": "banggood-india",
+      "name": "Banggood India",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3860/medium/logo20250811-880075-1d5zkeo.jpg?1754923226",
+      "offerCount": 3,
+      "couponCount": 0,
+      "dealCount": 3
+    },
+    {
       "id": "be-neude",
       "name": "Be Neude",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/81463/medium/Screenshot_2026-10-06_121036.png?1791288712",
@@ -200,9 +208,9 @@
       "id": "bella-vita",
       "name": "Bella Vita",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4384/medium/logo20250811-2181357-1hbg73p.jpg?1754923433",
-      "offerCount": 21,
+      "offerCount": 22,
       "couponCount": 1,
-      "dealCount": 20
+      "dealCount": 21
     },
     {
       "id": "bewakoof",
@@ -296,9 +304,17 @@
       "id": "boat",
       "name": "Boat",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/original/New_Project_%2851%29_%281%29.png?1603884221",
-      "offerCount": 13,
-      "couponCount": 9,
+      "offerCount": 15,
+      "couponCount": 11,
       "dealCount": 4
+    },
+    {
+      "id": "boldfit",
+      "name": "Boldfit",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/76498/medium/Screenshot_2026-08-02_212110.png?1785705840",
+      "offerCount": 3,
+      "couponCount": 0,
+      "dealCount": 3
     },
     {
       "id": "bookchor",
@@ -369,8 +385,8 @@
       "name": "Cashify",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3433/medium/Cashify.png?1511896634",
       "offerCount": 5,
-      "couponCount": 1,
-      "dealCount": 4
+      "couponCount": 0,
+      "dealCount": 5
     },
     {
       "id": "castmagic",
@@ -600,8 +616,8 @@
       "id": "firstcry",
       "name": "Firstcry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/49/original/FC-Logo-big_store_tagline.png?1582718900",
-      "offerCount": 24,
-      "couponCount": 24,
+      "offerCount": 26,
+      "couponCount": 26,
       "dealCount": 0
     },
     {
@@ -648,8 +664,8 @@
       "id": "fuelone",
       "name": "FuelOne",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37501/original/New_Project_-_2025-12-22T121305.879.png?1766385804",
-      "offerCount": 13,
-      "couponCount": 3,
+      "offerCount": 14,
+      "couponCount": 4,
       "dealCount": 10
     },
     {
@@ -728,9 +744,9 @@
       "id": "gritzo",
       "name": "Gritzo",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5061/original/logo20250811-2181357-191mris.jpg?1754903697",
-      "offerCount": 6,
-      "couponCount": 4,
-      "dealCount": 2
+      "offerCount": 12,
+      "couponCount": 6,
+      "dealCount": 6
     },
     {
       "id": "hackdaily",
@@ -968,8 +984,8 @@
       "id": "kapiva",
       "name": "Kapiva",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3949/original/kapiva.png?1579089755",
-      "offerCount": 16,
-      "couponCount": 6,
+      "offerCount": 17,
+      "couponCount": 7,
       "dealCount": 10
     },
     {
@@ -1032,8 +1048,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/medium/New_Project_-_2025-05-29T172428.907.png?1748539486",
-      "offerCount": 500,
-      "couponCount": 310,
+      "offerCount": 550,
+      "couponCount": 360,
       "dealCount": 190
     },
     {
@@ -1115,22 +1131,6 @@
       "offerCount": 8,
       "couponCount": 0,
       "dealCount": 8
-    },
-    {
-      "id": "lifepro",
-      "name": "Lifepro",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7653/original/New_Project_-_2026-08-28T181826.428.png?1787921325",
-      "offerCount": 4,
-      "couponCount": 2,
-      "dealCount": 2
-    },
-    {
-      "id": "lifepro-us",
-      "name": "Lifepro - US",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7653/medium/New_Project_-_2026-08-28T181826.428.png?1787941125",
-      "offerCount": 3,
-      "couponCount": 0,
-      "dealCount": 3
     },
     {
       "id": "livestorm",
@@ -1247,10 +1247,10 @@
     {
       "id": "muscleblaze",
       "name": "Muscleblaze",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/original/logo20250811-2184298-nkjudb.jpg?1754903831",
-      "offerCount": 10,
-      "couponCount": 10,
-      "dealCount": 0
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/medium/logo20250811-2184298-nkjudb.jpg?1754923631",
+      "offerCount": 14,
+      "couponCount": 11,
+      "dealCount": 3
     },
     {
       "id": "muscletech",
@@ -1271,10 +1271,10 @@
     {
       "id": "mycosiq",
       "name": "Mycosiq",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/20849/original/Screenshot_2026-06-18_104707.png?1781759838",
-      "offerCount": 2,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/20849/medium/Screenshot_2026-06-18_104707.png?1781779638",
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "mymuse",
@@ -1496,9 +1496,9 @@
       "id": "pepperfry",
       "name": "Pepperfry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/107/medium/logo20250811-2184298-1qs9p3m.jpg?1754923740",
-      "offerCount": 25,
-      "couponCount": 18,
-      "dealCount": 7
+      "offerCount": 28,
+      "couponCount": 19,
+      "dealCount": 9
     },
     {
       "id": "perfora",
@@ -1583,9 +1583,9 @@
     {
       "id": "r-for-rabbit",
       "name": "R for Rabbit",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4726/original/logo20250811-880075-5fgge5.jpg?1754904035",
-      "offerCount": 4,
-      "couponCount": 4,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4726/medium/logo20250811-880075-5fgge5.jpg?1754923835",
+      "offerCount": 5,
+      "couponCount": 5,
       "dealCount": 0
     },
     {
@@ -1744,9 +1744,9 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 18,
+      "offerCount": 19,
       "couponCount": 0,
-      "dealCount": 18
+      "dealCount": 19
     },
     {
       "id": "similarweb",
@@ -1872,9 +1872,9 @@
       "id": "superyou",
       "name": "SuperYou",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80640/medium/image.png?1789562365",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "surveymonkey",
@@ -1952,9 +1952,9 @@
       "id": "the-man-company",
       "name": "The Man Company",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2514/medium/logo20250811-2184298-15hwf79.jpg?1754923706",
-      "offerCount": 11,
+      "offerCount": 12,
       "couponCount": 3,
-      "dealCount": 8
+      "dealCount": 9
     },
     {
       "id": "the-trost",
@@ -2221,6 +2221,14 @@
       "dealCount": 1
     },
     {
+      "id": "winzip",
+      "name": "winzip",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7369/medium/download.png?1721936782",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
+    },
+    {
       "id": "wishluck",
       "name": "Wishluck",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/57662/original/Screenshot_2026-06-03_113924.png?1780468217",
@@ -2275,6 +2283,14 @@
       "offerCount": 2,
       "couponCount": 0,
       "dealCount": 2
+    },
+    {
+      "id": "zop",
+      "name": "ZOP",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/32803/medium/download.png?1755622359",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
     }
   ]
 }
