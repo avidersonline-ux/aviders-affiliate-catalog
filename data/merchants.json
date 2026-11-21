@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-20T23:58:47.810Z",
-  "effectiveDate": "2026-11-21",
-  "total": 291,
+  "generatedAt": "2026-11-21T23:11:47.637Z",
+  "effectiveDate": "2026-11-22",
+  "total": 292,
   "merchants": [
     {
       "id": "360totalsecurity",
@@ -32,9 +32,9 @@
       "id": "adventuras",
       "name": "Adventuras",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37710/medium/Screenshot_2026-01-12_140544.png?1768226759",
-      "offerCount": 1,
+      "offerCount": 4,
       "couponCount": 0,
-      "dealCount": 1
+      "dealCount": 4
     },
     {
       "id": "agaro",
@@ -104,9 +104,9 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 32,
-      "couponCount": 11,
-      "dealCount": 21
+      "offerCount": 29,
+      "couponCount": 14,
+      "dealCount": 15
     },
     {
       "id": "akasa-air",
@@ -184,9 +184,9 @@
       "id": "bacca-bucci",
       "name": "Bacca Bucci",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6566/medium/New_Project_-_2024-05-16T111415.561.png?1715858070",
-      "offerCount": 7,
+      "offerCount": 10,
       "couponCount": 0,
-      "dealCount": 7
+      "dealCount": 10
     },
     {
       "id": "banggood-india",
@@ -848,16 +848,16 @@
       "id": "hostpapa",
       "name": "Hostpapa",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/7559/medium/download.jpeg?1724238735",
-      "offerCount": 20,
+      "offerCount": 10,
       "couponCount": 0,
-      "dealCount": 20
+      "dealCount": 10
     },
     {
       "id": "hyugalife",
       "name": "Hyugalife",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5280/medium/logo20250811-2181357-1o3pevk.jpg?1754923504",
-      "offerCount": 22,
-      "couponCount": 5,
+      "offerCount": 21,
+      "couponCount": 4,
       "dealCount": 17
     },
     {
@@ -1107,6 +1107,14 @@
       "offerCount": 3,
       "couponCount": 0,
       "dealCount": 3
+    },
+    {
+      "id": "kt-life",
+      "name": "KT Life",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/81662/medium/KT.png?1791828719",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
     },
     {
       "id": "kurlon",
@@ -1416,8 +1424,8 @@
       "id": "ogl-move",
       "name": "OGL Move",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/14183/medium/Screenshot_2025-12-15_182353.png?1765823082",
-      "offerCount": 80,
-      "couponCount": 32,
+      "offerCount": 56,
+      "couponCount": 8,
       "dealCount": 48
     },
     {
@@ -1504,9 +1512,9 @@
       "id": "oyela",
       "name": "Oyela",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/7366/original/Screenshot_2024-07-25_183635.png?1721912971",
-      "offerCount": 14,
+      "offerCount": 13,
       "couponCount": 2,
-      "dealCount": 12
+      "dealCount": 11
     },
     {
       "id": "pacdora",
@@ -1568,9 +1576,9 @@
       "id": "petalpastee",
       "name": "Petalpastee",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80103/medium/Screenshot_2026-09-07_165628.png?1788800364",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "picwish",
@@ -1624,8 +1632,8 @@
       "id": "r-for-rabbit",
       "name": "R for Rabbit",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4726/medium/logo20250811-880075-5fgge5.jpg?1754923835",
-      "offerCount": 5,
-      "couponCount": 5,
+      "offerCount": 4,
+      "couponCount": 4,
       "dealCount": 0
     },
     {
@@ -1736,9 +1744,9 @@
       "id": "sassafras",
       "name": "Sassafras",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5186/medium/New_Project_-_2023-04-06T150112.801.png?1680793296",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "scarletperiod",
@@ -1784,9 +1792,9 @@
       "id": "shopsy",
       "name": "Shopsy",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5498/original/download.png?1694092600",
-      "offerCount": 19,
+      "offerCount": 13,
       "couponCount": 0,
-      "dealCount": 19
+      "dealCount": 13
     },
     {
       "id": "similarweb",
@@ -1880,9 +1888,9 @@
       "id": "stoa-paris",
       "name": "Stoa Paris",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/82724/medium/stoa.png?1793712106",
-      "offerCount": 2,
+      "offerCount": 1,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 1
     },
     {
       "id": "strch",
@@ -1896,9 +1904,9 @@
       "id": "sugar-cosmetics",
       "name": "Sugar Cosmetics",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3666/medium/Sugar.png?1531928849",
-      "offerCount": 5,
-      "couponCount": 1,
-      "dealCount": 4
+      "offerCount": 9,
+      "couponCount": 3,
+      "dealCount": 6
     },
     {
       "id": "superyou",
@@ -2248,9 +2256,9 @@
       "id": "wellbeing-nutrition",
       "name": "Wellbeing Nutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4469/original/New_Project_-_2021-07-19T113839.854_%281%29.png?1626675015",
-      "offerCount": 36,
+      "offerCount": 35,
       "couponCount": 1,
-      "dealCount": 35
+      "dealCount": 34
     },
     {
       "id": "wild-stone",

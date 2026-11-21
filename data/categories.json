@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-20T23:58:47.810Z",
-  "effectiveDate": "2026-11-21",
+  "generatedAt": "2026-11-21T23:11:47.637Z",
+  "effectiveDate": "2026-11-22",
   "total": 19,
   "categories": [
     {
@@ -42,16 +42,16 @@
     {
       "id": "entertainment",
       "name": "Entertainment",
-      "offerCount": 344,
-      "couponCount": 69,
-      "dealCount": 275
+      "offerCount": 346,
+      "couponCount": 70,
+      "dealCount": 276
     },
     {
       "id": "fashion",
       "name": "Fashion",
-      "offerCount": 667,
-      "couponCount": 97,
-      "dealCount": 570
+      "offerCount": 663,
+      "couponCount": 98,
+      "dealCount": 565
     },
     {
       "id": "finance",
@@ -84,9 +84,9 @@
     {
       "id": "health-and-beauty",
       "name": "Health & Beauty",
-      "offerCount": 759,
-      "couponCount": 191,
-      "dealCount": 568
+      "offerCount": 740,
+      "couponCount": 167,
+      "dealCount": 573
     },
     {
       "id": "home-and-kitchen",
@@ -105,16 +105,16 @@
     {
       "id": "others",
       "name": "Others",
-      "offerCount": 196,
-      "couponCount": 27,
-      "dealCount": 169
+      "offerCount": 195,
+      "couponCount": 28,
+      "dealCount": 167
     },
     {
       "id": "services",
       "name": "Services",
-      "offerCount": 1007,
-      "couponCount": 206,
-      "dealCount": 801
+      "offerCount": 971,
+      "couponCount": 181,
+      "dealCount": 790
     },
     {
       "id": "software",
@@ -133,9 +133,9 @@
     {
       "id": "travel",
       "name": "Travel",
-      "offerCount": 1267,
+      "offerCount": 1268,
       "couponCount": 668,
-      "dealCount": 599
+      "dealCount": 600
     }
   ]
 }
