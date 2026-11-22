@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-21T23:11:47.637Z",
-  "effectiveDate": "2026-11-22",
+  "generatedAt": "2026-11-22T23:35:37.018Z",
+  "effectiveDate": "2026-11-23",
   "total": 19,
   "categories": [
     {
@@ -35,9 +35,9 @@
     {
       "id": "electronics",
       "name": "Electronics",
-      "offerCount": 187,
+      "offerCount": 186,
       "couponCount": 15,
-      "dealCount": 172
+      "dealCount": 171
     },
     {
       "id": "entertainment",
@@ -84,9 +84,9 @@
     {
       "id": "health-and-beauty",
       "name": "Health & Beauty",
-      "offerCount": 740,
+      "offerCount": 739,
       "couponCount": 167,
-      "dealCount": 573
+      "dealCount": 572
     },
     {
       "id": "home-and-kitchen",

@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-21T23:11:47.637Z",
-  "effectiveDate": "2026-11-22",
+  "generatedAt": "2026-11-22T23:35:37.018Z",
+  "effectiveDate": "2026-11-23",
   "total": 292,
   "merchants": [
     {
@@ -1576,9 +1576,9 @@
       "id": "petalpastee",
       "name": "Petalpastee",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80103/medium/Screenshot_2026-09-07_165628.png?1788800364",
-      "offerCount": 3,
+      "offerCount": 2,
       "couponCount": 0,
-      "dealCount": 3
+      "dealCount": 2
     },
     {
       "id": "picwish",
@@ -2208,9 +2208,9 @@
       "id": "vijay-sales",
       "name": "Vijay Sales",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4164/medium/Vijay_sales.png?1598010142",
-      "offerCount": 51,
+      "offerCount": 50,
       "couponCount": 8,
-      "dealCount": 43
+      "dealCount": 42
     },
     {
       "id": "virgio",
