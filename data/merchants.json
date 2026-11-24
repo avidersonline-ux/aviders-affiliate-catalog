@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-22T23:35:37.018Z",
-  "effectiveDate": "2026-11-23",
-  "total": 292,
+  "generatedAt": "2026-11-24T03:57:44.754Z",
+  "effectiveDate": "2026-11-24",
+  "total": 302,
   "merchants": [
     {
       "id": "360totalsecurity",
@@ -119,10 +119,10 @@
     {
       "id": "aldo",
       "name": "Aldo",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5184/original/logo.png?1680695442",
-      "offerCount": 2,
-      "couponCount": 0,
-      "dealCount": 2
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5184/medium/Screenshot_2026-11-03_183131.png?1793730717",
+      "offerCount": 4,
+      "couponCount": 1,
+      "dealCount": 3
     },
     {
       "id": "anantara",
@@ -197,9 +197,25 @@
       "dealCount": 3
     },
     {
+      "id": "bath-and-body-works",
+      "name": "Bath and Body Works",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5205/original/logo20250902-1816682-2xwzn3.jpg?1756809335",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "be-neude",
       "name": "Be Neude",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/81463/medium/Screenshot_2026-10-06_121036.png?1791288712",
+      "offerCount": 1,
+      "couponCount": 1,
+      "dealCount": 0
+    },
+    {
+      "id": "beastlife",
+      "name": "Beastlife",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7892/medium/download.png?1729092583",
       "offerCount": 1,
       "couponCount": 1,
       "dealCount": 0
@@ -224,8 +240,8 @@
       "id": "biba",
       "name": "Biba",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/2172/medium/logo20250811-2184298-s4ecop.jpg?1754923730",
-      "offerCount": 10,
-      "couponCount": 0,
+      "offerCount": 11,
+      "couponCount": 1,
       "dealCount": 10
     },
     {
@@ -304,8 +320,8 @@
       "id": "boat",
       "name": "Boat",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4232/original/New_Project_%2851%29_%281%29.png?1603884221",
-      "offerCount": 16,
-      "couponCount": 12,
+      "offerCount": 17,
+      "couponCount": 13,
       "dealCount": 4
     },
     {
@@ -339,6 +355,14 @@
       "offerCount": 20,
       "couponCount": 0,
       "dealCount": 20
+    },
+    {
+      "id": "bubble-me",
+      "name": "Bubble Me",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/80492/medium/Screenshot_2026-09-11_172731.png?1789147811",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
     },
     {
       "id": "buyindusvalley",
@@ -504,9 +528,9 @@
       "id": "digihaat",
       "name": "Digihaat",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/56436/medium/Screenshot_2026-04-23_155915.jpg?1776959981",
-      "offerCount": 20,
+      "offerCount": 25,
       "couponCount": 19,
-      "dealCount": 1
+      "dealCount": 6
     },
     {
       "id": "doba",
@@ -541,6 +565,14 @@
       "dealCount": 13
     },
     {
+      "id": "dreamhost",
+      "name": "DreamHost",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/6202/medium/Screenshot_2024-02-26_112718.png?1708947315",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
+    },
+    {
       "id": "dutch",
       "name": "Dutch",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/49005/medium/data.?1777894565",
@@ -557,20 +589,20 @@
       "dealCount": 2
     },
     {
-      "id": "dyson",
-      "name": "Dyson",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4480/original/logo20250902-1816682-1ktohsk.jpg?1756808911",
-      "offerCount": 1,
-      "couponCount": 1,
-      "dealCount": 0
-    },
-    {
       "id": "edx",
       "name": "edX",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4054/original/edx.png?1588599245",
       "offerCount": 2,
       "couponCount": 2,
       "dealCount": 0
+    },
+    {
+      "id": "elementor",
+      "name": "Elementor",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7466/medium/download_%281%29.png?1723136780",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
     },
     {
       "id": "emergent",
@@ -656,9 +688,9 @@
       "id": "flower-aura",
       "name": "Flower Aura",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/889/medium/logo20250902-1816682-omab3q.jpg?1756829189",
-      "offerCount": 12,
+      "offerCount": 11,
       "couponCount": 4,
-      "dealCount": 8
+      "dealCount": 7
     },
     {
       "id": "fly-fairly",
@@ -853,6 +885,14 @@
       "dealCount": 10
     },
     {
+      "id": "hubstaff",
+      "name": "Hubstaff",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/30262/medium/Screenshot_2025-11-26_184927.jpg?1764183023",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "hyugalife",
       "name": "Hyugalife",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5280/medium/logo20250811-2181357-1o3pevk.jpg?1754923504",
@@ -1040,8 +1080,8 @@
       "id": "khadi-natural",
       "name": "khadi Natural",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/36458/medium/New_Project_-_2025-12-02T185508.098.png?1764701723",
-      "offerCount": 7,
-      "couponCount": 5,
+      "offerCount": 8,
+      "couponCount": 6,
       "dealCount": 2
     },
     {
@@ -1104,8 +1144,8 @@
       "id": "krisp-ai",
       "name": "Krisp AI",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/35698/medium/data.?1776683139",
-      "offerCount": 3,
-      "couponCount": 0,
+      "offerCount": 4,
+      "couponCount": 1,
       "dealCount": 3
     },
     {
@@ -1288,9 +1328,9 @@
       "id": "muscleblaze",
       "name": "Muscleblaze",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/medium/logo20250811-2184298-nkjudb.jpg?1754923631",
-      "offerCount": 14,
+      "offerCount": 17,
       "couponCount": 11,
-      "dealCount": 3
+      "dealCount": 6
     },
     {
       "id": "muscletech",
@@ -1352,8 +1392,8 @@
       "id": "namecheap-us",
       "name": "Namecheap - US",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/197/medium/namecheap.png?1348138797",
-      "offerCount": 9,
-      "couponCount": 4,
+      "offerCount": 10,
+      "couponCount": 5,
       "dealCount": 5
     },
     {
@@ -1392,8 +1432,8 @@
       "id": "nutrabay",
       "name": "Nutrabay",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5597/original/New_Project_-_2023-10-25T104650.172.png?1698211025",
-      "offerCount": 10,
-      "couponCount": 10,
+      "offerCount": 11,
+      "couponCount": 11,
       "dealCount": 0
     },
     {
@@ -1528,8 +1568,8 @@
       "id": "palmonas",
       "name": "Palmonas",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/11155/original/New_Project_-_2025-04-21T130524.604.png?1745220941",
-      "offerCount": 27,
-      "couponCount": 12,
+      "offerCount": 28,
+      "couponCount": 13,
       "dealCount": 15
     },
     {
@@ -1821,11 +1861,19 @@
       "dealCount": 30
     },
     {
+      "id": "skybags",
+      "name": "Skybags",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3712/medium/Skybags.png?1543598116",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
       "id": "skylum",
       "name": "skylum",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/6257/medium/download_%2879%29.jpg?1729622351",
-      "offerCount": 10,
-      "couponCount": 0,
+      "offerCount": 20,
+      "couponCount": 10,
       "dealCount": 10
     },
     {
@@ -1895,17 +1943,17 @@
     {
       "id": "strch",
       "name": "Strch",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/8060/original/New_Project_-_2024-10-22T181827.494.png?1729601320",
-      "offerCount": 2,
-      "couponCount": 0,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/8060/medium/New_Project_-_2024-10-22T181827.494.png?1729621120",
+      "offerCount": 3,
+      "couponCount": 1,
       "dealCount": 2
     },
     {
       "id": "sugar-cosmetics",
       "name": "Sugar Cosmetics",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3666/medium/Sugar.png?1531928849",
-      "offerCount": 9,
-      "couponCount": 3,
+      "offerCount": 10,
+      "couponCount": 4,
       "dealCount": 6
     },
     {
@@ -2093,6 +2141,14 @@
       "dealCount": 30
     },
     {
+      "id": "tripo",
+      "name": "Tripo",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/79324/medium/New_Project_-_2026-09-10T132046.060.png?1789046470",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
+    },
+    {
       "id": "truebasics",
       "name": "TrueBasics",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4095/original/Truebsia.png?1593148651",
@@ -2197,6 +2253,22 @@
       "dealCount": 0
     },
     {
+      "id": "victoria-secret",
+      "name": "victoria secret",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5411/medium/logo20250811-2184298-15bmj9m.jpg?1754923713",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
+    },
+    {
+      "id": "victoriassecret",
+      "name": "victoriassecret",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/5411/original/logo20250811-2184298-15bmj9m.jpg?1754903913",
+      "offerCount": 2,
+      "couponCount": 1,
+      "dealCount": 1
+    },
+    {
       "id": "vietnamairlines",
       "name": "Vietnamairlines",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/26149/original/Screenshot_2026-09-18_110430.png?1789709690",
@@ -2256,9 +2328,9 @@
       "id": "wellbeing-nutrition",
       "name": "Wellbeing Nutrition",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4469/original/New_Project_-_2021-07-19T113839.854_%281%29.png?1626675015",
-      "offerCount": 35,
+      "offerCount": 37,
       "couponCount": 1,
-      "dealCount": 34
+      "dealCount": 36
     },
     {
       "id": "wild-stone",
@@ -2307,6 +2379,14 @@
       "offerCount": 5,
       "couponCount": 1,
       "dealCount": 4
+    },
+    {
+      "id": "zappos",
+      "name": "Zappos",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/2675/medium/download_%2830%29.png?1472491007",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
     },
     {
       "id": "zen-hotels",
