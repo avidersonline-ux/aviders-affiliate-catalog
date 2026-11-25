@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-24T03:57:44.754Z",
-  "effectiveDate": "2026-11-24",
-  "total": 302,
+  "generatedAt": "2026-11-25T02:22:50.156Z",
+  "effectiveDate": "2026-11-25",
+  "total": 306,
   "merchants": [
     {
       "id": "360totalsecurity",
@@ -64,9 +64,9 @@
       "id": "airindia",
       "name": "Airindia",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/medium/New_Project_-_2024-03-20T124625.923.png?1710938813",
-      "offerCount": 20,
-      "couponCount": 4,
-      "dealCount": 16
+      "offerCount": 22,
+      "couponCount": 5,
+      "dealCount": 17
     },
     {
       "id": "airpaz",
@@ -208,9 +208,9 @@
       "id": "be-neude",
       "name": "Be Neude",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/81463/medium/Screenshot_2026-10-06_121036.png?1791288712",
-      "offerCount": 1,
+      "offerCount": 2,
       "couponCount": 1,
-      "dealCount": 0
+      "dealCount": 1
     },
     {
       "id": "beastlife",
@@ -376,9 +376,9 @@
       "id": "bytepe",
       "name": "Bytepe",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/66922/medium/Screenshot_2026-07-15_171805.jpg?1784135903",
-      "offerCount": 13,
+      "offerCount": 14,
       "couponCount": 4,
-      "dealCount": 9
+      "dealCount": 10
     },
     {
       "id": "campus-shoes",
@@ -419,6 +419,14 @@
       "offerCount": 20,
       "couponCount": 0,
       "dealCount": 20
+    },
+    {
+      "id": "charles-and-keith",
+      "name": "Charles & Keith",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3430/medium/charles.png?1511539285",
+      "offerCount": 1,
+      "couponCount": 0,
+      "dealCount": 1
     },
     {
       "id": "chemicloud",
@@ -467,6 +475,14 @@
       "offerCount": 2,
       "couponCount": 0,
       "dealCount": 2
+    },
+    {
+      "id": "cohoom",
+      "name": "Cohoom",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/9472/medium/download_%281%29.png?1733226235",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
     },
     {
       "id": "controlz-world",
@@ -768,8 +784,8 @@
       "id": "gharsoaps",
       "name": "GharSoaps",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/34089/original/Gharsoap.jpeg?1759744885",
-      "offerCount": 32,
-      "couponCount": 9,
+      "offerCount": 33,
+      "couponCount": 10,
       "dealCount": 23
     },
     {
@@ -792,9 +808,9 @@
       "id": "gonoise",
       "name": "Gonoise",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3278/medium/NoiseLogo-01_%281%29.png?1713550356",
-      "offerCount": 26,
+      "offerCount": 27,
       "couponCount": 7,
-      "dealCount": 19
+      "dealCount": 20
     },
     {
       "id": "gritzo",
@@ -848,8 +864,8 @@
       "id": "helium-10",
       "name": "Helium 10",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/33964/medium/Screenshot_2025-12-16_170741.png?1765904886",
-      "offerCount": 20,
-      "couponCount": 20,
+      "offerCount": 30,
+      "couponCount": 30,
       "dealCount": 0
     },
     {
@@ -864,9 +880,9 @@
       "id": "hkvitals",
       "name": "Hkvitals",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4486/original/New_Project_-_2021-08-05T170551.551_%281%29.png?1628163430",
-      "offerCount": 28,
+      "offerCount": 29,
       "couponCount": 11,
-      "dealCount": 17
+      "dealCount": 18
     },
     {
       "id": "homestyler",
@@ -1120,8 +1136,8 @@
       "id": "klook",
       "name": "Klook",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3553/medium/New_Project_-_2025-05-29T172428.907.png?1748539486",
-      "offerCount": 560,
-      "couponCount": 360,
+      "offerCount": 570,
+      "couponCount": 370,
       "dealCount": 200
     },
     {
@@ -1328,9 +1344,9 @@
       "id": "muscleblaze",
       "name": "Muscleblaze",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/medium/logo20250811-2184298-nkjudb.jpg?1754923631",
-      "offerCount": 17,
+      "offerCount": 19,
       "couponCount": 11,
-      "dealCount": 6
+      "dealCount": 8
     },
     {
       "id": "muscletech",
@@ -1600,9 +1616,9 @@
       "id": "pepperfry",
       "name": "Pepperfry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/107/medium/logo20250811-2184298-1qs9p3m.jpg?1754923740",
-      "offerCount": 28,
-      "couponCount": 19,
-      "dealCount": 9
+      "offerCount": 30,
+      "couponCount": 20,
+      "dealCount": 10
     },
     {
       "id": "perfora",
@@ -1739,6 +1755,22 @@
       "offerCount": 10,
       "couponCount": 0,
       "dealCount": 10
+    },
+    {
+      "id": "reply",
+      "name": "Reply",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/25086/original/images_%2811%29.png?1763966815",
+      "offerCount": 50,
+      "couponCount": 10,
+      "dealCount": 40
+    },
+    {
+      "id": "reply-io",
+      "name": "Reply.io",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/25086/medium/images_%2811%29.png?1763986615",
+      "offerCount": 40,
+      "couponCount": 0,
+      "dealCount": 40
     },
     {
       "id": "rokid",
@@ -1879,9 +1911,9 @@
     {
       "id": "sleepycat",
       "name": "Sleepycat",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4225/original/logo20250811-880075-l3wr8n.jpg?1754904046",
-      "offerCount": 9,
-      "couponCount": 1,
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4225/medium/logo20250811-880075-l3wr8n.jpg?1754923846",
+      "offerCount": 10,
+      "couponCount": 2,
       "dealCount": 8
     },
     {
@@ -2024,9 +2056,9 @@
       "id": "the-formal-club",
       "name": "The Formal Club",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/42218/medium/New_Project_-_2026-03-12T122839.535.png?1773318542",
-      "offerCount": 7,
+      "offerCount": 8,
       "couponCount": 0,
-      "dealCount": 7
+      "dealCount": 8
     },
     {
       "id": "the-house-of-rare",
@@ -2056,9 +2088,9 @@
       "id": "the-wallet-store",
       "name": "The Wallet Store",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/79312/medium/Screenshot_2026-09-01_123602.png?1788266406",
-      "offerCount": 2,
+      "offerCount": 3,
       "couponCount": 0,
-      "dealCount": 2
+      "dealCount": 3
     },
     {
       "id": "themancompany",
@@ -2136,9 +2168,9 @@
       "id": "trip-com",
       "name": "Trip.com",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3529/medium/trip.png?1520861735",
-      "offerCount": 60,
+      "offerCount": 70,
       "couponCount": 30,
-      "dealCount": 30
+      "dealCount": 40
     },
     {
       "id": "tripo",
@@ -2312,8 +2344,8 @@
       "id": "wakeup",
       "name": "Wakeup",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5016/medium/New_Project_%2825%29.png?1670263799",
-      "offerCount": 1,
-      "couponCount": 0,
+      "offerCount": 2,
+      "couponCount": 1,
       "dealCount": 1
     },
     {
