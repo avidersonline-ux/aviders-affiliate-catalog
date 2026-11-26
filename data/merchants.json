@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "generatedAt": "2026-11-25T02:22:50.156Z",
-  "effectiveDate": "2026-11-25",
-  "total": 306,
+  "generatedAt": "2026-11-26T01:46:11.490Z",
+  "effectiveDate": "2026-11-26",
+  "total": 310,
   "merchants": [
     {
       "id": "360totalsecurity",
@@ -61,6 +61,14 @@
       "dealCount": 0
     },
     {
+      "id": "airalo-ww",
+      "name": "Airalo WW",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/4847/medium/data.?1774301122",
+      "offerCount": 10,
+      "couponCount": 10,
+      "dealCount": 0
+    },
+    {
       "id": "airindia",
       "name": "Airindia",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5622/medium/New_Project_-_2024-03-20T124625.923.png?1710938813",
@@ -104,8 +112,8 @@
       "id": "ajio-gram",
       "name": "Ajio Gram",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/9568/medium/download_%2886%29.jpg?1738783392",
-      "offerCount": 29,
-      "couponCount": 14,
+      "offerCount": 28,
+      "couponCount": 13,
       "dealCount": 15
     },
     {
@@ -128,9 +136,9 @@
       "id": "anantara",
       "name": "Anantara",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/13297/original/Screenshot_2025-12-23_162637.png?1766487422",
-      "offerCount": 30,
+      "offerCount": 40,
       "couponCount": 0,
-      "dealCount": 30
+      "dealCount": 40
     },
     {
       "id": "angara-in",
@@ -139,14 +147,6 @@
       "offerCount": 4,
       "couponCount": 0,
       "dealCount": 4
-    },
-    {
-      "id": "aramya",
-      "name": "Aramya",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/37489/medium/images_%2824%29.png?1766250116",
-      "offerCount": 7,
-      "couponCount": 0,
-      "dealCount": 7
     },
     {
       "id": "asap-tickets",
@@ -704,9 +704,9 @@
       "id": "flower-aura",
       "name": "Flower Aura",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/889/medium/logo20250902-1816682-omab3q.jpg?1756829189",
-      "offerCount": 11,
+      "offerCount": 12,
       "couponCount": 4,
-      "dealCount": 7
+      "dealCount": 8
     },
     {
       "id": "fly-fairly",
@@ -936,9 +936,9 @@
       "id": "indian-gifts-portal",
       "name": "Indian Gifts Portal",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/1850/original/New_Project_-_2024-04-08T181136.528.png?1712580112",
-      "offerCount": 11,
+      "offerCount": 12,
       "couponCount": 1,
-      "dealCount": 10
+      "dealCount": 11
     },
     {
       "id": "indulgeo-essentials",
@@ -1072,8 +1072,8 @@
       "id": "kapiva",
       "name": "Kapiva",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/3949/original/kapiva.png?1579089755",
-      "offerCount": 17,
-      "couponCount": 7,
+      "offerCount": 18,
+      "couponCount": 8,
       "dealCount": 10
     },
     {
@@ -1245,6 +1245,14 @@
       "dealCount": 0
     },
     {
+      "id": "lotto-sport",
+      "name": "Lotto Sport",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/35231/original/Lotto-logo-Performance.png?1761912061",
+      "offerCount": 2,
+      "couponCount": 0,
+      "dealCount": 2
+    },
+    {
       "id": "luvlap",
       "name": "Luvlap",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/56288/original/channels4_profile.jpg?1776774659",
@@ -1317,6 +1325,14 @@
       "dealCount": 2
     },
     {
+      "id": "mindmanager",
+      "name": "mindmanager",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7387/medium/images.png?1722281794",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
+    },
+    {
       "id": "mini-wesst",
       "name": "Mini Wesst",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/55322/original/New_Project_-_2026-04-06T113127.469.png?1775455322",
@@ -1344,9 +1360,9 @@
       "id": "muscleblaze",
       "name": "Muscleblaze",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/4424/medium/logo20250811-2184298-nkjudb.jpg?1754923631",
-      "offerCount": 19,
+      "offerCount": 15,
       "couponCount": 11,
-      "dealCount": 8
+      "dealCount": 4
     },
     {
       "id": "muscletech",
@@ -1501,6 +1517,14 @@
       "dealCount": 40
     },
     {
+      "id": "omanair",
+      "name": "omanair",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/27845/medium/download_-_2025-09-16T105155.691.png?1758019938",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
+    },
+    {
       "id": "omnisend",
       "name": "Omnisend",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/17986/medium/Screenshot_2025-11-17_094403.jpg?1763372664",
@@ -1616,8 +1640,8 @@
       "id": "pepperfry",
       "name": "Pepperfry",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/107/medium/logo20250811-2184298-1qs9p3m.jpg?1754923740",
-      "offerCount": 30,
-      "couponCount": 20,
+      "offerCount": 29,
+      "couponCount": 19,
       "dealCount": 10
     },
     {
@@ -1712,9 +1736,9 @@
       "id": "rareism",
       "name": "Rareism",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/80102/original/Screenshot_2026-09-07_163701.png?1788779441",
-      "offerCount": 4,
+      "offerCount": 5,
       "couponCount": 4,
-      "dealCount": 0
+      "dealCount": 1
     },
     {
       "id": "razer",
@@ -1735,7 +1759,7 @@
     {
       "id": "realme",
       "name": "RealMe",
-      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3902/medium/RealMe.png?1570871223",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/3902/original/RealMe.png?1570851423",
       "offerCount": 15,
       "couponCount": 0,
       "dealCount": 15
@@ -2208,8 +2232,8 @@
       "id": "tyresnmore",
       "name": "Tyresnmore",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/37554/original/New_Project_-_2025-12-26T133138.808.png?1766736143",
-      "offerCount": 16,
-      "couponCount": 16,
+      "offerCount": 18,
+      "couponCount": 18,
       "dealCount": 0
     },
     {
@@ -2285,11 +2309,19 @@
       "dealCount": 0
     },
     {
+      "id": "verpex",
+      "name": "Verpex",
+      "logoUrl": "https://cdn0.cuelinks.com/campaigns/7445/medium/images.jpeg?1722968171",
+      "offerCount": 10,
+      "couponCount": 0,
+      "dealCount": 10
+    },
+    {
       "id": "victoria-secret",
       "name": "victoria secret",
       "logoUrl": "https://cdn0.cuelinks.com/campaigns/5411/medium/logo20250811-2184298-15bmj9m.jpg?1754923713",
-      "offerCount": 1,
-      "couponCount": 0,
+      "offerCount": 2,
+      "couponCount": 1,
       "dealCount": 1
     },
     {
